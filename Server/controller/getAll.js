@@ -1,12 +1,11 @@
 const sqlite3 = require('sqlite3').verbose();
 
 // open the database
-let db = new sqlite3.Database('./db/chinook.db');
+let db = new sqlite3.Database('./data.sqlite');
 
-let sql = `SELECT DISTINCT Name name FROM playlists
-           ORDER BY name`;
+let query = 'SELECT * FROM Group Members';
 
-db.all(sql, [], (err, rows) => {
+db.all(query, [], (err, rows) => {
   if (err) {
     throw err;
   }
