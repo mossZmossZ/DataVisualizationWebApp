@@ -10,7 +10,9 @@ exports.GetAll = (req,res)=>{
       throw err;
     }
     rows.forEach((row) => {
-      console.log(row);  // <------- return all in row for each member
+      res.status(200).json({
+        row// <------- return all in row for each member
+    })
     });
   });
 
