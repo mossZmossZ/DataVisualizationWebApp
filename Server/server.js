@@ -23,4 +23,5 @@ app.use(morgan("dev"))
 app.use('/api',getAll)      
 
 const port = process.env.PORT || 8080
+
 app.listen(port,()=>console.log(`start server with port ${port}`))

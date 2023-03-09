@@ -1,21 +1,26 @@
 const sqlite3 = require('sqlite3').verbose();
-// open the database
-let db = new sqlite3.Database('./data.sqlite');
+
+
+
 
 exports.GetAll = (req,res)=>{
-  let query = 'SELECT * FROM Members';
-
-  db.all(query, [], (err, rows) => {
+  
+  const db = new sqlite3.Database('./data.sqlite', (err) => {
     if (err) {
-      throw err;
+      return console.error(err.message);
     }
-    rows.forEach((row) => {
-      res.status(200).json({
-        row// <------- return all in row for each member
-    })
-    });
+    console.log('Connected to the SQLite database.');
+  });//connect to database
+  const sql = 'SELECT * FROM Members'; //query command
+  db.all(sql, [], (err, rows) => {
+    if (err) {
+      return console.error(err.message);
+    }
+    res.json(rows);//response
   });
+ 
 
   // close the database connection
   db.close();
+
 }
