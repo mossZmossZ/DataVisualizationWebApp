@@ -1,8 +1,11 @@
 from typing import Union
 import sqlite3
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Response
+from fastapi.responses import FileResponse
+import os
 
 app = FastAPI()
+
 
 
 @app.get("/")
@@ -28,3 +31,8 @@ def get_data():
         return {"data": rows}
     except Exception as error:
         raise HTTPException(status_code=500, detail=str(error))
+    
+@app.get("/jsonfile")
+async def read_jsonfile(response: Response):
+    file_path = os.path.join(os.getcwd(), "chart.json") # specify the file path
+    return FileResponse(file_path, media_type="application/json")
