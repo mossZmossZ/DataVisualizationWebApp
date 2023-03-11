@@ -1,13 +1,13 @@
 from typing import Union
 import sqlite3
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 
 app = FastAPI()
 
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {"Welcome": "Datavisualization Webapp"}
 
 @app.get("/hi")
 def hi(name:str):
@@ -19,9 +19,12 @@ def read_item(item_id: int, q: Union[str, None] = None):
 
 @app.get("/data")
 def get_data():
-    conn = sqlite3.connect('data.sqlite')
-    c = conn.cursor()
-    c.execute('SELECT * FROM members')
-    rows = c.fetchall()
-    conn.close()
-    return {"data": rows}
+    try:
+        conn = sqlite3.connect('data.sqlite')
+        c = conn.cursor()
+        c.execute('SELECT * FROM members')
+        rows = c.fetchall()
+        conn.close()
+        return {"data": rows}
+    except Exception as error:
+        raise HTTPException(status_code=500, detail=str(error))
