@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className='navbar' role='navigation' aria-label='main navigation'>
       <div className='navbar-brand'>
-        <a href='/' className='navbar-item'>
+        <a href='/' className='navbar-item' style={{ fontWeight: 'bold' }}>
           Data Visualization
         </a>
 
