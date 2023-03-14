@@ -1,7 +1,8 @@
 import React from 'react'
+import { useState } from 'react'
 
 export default function Navbar() {
-  const [isActive, setisActive] = React.useState(false)
+  const [isActive, setisActive] = useState(false)
 
   return (
     <nav className='navbar' role='navigation' aria-label='main navigation'>

@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages';
 import About from './pages/about';
-import Covid19 from './pages/covid19';
+import Covid from './pages/covid';
   
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' component={About} />
-        <Route path='/covid19' component={Covid19} />
+        <Route path='/covid19' component={Covid} />
       </Routes>
       <Footer />
     </Router>
