@@ -13,8 +13,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/about' component={About} />
-        <Route path='/covid19' component={Covid} />
+        <Route path='/about' element={<About />} />
+        <Route path='/covid' element={<Covid />} />
       </Routes>
       <Footer />
     </Router>

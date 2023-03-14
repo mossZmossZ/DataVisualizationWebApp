@@ -32,7 +32,7 @@ export default function Navbar() {
             <a href='/' className='navbar-item'>
               Home
             </a>
-            <a href='/covid19' className='navbar-item'>
+            <a href='/covid' className='navbar-item'>
               Covid-19
             </a>
             <a href='/about' className='navbar-item'>
