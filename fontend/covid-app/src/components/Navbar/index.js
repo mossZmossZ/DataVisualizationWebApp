@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import { NavLink as Link } from 'react-router-dom';
 
 export default function Navbar() {
   const [isActive, setisActive] = useState(false)
@@ -29,15 +30,15 @@ export default function Navbar() {
       <div id='navbarBasicExample' className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
         <div className='navbar-end'>
           <div className='navbar-item'>
-            <a href='/' className='navbar-item'>
+            <Link to='/' className='navbar-item'>
               Home
-            </a>
-            <a href='/covid' className='navbar-item'>
+            </Link>
+            <Link to='/covid' className='navbar-item'>
               Covid-19
-            </a>
-            <a href='/about' className='navbar-item'>
+            </Link>
+            <Link to='/about' className='navbar-item'>
               About-Us
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -3,19 +3,46 @@ import embed from 'vega-embed';
 import axios from 'axios';
   
 const Covid = () => {
-  const [data, setData] = useState({});
 
-  const x = {};
+  const [data, setData] = useState([]);
+
+  const fetchData = () => {
+    fetch('chart.json')
+      .then((response) => response.json())
+      .then((actualData) => {
+        console.log(actualData);
+        setData(actualData);
+        console.log(data);
+      })
+      .catch((err) => {
+        console.log(err.message);
+      });
+  };
 
   useEffect(() => {
-    (async () => {
-      const response = await fetch("http://45.150.128.22/chart.json",{ mode: 'no-cors'}).then(console.log);
-      //const parsed = await response.json();
-      setData(response);
-    }
-    )
-    ();
+    fetchData();
+    const result = embed('#view', data);
   }, []);
+  
+  /*
+  const url = './chart.json'
+  const data = {
+  };
+  console.log("Original Data:",data);
+  axios.get(url, data, {
+    headers: {
+      Accept: "application/json",
+      'Access-Control-Allow-Origin': '*',
+      "Content-Type": "application/json;charset=UTF-8",
+    },
+  })
+  .then(({data}) => {
+    console.log("Recive Data:",data);
+  });
+  console.log("Recive Data2:",data);
+  */
+
+  console.log("Recive Data2:",data);
 
   return (
     <div>
@@ -57,12 +84,13 @@ const Covid = () => {
       <div class="container box">
         <h1 class="title is-1">กราฟ</h1>
         <div class="container box">
-        <div id="view"></div>
-        <pre>{JSON.stringify(data, null, 2)}</pre>
+        <div id="view">s</div>
+        
         </div>
       </div>
     </div>
   );
 };
-  
+
+//<div id="view2">{JSON.stringify(data, null, 2)}</div>
 export default Covid;

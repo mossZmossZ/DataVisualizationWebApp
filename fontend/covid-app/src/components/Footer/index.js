@@ -10,8 +10,8 @@ export default function Navbar() {
     }
 
   return (
-    <footer class="footer">
-        <div class="content has-text-centered">
+    <footer className="footer">
+        <div className="content has-text-centered">
             <p>
                 <strong>Data Visualization Covid-19</strong> by <a href="https://github.com/ThanawatTP/DataVisualizationWebApp">Group 7</a>.
             </p>
