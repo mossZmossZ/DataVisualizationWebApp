@@ -1,12 +1,28 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import embed from 'vega-embed';
+import axios from 'axios';
   
 const Covid = () => {
+  const [data, setData] = useState({});
+
+  const x = {};
+
+  useEffect(() => {
+    (async () => {
+      const response = await fetch("http://45.150.128.22/chart.json",{ mode: 'no-cors'}).then(console.log);
+      //const parsed = await response.json();
+      setData(response);
+    }
+    )
+    ();
+  }, []);
+
   return (
     <div>
       <div class="container box">
         <h1 class="title is-1">รายละเอียด</h1>
         <div class="tile is-ancestor">
-          <div class="tile is-vertical is-8">
+          <div class="tile is-vertical">
             <div class="tile">
               <div class="tile is-parent is-vertical">
                 <article class="tile is-child notification is-primary box">
@@ -35,23 +51,16 @@ const Covid = () => {
               </article>
             </div>
           </div>
-          <div class="tile is-parent">
-            <article class="tile is-child notification is-success box">
-              <div class="content">
-                <p class="title">Tall tile</p>
-                <p class="subtitle">With even more content</p>
-                <div class="content">
-                  
-                </div>
-              </div>
-            </article>
-          </div>
         </div>
 
       </div>
       <div class="container box">
-          <h1 class="title is-1">กราฟ</h1>
+        <h1 class="title is-1">กราฟ</h1>
+        <div class="container box">
+        <div id="view"></div>
+        <pre>{JSON.stringify(data, null, 2)}</pre>
         </div>
+      </div>
     </div>
   );
 };
