@@ -7,14 +7,14 @@ const Home = () => {
         <section class="hero is-large is-primary">
             <div class="hero-body">
                 <div class="">
-                    <p class="title">
+                    <p class="title" style={{ fontSize: 72 }}>
                         Data Visualization
                     </p>
-                    <p class="subtitle">
+                    <p class="subtitle" style={{ fontSize: 40 }}>
                         Covid-19
                     </p>
                     <Link to="/covid19">
-                    <button class="button is-rounded">Rounded</button>
+                    <button class="button is-primary is-rounded is-medium is-light">Try Now</button>
                     </Link>
                 </div>
             </div>

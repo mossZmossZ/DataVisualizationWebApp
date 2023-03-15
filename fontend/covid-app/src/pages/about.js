@@ -11,15 +11,15 @@ import person9 from '../images/person9.jpg';
 
 const About = () => {
   const people = [
-    { name: 'เนติพัฒน์ สุกใส', image: person1 },
-    { name: 'จิตฤดี ดวงดี', image: person2 },
-    { name: 'ฐานวัฒน์ ทองเปี้ย', image: person3 },
-    { name: 'ฐิตานันท์ มหาพรชัย', image: person4 },
-    { name: 'วรวิช เซ็นธุลี', image: person5 },
-    { name: 'ณัฐวีร์ นริศชาติ', image: person6 },
-    { name: 'สุรชัย สันติภาพ', image: person7 },
-    { name: 'แสง รงยง', image: person8 },
-    { name: 'นรินทร์ ศิริณภัค', image: person9 },
+    { name: 'เนติพัฒน์ สุกใส', email:'@kmutnb.ac.th' , image: person1 },
+    { name: 'จิตฤดี ดวงดี', email:'s6301012620022@kmutnb.ac.th' ,image: person2 },
+    { name: 'ฐานวัฒน์ ทองเปี้ย',  email:'@kmutnb.ac.th' , image: person3 },
+    { name: 'ฐิตานันท์ มหาพรชัย', email:'@kmutnb.ac.th' ,image: person4 },
+    { name: 'วรวิช เซ็นธุลี', email:'s6301012630168@kmutnb.ac.th' ,image: person5 },
+    { name: 'ณัฐวีร์ นริศชาติ', email:'@kmutnb.ac.th' ,image: person6 },
+    { name: 'สุรชัย สันติภาพ', email:'@kmutnb.ac.th' ,image: person7 },
+    { name: 'แสง รงยง', email:'@kmutnb.ac.th' ,image: person8 },
+    { name: 'นรินทร์ ศิริณภัค', email:'@kmutnb.ac.th' ,image: person9 },
   ];
 
   return (
@@ -32,11 +32,12 @@ const About = () => {
               <div className="card">
                 <div className="card-image">
                   <figure className="image is-3by4">
-                    <img src={person.image} alt={person.name} />
+                    <img src={person.image} alt={person.name,person.email} />
                   </figure>
                 </div>
                 <div className="card-content has-text-centered">
                   <p className="title is-5">{person.name}</p>
+                  <a className="subtitle is-5">{person.email}</a>
                 </div>
               </div>
             </div>
