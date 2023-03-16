@@ -24,9 +24,9 @@ const InfoDetails = () => {
         <div className="container box">
         <h1 className="title is-1">กราฟ</h1>
         <div className="container">
-          <div id="view"></div>
-          <div>
-          </div>
+            <div id="view"></div>
+            <div>
+            </div>
         </div>
       </div>
     );
