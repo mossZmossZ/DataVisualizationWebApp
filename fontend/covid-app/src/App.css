@@ -1,0 +1,8 @@
+body {
+  font-family: 'Prompt', sans-serif;
+}
+
+canvas.marks {
+  max-width: 100%!important;
+  height: auto!important;
+}
