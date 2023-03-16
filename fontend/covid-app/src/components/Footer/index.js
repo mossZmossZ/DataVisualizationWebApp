@@ -15,7 +15,7 @@ export default function Navbar() {
             <p>
                 <strong>Data Visualization Covid-19</strong> by <a href="https://github.com/ThanawatTP/DataVisualizationWebApp">Group 7</a>.
             </p>
-            <button onClick={scrollToTop}>Back to Top</button>
+            <button className="button" onClick={scrollToTop}>Back to Top</button>
         </div>
     </footer>
   )
