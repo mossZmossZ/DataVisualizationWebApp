@@ -1,0 +1,4188 @@
+province,year,weeknum,total_case
+Ranong,2023,10,2
+Nonthaburi,2023,10,126
+Lop Buri,2023,10,49
+Chiang Mai,2023,10,18
+Yasothon,2023,10,20
+Nan,2023,10,109
+Bangkok Metropolis,2023,10,770
+Nakhon Pathom,2023,10,44
+Phetchaburi,2023,10,23
+Kamphaeng Phet,2023,10,25
+Mukdahan,2023,10,10
+Phichit,2023,10,33
+Phangnga,2023,10,0
+Si Sa Ket,2023,10,39
+Sa Kaeo,2023,10,55
+None,2023,10,0
+Chaiyaphum,2023,10,36
+Prachin Buri,2023,10,43
+Uthai Thani,2023,10,39
+Chachoengsao,2023,10,40
+Nakhon Ratchasima,2023,10,110
+Sukhothai,2023,10,28
+Chanthaburi,2023,10,55
+Trat,2023,10,25
+Nakhon Si Thammarat,2023,10,32
+Suphan Buri,2023,10,76
+Phatthalung,2023,10,0
+Sing Buri,2023,10,25
+Krabi,2023,10,2
+Sakon Nakhon,2023,10,51
+Kalasin,2023,10,74
+Nong Khai,2023,10,20
+Trang,2023,10,19
+Surat Thani,2023,10,68
+Samut Sakhon,2023,10,27
+Ubon Ratchathani,2023,10,204
+Phetchabun,2023,10,17
+Surin,2023,10,193
+Phayao,2023,10,19
+Uttaradit,2023,10,27
+Chai Nat,2023,10,49
+Loei,2023,10,82
+Phuket,2023,10,4
+Bueng Kan,2023,10,4
+Prachuap Khiri Khan,2023,10,33
+Songkhla (Songkhla Lake),2023,10,40
+Ang Thong,2023,10,24
+Udon Thani,2023,10,44
+Buri Ram,2023,10,177
+Chon Buri,2023,10,216
+Tak,2023,10,33
+Nakhon Phanom,2023,10,54
+All,2023,10,4385
+Pathum Thani,2023,10,80
+Phra Nakhon Si Ayutthaya,2023,10,29
+Mae Hong Son,2023,10,19
+Saraburi,2023,10,24
+Roi Et,2023,10,67
+Chumphon,2023,10,124
+Chiang Rai,2023,10,23
+Nakhon Nayok,2023,10,44
+Kanchanaburi,2023,10,19
+Rayong,2023,10,46
+Khon Kaen,2023,10,113
+Samut Songkhram,2023,10,23
+Yala,2023,10,4
+Phitsanulok,2023,10,60
+Narathiwat,2023,10,3
+Lamphun,2023,10,60
+Satun,2023,10,1
+Amnat Charoen,2023,10,7
+Maha Sarakham,2023,10,29
+Nong Bua Lam Phu,2023,10,31
+Pattani,2023,10,4
+Lampang,2023,10,26
+Ratchaburi,2023,10,40
+Samut Prakan,2023,10,105
+Phrae,2023,10,15
+Nakhon Sawan,2023,10,76
+Nan,2021,52,18
+Lop Buri,2021,52,16
+Ranong,2021,52,1
+Nonthaburi,2021,52,42
+Yasothon,2021,52,10
+Chiang Mai,2021,52,72
+Bangkok Metropolis,2021,52,454
+Mukdahan,2021,52,10
+Phetchaburi,2021,52,8
+Kamphaeng Phet,2021,52,7
+Nakhon Pathom,2021,52,18
+Chachoengsao,2021,52,26
+Nakhon Ratchasima,2021,52,37
+Chanthaburi,2021,52,15
+Sukhothai,2021,52,2
+Uthai Thani,2021,52,2
+Phuket,2021,52,102
+Prachuap Khiri Khan,2021,52,37
+Bueng Kan,2021,52,7
+Loei,2021,52,20
+Songkhla (Songkhla Lake),2021,52,51
+Ang Thong,2021,52,10
+Tak,2021,52,18
+Buri Ram,2021,52,26
+Udon Thani,2021,52,78
+Chon Buri,2021,52,308
+Nakhon Phanom,2021,52,7
+All,2021,52,3011
+Nakhon Si Thammarat,2021,52,161
+Sing Buri,2021,52,2
+Trat,2021,52,4
+Krabi,2021,52,35
+Phatthalung,2021,52,50
+Suphan Buri,2021,52,2
+Saraburi,2021,52,29
+Phra Nakhon Si Ayutthaya,2021,52,22
+Chumphon,2021,52,17
+Mae Hong Son,2021,52,17
+Pathum Thani,2021,52,45
+Roi Et,2021,52,50
+Nakhon Nayok,2021,52,14
+Rayong,2021,52,59
+Chiang Rai,2021,52,20
+Khon Kaen,2021,52,99
+Samut Songkhram,2021,52,5
+Kanchanaburi,2021,52,28
+Phangnga,2021,52,34
+Prachin Buri,2021,52,17
+Sa Kaeo,2021,52,13
+None,2021,52,0
+Phichit,2021,52,2
+Si Sa Ket,2021,52,12
+Chaiyaphum,2021,52,15
+Samut Sakhon,2021,52,11
+Kalasin,2021,52,55
+Nong Khai,2021,52,9
+Ubon Ratchathani,2021,52,254
+Sakon Nakhon,2021,52,7
+Trang,2021,52,47
+Surat Thani,2021,52,43
+Yala,2021,52,14
+Satun,2021,52,14
+Narathiwat,2021,52,7
+Phitsanulok,2021,52,46
+Lamphun,2021,52,9
+Amnat Charoen,2021,52,21
+Maha Sarakham,2021,52,81
+Nong Bua Lam Phu,2021,52,3
+Lampang,2021,52,32
+Ratchaburi,2021,52,21
+Pattani,2021,52,15
+Chai Nat,2021,52,3
+Phetchabun,2021,52,20
+Surin,2021,52,10
+Uttaradit,2021,52,4
+Phayao,2021,52,6
+Samut Prakan,2021,52,84
+Nakhon Sawan,2021,52,26
+Phrae,2021,52,15
+Phrae,2022,1,71
+Samut Prakan,2022,1,2353
+Nakhon Sawan,2022,1,318
+Mae Hong Son,2022,1,123
+Saraburi,2022,1,250
+Chumphon,2022,1,259
+Phra Nakhon Si Ayutthaya,2022,1,245
+Pathum Thani,2022,1,337
+Roi Et,2022,1,379
+Prachin Buri,2022,1,308
+Chanthaburi,2022,1,211
+Chachoengsao,2022,1,433
+Nakhon Ratchasima,2022,1,369
+Uthai Thani,2022,1,132
+Sukhothai,2022,1,71
+Chiang Mai,2022,1,1494
+Lop Buri,2022,1,183
+Nan,2022,1,200
+Nonthaburi,2022,1,966
+Yasothon,2022,1,180
+Ranong,2022,1,48
+Phichit,2022,1,64
+Nakhon Pathom,2022,1,227
+Kamphaeng Phet,2022,1,127
+Phetchaburi,2022,1,154
+Mukdahan,2022,1,173
+Bangkok Metropolis,2022,1,3783
+Phatthalung,2022,1,446
+Sing Buri,2022,1,29
+Nakhon Si Thammarat,2022,1,1131
+Trat,2022,1,224
+Krabi,2022,1,261
+Suphan Buri,2022,1,115
+Songkhla (Songkhla Lake),2022,1,435
+Bueng Kan,2022,1,150
+Phuket,2022,1,1928
+Loei,2022,1,89
+Ang Thong,2022,1,58
+Prachuap Khiri Khan,2022,1,358
+Tak,2022,1,275
+Chon Buri,2022,1,5367
+Udon Thani,2022,1,847
+All,2022,1,37604
+Buri Ram,2022,1,630
+Nakhon Phanom,2022,1,128
+Phayao,2022,1,180
+Chai Nat,2022,1,109
+Uttaradit,2022,1,77
+Phetchabun,2022,1,218
+Surin,2022,1,156
+Kalasin,2022,1,452
+Trang,2022,1,302
+Surat Thani,2022,1,575
+Nong Khai,2022,1,225
+Sakon Nakhon,2022,1,208
+Ubon Ratchathani,2022,1,2744
+Samut Sakhon,2022,1,344
+Rayong,2022,1,753
+Samut Songkhram,2022,1,63
+Kanchanaburi,2022,1,245
+Khon Kaen,2022,1,1477
+Chiang Rai,2022,1,174
+Nakhon Nayok,2022,1,107
+Chaiyaphum,2022,1,263
+Phangnga,2022,1,297
+Sa Kaeo,2022,1,203
+None,2022,1,0
+Si Sa Ket,2022,1,316
+Nong Bua Lam Phu,2022,1,99
+Lampang,2022,1,295
+Pattani,2022,1,182
+Ratchaburi,2022,1,232
+Maha Sarakham,2022,1,530
+Amnat Charoen,2022,1,127
+Narathiwat,2022,1,64
+Satun,2022,1,151
+Phitsanulok,2022,1,296
+Yala,2022,1,146
+Lamphun,2022,1,65
+Phitsanulok,2022,2,885
+Satun,2022,2,276
+Amnat Charoen,2022,2,253
+Narathiwat,2022,2,113
+Lamphun,2022,2,146
+Yala,2022,2,221
+Songkhla (Songkhla Lake),2022,2,1064
+Phuket,2022,2,6261
+Ang Thong,2022,2,154
+Bueng Kan,2022,2,275
+Loei,2022,2,406
+Prachuap Khiri Khan,2022,2,908
+Uthai Thani,2022,2,241
+Chanthaburi,2022,2,596
+Sukhothai,2022,2,168
+Chachoengsao,2022,2,978
+Nakhon Ratchasima,2022,2,1311
+Nakhon Sawan,2022,2,761
+Samut Prakan,2022,2,6951
+Phrae,2022,2,180
+Saraburi,2022,2,759
+Pathum Thani,2022,2,1588
+Mae Hong Son,2022,2,243
+Roi Et,2022,2,831
+Chumphon,2022,2,572
+Phra Nakhon Si Ayutthaya,2022,2,693
+Phatthalung,2022,2,905
+Krabi,2022,2,696
+Trat,2022,2,526
+Sing Buri,2022,2,124
+Nakhon Si Thammarat,2022,2,2446
+Suphan Buri,2022,2,417
+Sakon Nakhon,2022,2,542
+Ranong,2022,2,176
+Yasothon,2022,2,458
+Nonthaburi,2022,2,3508
+Lop Buri,2022,2,684
+Chiang Mai,2022,2,2935
+Nan,2022,2,709
+Mukdahan,2022,2,385
+Nakhon Pathom,2022,2,809
+Phetchaburi,2022,2,423
+Kamphaeng Phet,2022,2,348
+Bangkok Metropolis,2022,2,9032
+Maha Sarakham,2022,2,997
+Nong Bua Lam Phu,2022,2,304
+Ratchaburi,2022,2,505
+Lampang,2022,2,632
+Pattani,2022,2,302
+Ubon Ratchathani,2022,2,5054
+Surat Thani,2022,2,1608
+Kalasin,2022,2,817
+Trang,2022,2,525
+Nong Khai,2022,2,641
+Buri Ram,2022,2,1669
+All,2022,2,92973
+Udon Thani,2022,2,1882
+Tak,2022,2,504
+Nakhon Phanom,2022,2,478
+Chon Buri,2022,2,10934
+Phayao,2022,2,514
+Chai Nat,2022,2,200
+Phetchabun,2022,2,497
+Samut Sakhon,2022,2,1210
+Uttaradit,2022,2,180
+Surin,2022,2,842
+Phangnga,2022,2,802
+Chaiyaphum,2022,2,508
+Sa Kaeo,2022,2,474
+Prachin Buri,2022,2,619
+Si Sa Ket,2022,2,1232
+None,2022,2,0
+Phichit,2022,2,197
+Rayong,2022,2,1838
+Kanchanaburi,2022,2,641
+Khon Kaen,2022,2,3345
+Chiang Rai,2022,2,501
+Nakhon Nayok,2022,2,424
+Samut Songkhram,2022,2,140
+Kanchanaburi,2022,3,1237
+Khon Kaen,2022,3,5367
+Rayong,2022,3,2810
+Nakhon Nayok,2022,3,673
+Chiang Rai,2022,3,722
+Ranong,2022,3,265
+Chiang Mai,2022,3,4010
+Lop Buri,2022,3,1388
+Nan,2022,3,1087
+Nonthaburi,2022,3,5985
+Yasothon,2022,3,603
+Sukhothai,2022,3,305
+Chachoengsao,2022,3,1569
+Trat,2022,3,619
+Uthai Thani,2022,3,318
+Nakhon Ratchasima,2022,3,2376
+Chanthaburi,2022,3,1066
+Lamphun,2022,3,255
+Narathiwat,2022,3,193
+Satun,2022,3,362
+Yala,2022,3,339
+Phitsanulok,2022,3,1320
+Samut Songkhram,2022,3,248
+Prachuap Khiri Khan,2022,3,1425
+Bueng Kan,2022,3,380
+Udon Thani,2022,3,2512
+Ang Thong,2022,3,254
+Phuket,2022,3,9760
+Songkhla (Songkhla Lake),2022,3,1586
+Loei,2022,3,920
+Sakon Nakhon,2022,3,917
+Krabi,2022,3,1098
+Nakhon Si Thammarat,2022,3,3518
+Sing Buri,2022,3,170
+Suphan Buri,2022,3,735
+Phatthalung,2022,3,1478
+Phrae,2022,3,312
+Nakhon Sawan,2022,3,1248
+Roi Et,2022,3,1353
+Chumphon,2022,3,1010
+Mae Hong Son,2022,3,323
+Saraburi,2022,3,1249
+Pathum Thani,2022,3,3278
+Phra Nakhon Si Ayutthaya,2022,3,1384
+None,2022,3,0
+Si Sa Ket,2022,3,1944
+Sa Kaeo,2022,3,884
+Prachin Buri,2022,3,953
+Phangnga,2022,3,1412
+Chaiyaphum,2022,3,774
+Kalasin,2022,3,1148
+Samut Sakhon,2022,3,2143
+Nong Khai,2022,3,1075
+Surat Thani,2022,3,2441
+Trang,2022,3,726
+Ubon Ratchathani,2022,3,6379
+Phetchaburi,2022,3,763
+Bangkok Metropolis,2022,3,16294
+Phichit,2022,3,274
+Mukdahan,2022,3,667
+Kamphaeng Phet,2022,3,563
+Nakhon Pathom,2022,3,1635
+Nong Bua Lam Phu,2022,3,519
+Lampang,2022,3,818
+Pattani,2022,3,410
+Maha Sarakham,2022,3,1510
+Amnat Charoen,2022,3,369
+Samut Prakan,2022,3,11594
+Ratchaburi,2022,3,1039
+Phayao,2022,3,676
+Uttaradit,2022,3,283
+Chai Nat,2022,3,314
+Surin,2022,3,1502
+Phetchabun,2022,3,755
+Chon Buri,2022,3,14604
+Tak,2022,3,720
+Buri Ram,2022,3,2482
+All,2022,3,146379
+Nakhon Phanom,2022,3,682
+Nakhon Phanom,2022,4,850
+Udon Thani,2022,4,3255
+Chon Buri,2022,4,17221
+All,2022,4,200655
+Buri Ram,2022,4,3169
+Tak,2022,4,902
+Phrae,2022,4,484
+Nakhon Sawan,2022,4,1704
+Samut Prakan,2022,4,16290
+Chachoengsao,2022,4,2344
+Uthai Thani,2022,4,420
+Trat,2022,4,696
+Sukhothai,2022,4,495
+Nakhon Ratchasima,2022,4,3412
+Prachin Buri,2022,4,1335
+Chanthaburi,2022,4,1464
+Khon Kaen,2022,4,6931
+Samut Songkhram,2022,4,323
+Nakhon Nayok,2022,4,902
+Rayong,2022,4,3540
+Kanchanaburi,2022,4,1775
+Chiang Rai,2022,4,898
+Nonthaburi,2022,4,8751
+Nan,2022,4,1406
+Lop Buri,2022,4,2278
+Ranong,2022,4,362
+Chiang Mai,2022,4,4863
+Yasothon,2022,4,782
+Krabi,2022,4,1498
+Sakon Nakhon,2022,4,1082
+Suphan Buri,2022,4,1044
+Nakhon Si Thammarat,2022,4,4432
+Phatthalung,2022,4,2220
+Sing Buri,2022,4,254
+Amnat Charoen,2022,4,453
+Narathiwat,2022,4,262
+Satun,2022,4,447
+Phitsanulok,2022,4,1692
+Lamphun,2022,4,342
+Yala,2022,4,464
+Songkhla (Songkhla Lake),2022,4,2010
+Loei,2022,4,1657
+Phuket,2022,4,13243
+Ang Thong,2022,4,368
+Bueng Kan,2022,4,447
+Prachuap Khiri Khan,2022,4,1882
+Phetchabun,2022,4,1049
+Phayao,2022,4,747
+Samut Sakhon,2022,4,3054
+Uttaradit,2022,4,334
+Chai Nat,2022,4,409
+Surin,2022,4,2186
+Nong Khai,2022,4,1736
+Surat Thani,2022,4,3142
+Trang,2022,4,965
+Kalasin,2022,4,1539
+Ubon Ratchathani,2022,4,7350
+Phra Nakhon Si Ayutthaya,2022,4,2033
+Roi Et,2022,4,1931
+Mae Hong Son,2022,4,398
+Pathum Thani,2022,4,4955
+Saraburi,2022,4,1879
+Chumphon,2022,4,1423
+Sa Kaeo,2022,4,1256
+None,2022,4,0
+Phichit,2022,4,465
+Chaiyaphum,2022,4,1188
+Phangnga,2022,4,2010
+Si Sa Ket,2022,4,2886
+Maha Sarakham,2022,4,2025
+Nong Bua Lam Phu,2022,4,767
+Lampang,2022,4,920
+Pattani,2022,4,501
+Ratchaburi,2022,4,1954
+Nakhon Pathom,2022,4,2397
+Kamphaeng Phet,2022,4,769
+Mukdahan,2022,4,782
+Bangkok Metropolis,2022,4,25902
+Phetchaburi,2022,4,1054
+Mukdahan,2022,5,957
+Nakhon Pathom,2022,5,3363
+Bangkok Metropolis,2022,5,35804
+Phetchaburi,2022,5,1742
+Phichit,2022,5,641
+Kamphaeng Phet,2022,5,992
+Narathiwat,2022,5,307
+Amnat Charoen,2022,5,566
+Yala,2022,5,563
+Phitsanulok,2022,5,2076
+Satun,2022,5,503
+Lamphun,2022,5,484
+Trat,2022,5,821
+Sukhothai,2022,5,830
+Prachin Buri,2022,5,1862
+Nakhon Ratchasima,2022,5,4687
+Uthai Thani,2022,5,540
+Chanthaburi,2022,5,1983
+Chachoengsao,2022,5,3124
+Chon Buri,2022,5,20317
+Tak,2022,5,1228
+All,2022,5,262687
+Buri Ram,2022,5,3817
+Nakhon Phanom,2022,5,1089
+Phrae,2022,5,859
+Samut Prakan,2022,5,22187
+Nakhon Sawan,2022,5,2163
+Sing Buri,2022,5,357
+Krabi,2022,5,1960
+Suphan Buri,2022,5,1918
+Phatthalung,2022,5,2872
+Nakhon Si Thammarat,2022,5,5559
+Rayong,2022,5,4447
+Samut Songkhram,2022,5,471
+Khon Kaen,2022,5,8096
+Nakhon Nayok,2022,5,1257
+Kanchanaburi,2022,5,2424
+Chiang Rai,2022,5,1067
+Lop Buri,2022,5,3233
+Chiang Mai,2022,5,5958
+Yasothon,2022,5,1021
+Nan,2022,5,1948
+Nonthaburi,2022,5,11773
+Ranong,2022,5,497
+Pattani,2022,5,626
+Lampang,2022,5,1040
+Maha Sarakham,2022,5,2875
+Ratchaburi,2022,5,3117
+Nong Bua Lam Phu,2022,5,978
+Surat Thani,2022,5,3794
+Samut Sakhon,2022,5,4023
+Trang,2022,5,1177
+Ubon Ratchathani,2022,5,8575
+Sakon Nakhon,2022,5,1294
+Nong Khai,2022,5,2467
+Kalasin,2022,5,1898
+Prachuap Khiri Khan,2022,5,2345
+Loei,2022,5,2130
+Bueng Kan,2022,5,610
+Udon Thani,2022,5,4113
+Ang Thong,2022,5,481
+Phuket,2022,5,17111
+Songkhla (Songkhla Lake),2022,5,2305
+Surin,2022,5,2860
+Phayao,2022,5,909
+Phetchabun,2022,5,1669
+Chai Nat,2022,5,548
+Uttaradit,2022,5,565
+Chaiyaphum,2022,5,1780
+None,2022,5,0
+Phangnga,2022,5,2460
+Si Sa Ket,2022,5,4115
+Sa Kaeo,2022,5,1639
+Phra Nakhon Si Ayutthaya,2022,5,2806
+Chumphon,2022,5,1916
+Pathum Thani,2022,5,6223
+Saraburi,2022,5,2652
+Mae Hong Son,2022,5,452
+Roi Et,2022,5,2771
+Chumphon,2022,6,2646
+Mae Hong Son,2022,6,497
+Saraburi,2022,6,3725
+Roi Et,2022,6,4052
+Phra Nakhon Si Ayutthaya,2022,6,3738
+Pathum Thani,2022,6,7973
+Rayong,2022,6,5710
+Khon Kaen,2022,6,9850
+Nakhon Nayok,2022,6,1775
+Kanchanaburi,2022,6,3329
+Chiang Rai,2022,6,1356
+Uthai Thani,2022,6,1006
+Nakhon Ratchasima,2022,6,6717
+Trat,2022,6,1020
+Chachoengsao,2022,6,4367
+Sukhothai,2022,6,1350
+Chanthaburi,2022,6,2743
+Bangkok Metropolis,2022,6,52334
+Mukdahan,2022,6,1293
+Nakhon Pathom,2022,6,5053
+Phichit,2022,6,813
+Kamphaeng Phet,2022,6,1447
+Phetchaburi,2022,6,2845
+Narathiwat,2022,6,420
+Satun,2022,6,646
+Lamphun,2022,6,598
+Phitsanulok,2022,6,2870
+Yala,2022,6,745
+Samut Songkhram,2022,6,722
+Phatthalung,2022,6,3626
+Suphan Buri,2022,6,3115
+Sing Buri,2022,6,481
+Sakon Nakhon,2022,6,1926
+Krabi,2022,6,2502
+Nakhon Si Thammarat,2022,6,7369
+Udon Thani,2022,6,4988
+Buri Ram,2022,6,5163
+Chon Buri,2022,6,25094
+Tak,2022,6,1906
+Nakhon Phanom,2022,6,1353
+All,2022,6,354010
+Phrae,2022,6,1263
+Nakhon Sawan,2022,6,3134
+Samut Prakan,2022,6,29490
+Chaiyaphum,2022,6,2653
+Sa Kaeo,2022,6,2369
+Si Sa Ket,2022,6,4963
+None,2022,6,0
+Phangnga,2022,6,2981
+Prachin Buri,2022,6,2718
+Nong Khai,2022,6,3192
+Ubon Ratchathani,2022,6,9730
+Surat Thani,2022,6,4754
+Kalasin,2022,6,2548
+Trang,2022,6,1506
+Nonthaburi,2022,6,15787
+Ranong,2022,6,641
+Chiang Mai,2022,6,7625
+Yasothon,2022,6,1385
+Lop Buri,2022,6,4060
+Nan,2022,6,2576
+Amnat Charoen,2022,6,804
+Pattani,2022,6,829
+Nong Bua Lam Phu,2022,6,1408
+Maha Sarakham,2022,6,4459
+Ratchaburi,2022,6,5035
+Lampang,2022,6,1222
+Chai Nat,2022,6,922
+Uttaradit,2022,6,1085
+Samut Sakhon,2022,6,6134
+Phayao,2022,6,1156
+Phetchabun,2022,6,2371
+Surin,2022,6,4211
+Phuket,2022,6,21058
+Songkhla (Songkhla Lake),2022,6,3099
+Loei,2022,6,2676
+Prachuap Khiri Khan,2022,6,3275
+Ang Thong,2022,6,761
+Bueng Kan,2022,6,967
+Bueng Kan,2022,7,1370
+Ang Thong,2022,7,1099
+Songkhla (Songkhla Lake),2022,7,4333
+Loei,2022,7,3134
+Prachuap Khiri Khan,2022,7,4606
+Phuket,2022,7,25400
+Chon Buri,2022,7,30510
+Tak,2022,7,2390
+All,2022,7,469927
+Buri Ram,2022,7,7472
+Udon Thani,2022,7,5956
+Nakhon Phanom,2022,7,1938
+Uthai Thani,2022,7,1324
+Nakhon Ratchasima,2022,7,10017
+Chanthaburi,2022,7,3550
+Sukhothai,2022,7,1889
+Chachoengsao,2022,7,6344
+Prachin Buri,2022,7,3844
+Roi Et,2022,7,5553
+Saraburi,2022,7,5338
+Mae Hong Son,2022,7,560
+Phra Nakhon Si Ayutthaya,2022,7,5102
+Pathum Thani,2022,7,10533
+Chumphon,2022,7,3480
+Khon Kaen,2022,7,11852
+Rayong,2022,7,7787
+Nakhon Nayok,2022,7,2400
+Samut Songkhram,2022,7,1121
+Kanchanaburi,2022,7,5067
+Chiang Rai,2022,7,1695
+Krabi,2022,7,3279
+Sing Buri,2022,7,699
+Suphan Buri,2022,7,4562
+Phatthalung,2022,7,4394
+Trat,2022,7,1227
+Nakhon Si Thammarat,2022,7,11051
+Phetchaburi,2022,7,3960
+Kamphaeng Phet,2022,7,2337
+Nakhon Pathom,2022,7,7453
+Mukdahan,2022,7,1784
+Bangkok Metropolis,2022,7,74172
+Yala,2022,7,1020
+Lamphun,2022,7,688
+Phitsanulok,2022,7,3960
+Satun,2022,7,949
+Amnat Charoen,2022,7,1182
+Narathiwat,2022,7,793
+Phayao,2022,7,1550
+Samut Sakhon,2022,7,9092
+Phetchabun,2022,7,3190
+Uttaradit,2022,7,1802
+Chai Nat,2022,7,1320
+Surin,2022,7,5722
+Surat Thani,2022,7,6370
+Nong Khai,2022,7,4016
+Kalasin,2022,7,4123
+Sakon Nakhon,2022,7,2626
+Trang,2022,7,1986
+Ubon Ratchathani,2022,7,11145
+Nakhon Sawan,2022,7,4185
+Phrae,2022,7,1650
+Samut Prakan,2022,7,36030
+Chaiyaphum,2022,7,3946
+None,2022,7,0
+Sa Kaeo,2022,7,2934
+Phangnga,2022,7,3586
+Si Sa Ket,2022,7,5762
+Phichit,2022,7,1130
+Nong Bua Lam Phu,2022,7,2293
+Maha Sarakham,2022,7,5731
+Pattani,2022,7,1187
+Lampang,2022,7,1520
+Ratchaburi,2022,7,7324
+Chiang Mai,2022,7,9597
+Ranong,2022,7,974
+Yasothon,2022,7,1825
+Nan,2022,7,3024
+Lop Buri,2022,7,4926
+Nonthaburi,2022,7,20187
+Yasothon,2022,8,2525
+Lop Buri,2022,8,6022
+Nonthaburi,2022,8,26096
+Chiang Mai,2022,8,11861
+Nan,2022,8,3518
+Ranong,2022,8,1561
+Phetchaburi,2022,8,5373
+Nakhon Pathom,2022,8,11324
+Bangkok Metropolis,2022,8,95385
+Mukdahan,2022,8,2267
+Kamphaeng Phet,2022,8,3932
+Chachoengsao,2022,8,8827
+Chanthaburi,2022,8,4745
+Nakhon Ratchasima,2022,8,14473
+Uthai Thani,2022,8,1770
+Sukhothai,2022,8,3089
+Songkhla (Songkhla Lake),2022,8,6105
+Bueng Kan,2022,8,1801
+Prachuap Khiri Khan,2022,8,6380
+Phuket,2022,8,30652
+Ang Thong,2022,8,1875
+Nakhon Phanom,2022,8,2848
+Chon Buri,2022,8,38608
+Tak,2022,8,3193
+Udon Thani,2022,8,7093
+All,2022,8,621462
+Buri Ram,2022,8,10706
+Nakhon Si Thammarat,2022,8,16989
+Sing Buri,2022,8,1039
+Phatthalung,2022,8,5504
+Sakon Nakhon,2022,8,3094
+Krabi,2022,8,4454
+Suphan Buri,2022,8,7112
+Trat,2022,8,1568
+Mae Hong Son,2022,8,647
+Saraburi,2022,8,7028
+Chumphon,2022,8,4746
+Pathum Thani,2022,8,13798
+Roi Et,2022,8,7487
+Phra Nakhon Si Ayutthaya,2022,8,7926
+Nakhon Nayok,2022,8,3161
+Khon Kaen,2022,8,14364
+Chiang Rai,2022,8,2190
+Kanchanaburi,2022,8,6676
+Rayong,2022,8,11055
+Samut Prakan,2022,8,43082
+Pattani,2022,8,2205
+Ratchaburi,2022,8,11150
+Maha Sarakham,2022,8,7040
+Lampang,2022,8,1948
+Nong Bua Lam Phu,2022,8,3197
+Surat Thani,2022,8,8535
+Kalasin,2022,8,5685
+Nong Khai,2022,8,5151
+Trang,2022,8,2614
+Ubon Ratchathani,2022,8,12739
+Samut Songkhram,2022,8,2065
+Satun,2022,8,1676
+Yala,2022,8,2004
+Amnat Charoen,2022,8,1555
+Phitsanulok,2022,8,5048
+Lamphun,2022,8,779
+Narathiwat,2022,8,1478
+Loei,2022,8,3703
+Uttaradit,2022,8,3218
+Phayao,2022,8,2093
+Chai Nat,2022,8,1742
+Surin,2022,8,8273
+Samut Sakhon,2022,8,13229
+Phetchabun,2022,8,4168
+Si Sa Ket,2022,8,6515
+Chaiyaphum,2022,8,6444
+Sa Kaeo,2022,8,3700
+None,2022,8,0
+Phichit,2022,8,1703
+Prachin Buri,2022,8,5767
+Phangnga,2022,8,4237
+Nakhon Sawan,2022,8,5729
+Phrae,2022,8,2123
+Phrae,2022,9,2717
+Nakhon Sawan,2022,9,7016
+Chumphon,2022,9,5960
+Saraburi,2022,9,9450
+Phra Nakhon Si Ayutthaya,2022,9,11766
+Mae Hong Son,2022,9,757
+Roi Et,2022,9,9960
+Pathum Thani,2022,9,17806
+Chachoengsao,2022,9,11860
+Chanthaburi,2022,9,5893
+Trat,2022,9,1984
+Sukhothai,2022,9,4141
+Nakhon Ratchasima,2022,9,19288
+Uthai Thani,2022,9,2367
+Nonthaburi,2022,9,32049
+Nan,2022,9,4043
+Ranong,2022,9,2454
+Chiang Mai,2022,9,13959
+Yasothon,2022,9,3596
+Lop Buri,2022,9,7325
+Kamphaeng Phet,2022,9,5448
+Bangkok Metropolis,2022,9,118631
+Nakhon Pathom,2022,9,15557
+Mukdahan,2022,9,2671
+Phichit,2022,9,2374
+Phetchaburi,2022,9,6808
+Sing Buri,2022,9,1471
+Nakhon Si Thammarat,2022,9,23579
+Phatthalung,2022,9,6909
+Suphan Buri,2022,9,9994
+Krabi,2022,9,5569
+Prachuap Khiri Khan,2022,9,8536
+Bueng Kan,2022,9,2304
+Songkhla (Songkhla Lake),2022,9,7988
+Loei,2022,9,4469
+Phuket,2022,9,35924
+Ang Thong,2022,9,3011
+All,2022,9,791100
+Chon Buri,2022,9,47661
+Nakhon Phanom,2022,9,3940
+Udon Thani,2022,9,8589
+Buri Ram,2022,9,14655
+Tak,2022,9,4469
+None,2022,9,0
+Chaiyaphum,2022,9,8271
+Phangnga,2022,9,4937
+Prachin Buri,2022,9,7870
+Sa Kaeo,2022,9,5023
+Si Sa Ket,2022,9,8034
+Nong Khai,2022,9,6612
+Trang,2022,9,3789
+Ubon Ratchathani,2022,9,14578
+Surat Thani,2022,9,10200
+Kalasin,2022,9,7224
+Sakon Nakhon,2022,9,4181
+Samut Sakhon,2022,9,17899
+Chiang Rai,2022,9,2633
+Rayong,2022,9,15407
+Kanchanaburi,2022,9,8582
+Khon Kaen,2022,9,17287
+Samut Songkhram,2022,9,3473
+Nakhon Nayok,2022,9,4033
+Ratchaburi,2022,9,15156
+Pattani,2022,9,3868
+Maha Sarakham,2022,9,8284
+Nong Bua Lam Phu,2022,9,3981
+Samut Prakan,2022,9,50417
+Lampang,2022,9,2430
+Uttaradit,2022,9,4004
+Phayao,2022,9,2467
+Surin,2022,9,10156
+Phetchabun,2022,9,5141
+Chai Nat,2022,9,2215
+Narathiwat,2022,9,2582
+Satun,2022,9,2598
+Amnat Charoen,2022,9,1895
+Lamphun,2022,9,830
+Yala,2022,9,3633
+Phitsanulok,2022,9,6462
+Satun,2022,11,5572
+Lamphun,2022,11,885
+Narathiwat,2022,11,5278
+Phitsanulok,2022,11,8827
+Amnat Charoen,2022,11,2663
+Yala,2022,11,6823
+Bueng Kan,2022,11,3631
+Prachuap Khiri Khan,2022,11,11518
+Phuket,2022,11,42895
+Ang Thong,2022,11,5352
+Loei,2022,11,6332
+Songkhla (Songkhla Lake),2022,11,14373
+Chanthaburi,2022,11,8971
+Chachoengsao,2022,11,18389
+Nakhon Ratchasima,2022,11,26403
+Sukhothai,2022,11,6077
+Uthai Thani,2022,11,3326
+Samut Prakan,2022,11,63090
+Phrae,2022,11,3892
+Nakhon Sawan,2022,11,9895
+Saraburi,2022,11,12910
+Pathum Thani,2022,11,25247
+Phra Nakhon Si Ayutthaya,2022,11,19935
+Chumphon,2022,11,8341
+Roi Et,2022,11,15647
+Mae Hong Son,2022,11,1095
+Trat,2022,11,3301
+Nakhon Si Thammarat,2022,11,41447
+Suphan Buri,2022,11,15495
+Sing Buri,2022,11,2774
+Phatthalung,2022,11,11347
+Krabi,2022,11,7754
+Sakon Nakhon,2022,11,6569
+Ranong,2022,11,5054
+Nan,2022,11,4824
+Yasothon,2022,11,5429
+Lop Buri,2022,11,9589
+Chiang Mai,2022,11,18292
+Nonthaburi,2022,11,41972
+Mukdahan,2022,11,3237
+Phichit,2022,11,3058
+Kamphaeng Phet,2022,11,7387
+Bangkok Metropolis,2022,11,161964
+Nakhon Pathom,2022,11,22533
+Phetchaburi,2022,11,10422
+Chai Nat,2022,11,2659
+Surin,2022,11,14150
+Uttaradit,2022,11,4845
+Phayao,2022,11,3317
+Phetchabun,2022,11,6631
+Surat Thani,2022,11,13498
+Trang,2022,11,6278
+Nong Khai,2022,11,9299
+Kalasin,2022,11,10476
+Samut Sakhon,2022,11,28568
+Ubon Ratchathani,2022,11,18419
+Buri Ram,2022,11,20724
+Chon Buri,2022,11,63404
+Tak,2022,11,6666
+Nakhon Phanom,2022,11,5108
+All,2022,11,1115259
+Udon Thani,2022,11,11960
+Si Sa Ket,2022,11,10879
+Sa Kaeo,2022,11,8105
+None,2022,11,0
+Prachin Buri,2022,11,11399
+Chaiyaphum,2022,11,10229
+Phangnga,2022,11,6260
+Pattani,2022,11,7952
+Nong Bua Lam Phu,2022,11,5214
+Maha Sarakham,2022,11,11779
+Ratchaburi,2022,11,21474
+Lampang,2022,11,3684
+Kanchanaburi,2022,11,12321
+Rayong,2022,11,21624
+Chiang Rai,2022,11,3309
+Nakhon Nayok,2022,11,5548
+Khon Kaen,2022,11,22376
+Samut Songkhram,2022,11,7289
+Nakhon Nayok,2022,12,6412
+Chumphon,2022,12,9492
+Khon Kaen,2022,12,25435
+Samut Songkhram,2022,12,9832
+Chiang Rai,2022,12,3506
+Rayong,2022,12,25446
+Kanchanaburi,2022,12,14144
+Ranong,2022,12,6554
+Yasothon,2022,12,6318
+Chiang Mai,2022,12,21358
+Nonthaburi,2022,12,45828
+Lop Buri,2022,12,10471
+Nan,2022,12,5635
+Chachoengsao,2022,12,22188
+Chanthaburi,2022,12,10691
+Trat,2022,12,4316
+Nakhon Ratchasima,2022,12,29437
+Uthai Thani,2022,12,3893
+Sukhothai,2022,12,7323
+Lamphun,2022,12,917
+Satun,2022,12,7436
+Yala,2022,12,7829
+Narathiwat,2022,12,6094
+Phitsanulok,2022,12,10180
+Amnat Charoen,2022,12,3210
+Songkhla (Songkhla Lake),2022,12,18696
+Loei,2022,12,7391
+Ang Thong,2022,12,6863
+Prachuap Khiri Khan,2022,12,13745
+Bueng Kan,2022,12,4439
+Phuket,2022,12,45097
+Suphan Buri,2022,12,18563
+Sing Buri,2022,12,3387
+Sakon Nakhon,2022,12,8062
+Krabi,2022,12,8961
+Nakhon Si Thammarat,2022,12,51782
+Phatthalung,2022,12,14511
+Nakhon Sawan,2022,12,11866
+Phrae,2022,12,4441
+Saraburi,2022,12,14255
+Pathum Thani,2022,12,27993
+Phra Nakhon Si Ayutthaya,2022,12,22539
+Mae Hong Son,2022,12,1358
+Roi Et,2022,12,19826
+Ratchaburi,2022,12,24928
+Samut Prakan,2022,12,69351
+Maha Sarakham,2022,12,13579
+Nong Bua Lam Phu,2022,12,5897
+Lampang,2022,12,4417
+Pattani,2022,12,9032
+Ubon Ratchathani,2022,12,20685
+Trang,2022,12,7537
+Samut Sakhon,2022,12,34229
+Nong Khai,2022,12,10622
+Kalasin,2022,12,12349
+Surat Thani,2022,12,15037
+Phichit,2022,12,3395
+Nakhon Pathom,2022,12,26179
+Mukdahan,2022,12,3693
+Phetchaburi,2022,12,12901
+Kamphaeng Phet,2022,12,8672
+Bangkok Metropolis,2022,12,184899
+Phayao,2022,12,3739
+Surin,2022,12,16291
+Chai Nat,2022,12,2809
+Phetchabun,2022,12,7384
+Uttaradit,2022,12,5473
+Si Sa Ket,2022,12,12847
+Sa Kaeo,2022,12,9900
+None,2022,12,0
+Prachin Buri,2022,12,13323
+Chaiyaphum,2022,12,11135
+Phangnga,2022,12,6915
+Nakhon Phanom,2022,12,5644
+All,2022,12,1289550
+Chon Buri,2022,12,72339
+Buri Ram,2022,12,24504
+Udon Thani,2022,12,14348
+Tak,2022,12,7777
+All,2022,13,1471041
+Chon Buri,2022,13,81724
+Udon Thani,2022,13,17218
+Nakhon Phanom,2022,13,6282
+Tak,2022,13,8913
+Buri Ram,2022,13,28358
+Nakhon Sawan,2022,13,14239
+Phrae,2022,13,5083
+Samut Prakan,2022,13,75605
+Chanthaburi,2022,13,12540
+Chachoengsao,2022,13,26426
+Uthai Thani,2022,13,4663
+Nakhon Ratchasima,2022,13,32830
+Sukhothai,2022,13,8797
+Samut Songkhram,2022,13,11300
+Kanchanaburi,2022,13,16725
+Rayong,2022,13,29506
+Nakhon Nayok,2022,13,7611
+Khon Kaen,2022,13,29637
+Chiang Rai,2022,13,3715
+Chiang Mai,2022,13,24178
+Nonthaburi,2022,13,50381
+Lop Buri,2022,13,11336
+Ranong,2022,13,7826
+Yasothon,2022,13,7183
+Nan,2022,13,6711
+Nakhon Si Thammarat,2022,13,60221
+Sing Buri,2022,13,4197
+Phatthalung,2022,13,17174
+Trat,2022,13,5451
+Krabi,2022,13,10045
+Suphan Buri,2022,13,21692
+Lamphun,2022,13,930
+Phitsanulok,2022,13,11844
+Narathiwat,2022,13,6714
+Satun,2022,13,8666
+Yala,2022,13,8493
+Amnat Charoen,2022,13,3750
+Ang Thong,2022,13,8952
+Songkhla (Songkhla Lake),2022,13,23810
+Prachuap Khiri Khan,2022,13,16225
+Phuket,2022,13,46936
+Loei,2022,13,8894
+Bueng Kan,2022,13,5377
+Sa Kaeo,2022,13,11907
+Prachin Buri,2022,13,15582
+Phangnga,2022,13,7554
+None,2022,13,0
+Chaiyaphum,2022,13,12233
+Si Sa Ket,2022,13,15257
+Ubon Ratchathani,2022,13,23538
+Sakon Nakhon,2022,13,10020
+Trang,2022,13,8333
+Nong Khai,2022,13,12744
+Kalasin,2022,13,14086
+Surat Thani,2022,13,16210
+Roi Et,2022,13,23471
+Phra Nakhon Si Ayutthaya,2022,13,26198
+Pathum Thani,2022,13,30505
+Mae Hong Son,2022,13,1706
+Saraburi,2022,13,15675
+Chumphon,2022,13,10668
+Ratchaburi,2022,13,28962
+Maha Sarakham,2022,13,15335
+Lampang,2022,13,5516
+Pattani,2022,13,9668
+Nong Bua Lam Phu,2022,13,6575
+Phayao,2022,13,4134
+Chai Nat,2022,13,3025
+Surin,2022,13,18437
+Phetchabun,2022,13,8065
+Uttaradit,2022,13,5836
+Samut Sakhon,2022,13,40307
+Phichit,2022,13,3762
+Phetchaburi,2022,13,14419
+Mukdahan,2022,13,4275
+Nakhon Pathom,2022,13,30377
+Bangkok Metropolis,2022,13,208114
+Kamphaeng Phet,2022,13,10389
+Nan,2022,14,7062
+Phichit,2022,14,3909
+Phetchaburi,2022,14,14842
+Nakhon Pathom,2022,14,31679
+Kamphaeng Phet,2022,14,11034
+Bangkok Metropolis,2022,14,217618
+Mukdahan,2022,14,4468
+Narathiwat,2022,14,6807
+Amnat Charoen,2022,14,3963
+Phitsanulok,2022,14,12487
+Lamphun,2022,14,934
+Yala,2022,14,8643
+Satun,2022,14,8930
+Chanthaburi,2022,14,13136
+Chachoengsao,2022,14,27786
+Sukhothai,2022,14,9304
+Nakhon Ratchasima,2022,14,33966
+Trat,2022,14,5742
+Uthai Thani,2022,14,4953
+Udon Thani,2022,14,18283
+Tak,2022,14,9156
+All,2022,14,1532061
+Nakhon Phanom,2022,14,6636
+Chon Buri,2022,14,84715
+Buri Ram,2022,14,29768
+Samut Prakan,2022,14,77711
+Phrae,2022,14,5341
+Nakhon Sawan,2022,14,15131
+Krabi,2022,14,10361
+Sakon Nakhon,2022,14,10638
+Sing Buri,2022,14,4463
+Phatthalung,2022,14,17905
+Nakhon Si Thammarat,2022,14,62227
+Suphan Buri,2022,14,22728
+Rayong,2022,14,30905
+Kanchanaburi,2022,14,17547
+Samut Songkhram,2022,14,11491
+Chiang Rai,2022,14,3773
+Khon Kaen,2022,14,31340
+Nakhon Nayok,2022,14,7937
+Yasothon,2022,14,7576
+Nonthaburi,2022,14,52390
+Lop Buri,2022,14,11651
+Ranong,2022,14,8171
+Chiang Mai,2022,14,25141
+Surin,2022,14,19214
+Chai Nat,2022,14,3096
+Phayao,2022,14,4239
+Phetchabun,2022,14,8320
+Uttaradit,2022,14,5916
+Loei,2022,14,9338
+Samut Sakhon,2022,14,42169
+Trang,2022,14,8543
+Surat Thani,2022,14,16546
+Ubon Ratchathani,2022,14,24424
+Nong Khai,2022,14,13555
+Kalasin,2022,14,14625
+Songkhla (Songkhla Lake),2022,14,25133
+Ang Thong,2022,14,9488
+Bueng Kan,2022,14,5687
+Phuket,2022,14,47467
+Prachuap Khiri Khan,2022,14,17078
+Sa Kaeo,2022,14,12459
+Prachin Buri,2022,14,16465
+Si Sa Ket,2022,14,16325
+Chaiyaphum,2022,14,12694
+Phangnga,2022,14,7772
+None,2022,14,0
+Pattani,2022,14,9832
+Maha Sarakham,2022,14,16335
+Ratchaburi,2022,14,30291
+Nong Bua Lam Phu,2022,14,6800
+Lampang,2022,14,5846
+Chumphon,2022,14,10939
+Pathum Thani,2022,14,31425
+Phra Nakhon Si Ayutthaya,2022,14,27200
+Roi Et,2022,14,24845
+Saraburi,2022,14,15962
+Mae Hong Son,2022,14,1785
+Pathum Thani,2022,15,33012
+Mae Hong Son,2022,15,1934
+Chumphon,2022,15,11282
+Roi Et,2022,15,27115
+Phra Nakhon Si Ayutthaya,2022,15,28671
+Saraburi,2022,15,16503
+Khon Kaen,2022,15,34677
+Nakhon Nayok,2022,15,8665
+Samut Songkhram,2022,15,11946
+Chiang Rai,2022,15,3982
+Rayong,2022,15,32708
+Kanchanaburi,2022,15,19274
+Sukhothai,2022,15,10448
+Uthai Thani,2022,15,5560
+Trat,2022,15,6174
+Chanthaburi,2022,15,14056
+Nakhon Ratchasima,2022,15,36295
+Chachoengsao,2022,15,29717
+Phichit,2022,15,4179
+Mukdahan,2022,15,4770
+Kamphaeng Phet,2022,15,12185
+Nakhon Pathom,2022,15,34442
+Phetchaburi,2022,15,15616
+Bangkok Metropolis,2022,15,233383
+Satun,2022,15,9246
+Lamphun,2022,15,938
+Yala,2022,15,8808
+Phitsanulok,2022,15,13922
+Narathiwat,2022,15,6957
+Nakhon Si Thammarat,2022,15,65161
+Suphan Buri,2022,15,24353
+Sing Buri,2022,15,4988
+Krabi,2022,15,10738
+Phatthalung,2022,15,18966
+Chon Buri,2022,15,89097
+Nakhon Phanom,2022,15,7482
+Udon Thani,2022,15,20070
+All,2022,15,1638373
+Buri Ram,2022,15,32261
+Tak,2022,15,9538
+Phrae,2022,15,6234
+Samut Prakan,2022,15,81133
+Nakhon Sawan,2022,15,16574
+Pattani,2022,15,9994
+Maha Sarakham,2022,15,17976
+Lampang,2022,15,6927
+Amnat Charoen,2022,15,4431
+Ratchaburi,2022,15,32170
+Nong Bua Lam Phu,2022,15,7515
+Trang,2022,15,8792
+Nong Khai,2022,15,15106
+Surat Thani,2022,15,17060
+Kalasin,2022,15,15777
+Sakon Nakhon,2022,15,12034
+Ubon Ratchathani,2022,15,26248
+Nonthaburi,2022,15,56092
+Nan,2022,15,8111
+Chiang Mai,2022,15,26894
+Ranong,2022,15,8548
+Lop Buri,2022,15,12092
+Yasothon,2022,15,8342
+Chai Nat,2022,15,3247
+Samut Sakhon,2022,15,44685
+Phetchabun,2022,15,8804
+Uttaradit,2022,15,6291
+Phayao,2022,15,4468
+Surin,2022,15,20843
+Si Sa Ket,2022,15,18195
+None,2022,15,0
+Sa Kaeo,2022,15,13335
+Prachin Buri,2022,15,17940
+Chaiyaphum,2022,15,13651
+Phangnga,2022,15,8182
+Bueng Kan,2022,15,6322
+Phuket,2022,15,48444
+Prachuap Khiri Khan,2022,15,18184
+Ang Thong,2022,15,10367
+Songkhla (Songkhla Lake),2022,15,27121
+Loei,2022,15,11125
+Phuket,2022,16,49641
+Prachuap Khiri Khan,2022,16,19181
+Bueng Kan,2022,16,7360
+Songkhla (Songkhla Lake),2022,16,29327
+Ang Thong,2022,16,11539
+Nakhon Phanom,2022,16,8789
+Tak,2022,16,10101
+All,2022,16,1774279
+Udon Thani,2022,16,22300
+Buri Ram,2022,16,35591
+Chon Buri,2022,16,94439
+Chachoengsao,2022,16,32560
+Uthai Thani,2022,16,6487
+Nakhon Ratchasima,2022,16,38531
+Sukhothai,2022,16,11956
+Trat,2022,16,6689
+Chanthaburi,2022,16,15266
+Mae Hong Son,2022,16,2094
+Saraburi,2022,16,17132
+Phra Nakhon Si Ayutthaya,2022,16,30396
+Pathum Thani,2022,16,34692
+Roi Et,2022,16,30231
+Kanchanaburi,2022,16,21067
+Khon Kaen,2022,16,40024
+Rayong,2022,16,34731
+Chiang Rai,2022,16,4232
+Chumphon,2022,16,11626
+Nakhon Nayok,2022,16,9516
+Suphan Buri,2022,16,26449
+Phatthalung,2022,16,20299
+Krabi,2022,16,11206
+Sing Buri,2022,16,5678
+Nakhon Si Thammarat,2022,16,68714
+Phetchaburi,2022,16,16462
+Mukdahan,2022,16,5258
+Bangkok Metropolis,2022,16,256202
+Phichit,2022,16,4568
+Kamphaeng Phet,2022,16,13616
+Nakhon Pathom,2022,16,36945
+Narathiwat,2022,16,7102
+Lamphun,2022,16,945
+Phitsanulok,2022,16,15669
+Amnat Charoen,2022,16,5100
+Satun,2022,16,9544
+Samut Songkhram,2022,16,12352
+Yala,2022,16,8984
+Chaiyaphum,2022,16,15079
+Phangnga,2022,16,8806
+Prachin Buri,2022,16,19759
+Sa Kaeo,2022,16,14512
+None,2022,16,0
+Si Sa Ket,2022,16,21596
+Kalasin,2022,16,17620
+Surat Thani,2022,16,17670
+Ubon Ratchathani,2022,16,28931
+Sakon Nakhon,2022,16,14347
+Nong Khai,2022,16,17411
+Trang,2022,16,9067
+Phrae,2022,16,7205
+Nakhon Sawan,2022,16,18049
+Samut Prakan,2022,16,85683
+Ratchaburi,2022,16,34353
+Lampang,2022,16,8060
+Nong Bua Lam Phu,2022,16,8328
+Maha Sarakham,2022,16,20258
+Pattani,2022,16,10188
+Samut Sakhon,2022,16,47960
+Phayao,2022,16,4861
+Chai Nat,2022,16,3526
+Uttaradit,2022,16,6654
+Surin,2022,16,23003
+Phetchabun,2022,16,9508
+Loei,2022,16,12443
+Nonthaburi,2022,16,59675
+Nan,2022,16,9444
+Lop Buri,2022,16,12855
+Ranong,2022,16,8893
+Yasothon,2022,16,9175
+Chiang Mai,2022,16,28769
+Chiang Mai,2022,17,29750
+Lop Buri,2022,17,13446
+Nan,2022,17,10115
+Yasothon,2022,17,10171
+Ranong,2022,17,9120
+Nonthaburi,2022,17,62008
+Nakhon Pathom,2022,17,39002
+Mukdahan,2022,17,5574
+Bangkok Metropolis,2022,17,278523
+Kamphaeng Phet,2022,17,14405
+Phichit,2022,17,4873
+Phetchaburi,2022,17,17139
+Chanthaburi,2022,17,16201
+Uthai Thani,2022,17,7269
+Chachoengsao,2022,17,34568
+Nakhon Ratchasima,2022,17,40527
+Sukhothai,2022,17,12830
+Trat,2022,17,7044
+Bueng Kan,2022,17,8251
+Prachuap Khiri Khan,2022,17,19786
+Songkhla (Songkhla Lake),2022,17,30237
+Phuket,2022,17,50433
+Ang Thong,2022,17,12450
+Chon Buri,2022,17,98121
+Nakhon Phanom,2022,17,9959
+Buri Ram,2022,17,38705
+All,2022,17,1877138
+Tak,2022,17,10463
+Udon Thani,2022,17,23655
+Phatthalung,2022,17,21302
+Suphan Buri,2022,17,27768
+Krabi,2022,17,11480
+Nakhon Si Thammarat,2022,17,70568
+Sing Buri,2022,17,6184
+Saraburi,2022,17,17475
+Pathum Thani,2022,17,36443
+Chumphon,2022,17,11842
+Mae Hong Son,2022,17,2184
+Roi Et,2022,17,32622
+Phra Nakhon Si Ayutthaya,2022,17,31587
+Khon Kaen,2022,17,43815
+Kanchanaburi,2022,17,22399
+Samut Songkhram,2022,17,12606
+Chiang Rai,2022,17,4394
+Rayong,2022,17,36035
+Nakhon Nayok,2022,17,10066
+Surin,2022,17,24893
+Samut Sakhon,2022,17,49689
+Phetchabun,2022,17,10044
+Loei,2022,17,13482
+Uttaradit,2022,17,6919
+Chai Nat,2022,17,3702
+Phayao,2022,17,5123
+Trang,2022,17,9230
+Ubon Ratchathani,2022,17,31134
+Surat Thani,2022,17,18105
+Kalasin,2022,17,18855
+Sakon Nakhon,2022,17,16021
+Nong Khai,2022,17,18892
+Narathiwat,2022,17,7265
+Yala,2022,17,9074
+Satun,2022,17,9665
+Lamphun,2022,17,950
+Amnat Charoen,2022,17,5627
+Phitsanulok,2022,17,16662
+Si Sa Ket,2022,17,24783
+Prachin Buri,2022,17,21015
+Sa Kaeo,2022,17,15322
+Phangnga,2022,17,9358
+None,2022,17,0
+Chaiyaphum,2022,17,16225
+Samut Prakan,2022,17,89170
+Pattani,2022,17,10335
+Maha Sarakham,2022,17,22286
+Nong Bua Lam Phu,2022,17,8914
+Lampang,2022,17,8278
+Ratchaburi,2022,17,35651
+Phrae,2022,17,8042
+Nakhon Sawan,2022,17,19032
+Samut Prakan,2022,18,90999
+Nakhon Sawan,2022,18,19548
+Phrae,2022,18,8267
+Roi Et,2022,18,33754
+Saraburi,2022,18,17688
+Pathum Thani,2022,18,37244
+Mae Hong Son,2022,18,2237
+Chumphon,2022,18,12021
+Phra Nakhon Si Ayutthaya,2022,18,32234
+Chanthaburi,2022,18,16686
+Nakhon Ratchasima,2022,18,41523
+Prachin Buri,2022,18,21575
+Trat,2022,18,7256
+Chachoengsao,2022,18,35520
+Uthai Thani,2022,18,7624
+Sukhothai,2022,18,13229
+Chiang Mai,2022,18,30395
+Nan,2022,18,10399
+Nonthaburi,2022,18,63655
+Yasothon,2022,18,10502
+Ranong,2022,18,9326
+Lop Buri,2022,18,13716
+Phetchaburi,2022,18,17442
+Mukdahan,2022,18,5732
+Phichit,2022,18,5010
+Kamphaeng Phet,2022,18,14816
+Bangkok Metropolis,2022,18,290078
+Nakhon Pathom,2022,18,40073
+Suphan Buri,2022,18,28367
+Nakhon Si Thammarat,2022,18,71705
+Krabi,2022,18,11658
+Sing Buri,2022,18,6498
+Sakon Nakhon,2022,18,16683
+Phatthalung,2022,18,21739
+Ang Thong,2022,18,12931
+Loei,2022,18,13890
+Phuket,2022,18,50881
+Songkhla (Songkhla Lake),2022,18,30890
+Prachuap Khiri Khan,2022,18,20275
+Bueng Kan,2022,18,8720
+Nakhon Phanom,2022,18,10416
+Tak,2022,18,10660
+Buri Ram,2022,18,40389
+Udon Thani,2022,18,24417
+Chon Buri,2022,18,100204
+All,2022,18,1928882
+Amnat Charoen,2022,18,5828
+Nong Bua Lam Phu,2022,18,9271
+Maha Sarakham,2022,18,22922
+Lampang,2022,18,8517
+Ratchaburi,2022,18,36282
+Pattani,2022,18,10431
+Ubon Ratchathani,2022,18,32124
+Surat Thani,2022,18,18377
+Trang,2022,18,9347
+Kalasin,2022,18,19405
+Nong Khai,2022,18,19485
+Samut Songkhram,2022,18,12768
+Chiang Rai,2022,18,4419
+Kanchanaburi,2022,18,23201
+Nakhon Nayok,2022,18,10249
+Rayong,2022,18,36863
+Khon Kaen,2022,18,44859
+Phetchabun,2022,18,10278
+Surin,2022,18,25820
+Chai Nat,2022,18,3738
+Phayao,2022,18,5327
+Samut Sakhon,2022,18,50810
+Uttaradit,2022,18,7071
+Si Sa Ket,2022,18,26092
+Phangnga,2022,18,9634
+Chaiyaphum,2022,18,16762
+None,2022,18,0
+Sa Kaeo,2022,18,15804
+Yala,2022,18,9152
+Lamphun,2022,18,950
+Satun,2022,18,9748
+Phitsanulok,2022,18,17145
+Narathiwat,2022,18,7331
+Narathiwat,2022,19,7379
+Satun,2022,19,9787
+Phitsanulok,2022,19,17456
+Yala,2022,19,9187
+Samut Songkhram,2022,19,12848
+Lamphun,2022,19,956
+Amnat Charoen,2022,19,6043
+Prachuap Khiri Khan,2022,19,20515
+Loei,2022,19,14188
+Phuket,2022,19,51073
+Songkhla (Songkhla Lake),2022,19,31060
+Bueng Kan,2022,19,8891
+Ang Thong,2022,19,13223
+Uthai Thani,2022,19,7911
+Chachoengsao,2022,19,36123
+Sukhothai,2022,19,13474
+Trat,2022,19,7392
+Prachin Buri,2022,19,21884
+Nakhon Ratchasima,2022,19,42207
+Chanthaburi,2022,19,17077
+Phrae,2022,19,8312
+Samut Prakan,2022,19,91966
+Nakhon Sawan,2022,19,20003
+Mae Hong Son,2022,19,2278
+Roi Et,2022,19,34662
+Pathum Thani,2022,19,37663
+Saraburi,2022,19,17820
+Phra Nakhon Si Ayutthaya,2022,19,32776
+Chumphon,2022,19,12096
+Phatthalung,2022,19,21907
+Krabi,2022,19,11722
+Nakhon Si Thammarat,2022,19,72018
+Sing Buri,2022,19,6664
+Suphan Buri,2022,19,28813
+Sakon Nakhon,2022,19,17174
+Nonthaburi,2022,19,64266
+Ranong,2022,19,9410
+Chiang Mai,2022,19,30694
+Yasothon,2022,19,10820
+Lop Buri,2022,19,13898
+Mukdahan,2022,19,5827
+Phichit,2022,19,5100
+Phetchaburi,2022,19,17644
+Kamphaeng Phet,2022,19,15060
+Bangkok Metropolis,2022,19,302350
+Nan,2022,19,10539
+Nakhon Pathom,2022,19,40503
+Si Sa Ket,2022,19,26403
+Phangnga,2022,19,9670
+Chaiyaphum,2022,19,17302
+Sa Kaeo,2022,19,16050
+None,2022,19,0
+Trang,2022,19,9381
+Nong Khai,2022,19,19779
+Kalasin,2022,19,19883
+Surat Thani,2022,19,18503
+Ubon Ratchathani,2022,19,33055
+Chon Buri,2022,19,101276
+Tak,2022,19,10789
+Udon Thani,2022,19,24801
+Nakhon Phanom,2022,19,10782
+All,2022,19,1965296
+Buri Ram,2022,19,41516
+Lampang,2022,19,8517
+Pattani,2022,19,10488
+Ratchaburi,2022,19,36513
+Maha Sarakham,2022,19,23639
+Nong Bua Lam Phu,2022,19,9638
+Samut Sakhon,2022,19,51262
+Surin,2022,19,26756
+Chai Nat,2022,19,3789
+Phayao,2022,19,5421
+Uttaradit,2022,19,7162
+Phetchabun,2022,19,10436
+Chiang Rai,2022,19,4458
+Rayong,2022,19,37184
+Kanchanaburi,2022,19,23582
+Khon Kaen,2022,19,46098
+Nakhon Nayok,2022,19,10504
+Samut Songkhram,2022,20,12921
+Kanchanaburi,2022,20,23866
+Nakhon Nayok,2022,20,10632
+Chiang Rai,2022,20,4496
+Khon Kaen,2022,20,47220
+Rayong,2022,20,37581
+Chiang Mai,2022,20,30986
+Nonthaburi,2022,20,64868
+Yasothon,2022,20,11421
+Ranong,2022,20,9471
+Lop Buri,2022,20,14139
+Nan,2022,20,10673
+Chanthaburi,2022,20,17492
+Uthai Thani,2022,20,8231
+Nakhon Ratchasima,2022,20,42773
+Sukhothai,2022,20,13742
+Chachoengsao,2022,20,36567
+Yala,2022,20,9236
+Satun,2022,20,9829
+Narathiwat,2022,20,7464
+Lamphun,2022,20,963
+Amnat Charoen,2022,20,6294
+Phitsanulok,2022,20,17797
+Phuket,2022,20,51268
+Ang Thong,2022,20,13501
+Songkhla (Songkhla Lake),2022,20,31269
+Bueng Kan,2022,20,9078
+Loei,2022,20,14496
+Prachuap Khiri Khan,2022,20,20824
+Phatthalung,2022,20,22058
+Nakhon Si Thammarat,2022,20,72420
+Trat,2022,20,7537
+Sing Buri,2022,20,6787
+Krabi,2022,20,11800
+Suphan Buri,2022,20,29327
+Samut Prakan,2022,20,92808
+Phrae,2022,20,8356
+Nakhon Sawan,2022,20,20417
+Roi Et,2022,20,35417
+Pathum Thani,2022,20,38092
+Saraburi,2022,20,17953
+Chumphon,2022,20,12198
+Phra Nakhon Si Ayutthaya,2022,20,33181
+Mae Hong Son,2022,20,2302
+Uttaradit,2022,20,7268
+Chai Nat,2022,20,3831
+Phayao,2022,20,5521
+Surin,2022,20,28186
+Phetchabun,2022,20,10682
+Samut Sakhon,2022,20,51788
+Trang,2022,20,9437
+Ubon Ratchathani,2022,20,34077
+Kalasin,2022,20,20396
+Nong Khai,2022,20,20022
+Surat Thani,2022,20,18683
+Sakon Nakhon,2022,20,17715
+Phichit,2022,20,5232
+Mukdahan,2022,20,5989
+Phetchaburi,2022,20,17875
+Nakhon Pathom,2022,20,40887
+Kamphaeng Phet,2022,20,15216
+Bangkok Metropolis,2022,20,316723
+Chaiyaphum,2022,20,17825
+None,2022,20,0
+Sa Kaeo,2022,20,16343
+Si Sa Ket,2022,20,26666
+Prachin Buri,2022,20,22214
+Phangnga,2022,20,9694
+Lampang,2022,20,8517
+Pattani,2022,20,10559
+Ratchaburi,2022,20,36726
+Nong Bua Lam Phu,2022,20,9791
+Maha Sarakham,2022,20,24331
+All,2022,20,2004299
+Buri Ram,2022,20,42802
+Chon Buri,2022,20,102211
+Nakhon Phanom,2022,20,11285
+Udon Thani,2022,20,25155
+Tak,2022,20,10901
+Nakhon Phanom,2022,21,11813
+Buri Ram,2022,21,43829
+All,2022,21,2036543
+Chon Buri,2022,21,102942
+Tak,2022,21,11004
+Udon Thani,2022,21,25621
+Phrae,2022,21,8387
+Nakhon Sawan,2022,21,20774
+Chachoengsao,2022,21,36908
+Chanthaburi,2022,21,17830
+Nakhon Ratchasima,2022,21,43253
+Uthai Thani,2022,21,8510
+Sukhothai,2022,21,13957
+Trat,2022,21,7674
+Rayong,2022,21,37856
+Chumphon,2022,21,12290
+Kanchanaburi,2022,21,24068
+Nakhon Nayok,2022,21,10769
+Samut Songkhram,2022,21,12973
+Chiang Rai,2022,21,4538
+Khon Kaen,2022,21,48014
+Ranong,2022,21,9508
+Yasothon,2022,21,11862
+Nonthaburi,2022,21,65583
+Chiang Mai,2022,21,31207
+Lop Buri,2022,21,14358
+Phatthalung,2022,21,22193
+Nakhon Si Thammarat,2022,21,72757
+Sing Buri,2022,21,6832
+Krabi,2022,21,11843
+Suphan Buri,2022,21,29762
+Satun,2022,21,9870
+Yala,2022,21,9275
+Lamphun,2022,21,965
+Narathiwat,2022,21,7509
+Phitsanulok,2022,21,18104
+Prachuap Khiri Khan,2022,21,21048
+Songkhla (Songkhla Lake),2022,21,31441
+Phuket,2022,21,51375
+Bueng Kan,2022,21,9233
+Ang Thong,2022,21,13794
+Lampang,2022,21,8517
+Maha Sarakham,2022,21,24824
+Pattani,2022,21,10610
+Amnat Charoen,2022,21,6546
+Ratchaburi,2022,21,36937
+Nong Bua Lam Phu,2022,21,9942
+Samut Prakan,2022,21,93443
+Nong Khai,2022,21,20272
+Trang,2022,21,9464
+Sakon Nakhon,2022,21,18197
+Ubon Ratchathani,2022,21,34612
+Surat Thani,2022,21,18831
+Kalasin,2022,21,20847
+Saraburi,2022,21,18067
+Pathum Thani,2022,21,38468
+Mae Hong Son,2022,21,2318
+Roi Et,2022,21,35919
+Phra Nakhon Si Ayutthaya,2022,21,33322
+Uttaradit,2022,21,7354
+Surin,2022,21,28912
+Chai Nat,2022,21,3856
+Loei,2022,21,14782
+Phayao,2022,21,5575
+Samut Sakhon,2022,21,52406
+Phetchabun,2022,21,10855
+Chaiyaphum,2022,21,18312
+Phichit,2022,21,5347
+Phangnga,2022,21,9700
+Prachin Buri,2022,21,22467
+Sa Kaeo,2022,21,16622
+Si Sa Ket,2022,21,26870
+None,2022,21,0
+Phetchaburi,2022,21,18101
+Mukdahan,2022,21,6131
+Nakhon Pathom,2022,21,41100
+Kamphaeng Phet,2022,21,15399
+Bangkok Metropolis,2022,21,329326
+Nan,2022,21,10763
+Bangkok Metropolis,2022,22,344643
+Kamphaeng Phet,2022,22,15708
+Phetchaburi,2022,22,18429
+Nakhon Pathom,2022,22,41765
+Mukdahan,2022,22,6266
+Narathiwat,2022,22,7605
+Samut Songkhram,2022,22,13098
+Amnat Charoen,2022,22,6799
+Lamphun,2022,22,976
+Phitsanulok,2022,22,18611
+Satun,2022,22,10076
+Yala,2022,22,9344
+Uthai Thani,2022,22,8780
+Nakhon Ratchasima,2022,22,43842
+Trat,2022,22,7947
+Chachoengsao,2022,22,37698
+Chanthaburi,2022,22,18265
+Sukhothai,2022,22,14418
+Chon Buri,2022,22,104644
+Nakhon Phanom,2022,22,12289
+Udon Thani,2022,22,26357
+All,2022,22,2085353
+Tak,2022,22,11201
+Buri Ram,2022,22,44921
+Phrae,2022,22,8522
+Samut Prakan,2022,22,94812
+Nakhon Sawan,2022,22,21268
+Sing Buri,2022,22,7036
+Suphan Buri,2022,22,30545
+Phatthalung,2022,22,22503
+Nakhon Si Thammarat,2022,22,73665
+Krabi,2022,22,12000
+Rayong,2022,22,39127
+Chiang Rai,2022,22,4634
+Kanchanaburi,2022,22,24614
+Nakhon Nayok,2022,22,11168
+Khon Kaen,2022,22,49039
+Nonthaburi,2022,22,66648
+Nan,2022,22,11075
+Ranong,2022,22,9757
+Lop Buri,2022,22,14487
+Yasothon,2022,22,12264
+Chiang Mai,2022,22,31800
+Phangnga,2022,22,9797
+None,2022,22,0
+Chaiyaphum,2022,22,18721
+Sa Kaeo,2022,22,17168
+Prachin Buri,2022,22,22891
+Phichit,2022,22,5481
+Si Sa Ket,2022,22,27297
+Surat Thani,2022,22,19099
+Ubon Ratchathani,2022,22,35354
+Trang,2022,22,9514
+Nong Khai,2022,22,20793
+Kalasin,2022,22,21515
+Sakon Nakhon,2022,22,18719
+Ang Thong,2022,22,14040
+Bueng Kan,2022,22,9420
+Prachuap Khiri Khan,2022,22,21558
+Phuket,2022,22,51668
+Songkhla (Songkhla Lake),2022,22,32196
+Ratchaburi,2022,22,37518
+Nong Bua Lam Phu,2022,22,10123
+Lampang,2022,22,8707
+Maha Sarakham,2022,22,25362
+Pattani,2022,22,10685
+Uttaradit,2022,22,7563
+Loei,2022,22,15158
+Chai Nat,2022,22,3945
+Phayao,2022,22,5649
+Phetchabun,2022,22,11199
+Surin,2022,22,29504
+Samut Sakhon,2022,22,53462
+Phra Nakhon Si Ayutthaya,2022,22,33829
+Chumphon,2022,22,12498
+Pathum Thani,2022,22,39059
+Mae Hong Son,2022,22,2385
+Saraburi,2022,22,18314
+Roi Et,2022,22,36516
+Roi Et,2022,23,36919
+Mae Hong Son,2022,23,2395
+Phra Nakhon Si Ayutthaya,2022,23,33986
+Saraburi,2022,23,18348
+Pathum Thani,2022,23,39326
+Chumphon,2022,23,12526
+Samut Songkhram,2022,23,13124
+Nakhon Nayok,2022,23,11205
+Khon Kaen,2022,23,49350
+Chiang Rai,2022,23,4937
+Kanchanaburi,2022,23,24756
+Rayong,2022,23,39470
+Sukhothai,2022,23,14504
+Chachoengsao,2022,23,37894
+Chanthaburi,2022,23,18341
+Prachin Buri,2022,23,23042
+Uthai Thani,2022,23,9028
+Nakhon Ratchasima,2022,23,44046
+Mukdahan,2022,23,6308
+Kamphaeng Phet,2022,23,15829
+Phetchaburi,2022,23,18610
+Nakhon Pathom,2022,23,41971
+Bangkok Metropolis,2022,23,358022
+Yala,2022,23,9359
+Phitsanulok,2022,23,18731
+Amnat Charoen,2022,23,6945
+Lamphun,2022,23,990
+Satun,2022,23,10096
+Narathiwat,2022,23,7648
+Trat,2022,23,8064
+Phatthalung,2022,23,22587
+Sakon Nakhon,2022,23,18824
+Sing Buri,2022,23,7183
+Suphan Buri,2022,23,30735
+Nakhon Si Thammarat,2022,23,74277
+Krabi,2022,23,12019
+Nakhon Phanom,2022,23,12476
+Tak,2022,23,11223
+All,2022,23,2111890
+Chon Buri,2022,23,104948
+Buri Ram,2022,23,45411
+Udon Thani,2022,23,26453
+Nakhon Sawan,2022,23,21432
+Phrae,2022,23,8543
+Phetchabun,2022,23,11646
+Chai Nat,2022,23,3969
+Samut Sakhon,2022,23,53660
+Uttaradit,2022,23,7616
+Phayao,2022,23,5673
+Surin,2022,23,29767
+Nong Khai,2022,23,20882
+Surat Thani,2022,23,19194
+Trang,2022,23,9526
+Ubon Ratchathani,2022,23,36019
+Kalasin,2022,23,21885
+Nan,2022,23,11136
+Yasothon,2022,23,12468
+Lop Buri,2022,23,14590
+Nonthaburi,2022,23,67233
+Ranong,2022,23,9782
+Chiang Mai,2022,23,32836
+Chaiyaphum,2022,23,18857
+Sa Kaeo,2022,23,17438
+None,2022,23,0
+Phichit,2022,23,5516
+Phangnga,2022,23,9840
+Si Sa Ket,2022,23,27543
+Nong Bua Lam Phu,2022,23,10263
+Pattani,2022,23,10710
+Samut Prakan,2022,23,95493
+Lampang,2022,23,8722
+Ratchaburi,2022,23,37653
+Maha Sarakham,2022,23,25503
+Bueng Kan,2022,23,9458
+Prachuap Khiri Khan,2022,23,21639
+Phuket,2022,23,51718
+Loei,2022,23,15278
+Songkhla (Songkhla Lake),2022,23,32337
+Ang Thong,2022,23,14159
+Prachuap Khiri Khan,2022,24,21691
+Bueng Kan,2022,24,9481
+Ang Thong,2022,24,14207
+Loei,2022,24,15319
+Phuket,2022,24,51723
+Songkhla (Songkhla Lake),2022,24,32438
+Tak,2022,24,11239
+Udon Thani,2022,24,26492
+Buri Ram,2022,24,45544
+All,2022,24,2126653
+Chon Buri,2022,24,105061
+Nakhon Phanom,2022,24,12546
+Sukhothai,2022,24,14543
+Chachoengsao,2022,24,37981
+Chanthaburi,2022,24,18367
+Nakhon Ratchasima,2022,24,44068
+Uthai Thani,2022,24,9146
+Mae Hong Son,2022,24,2395
+Roi Et,2022,24,37150
+Pathum Thani,2022,24,39434
+Saraburi,2022,24,18366
+Phra Nakhon Si Ayutthaya,2022,24,34006
+Chumphon,2022,24,12536
+Chiang Rai,2022,24,5098
+Nakhon Nayok,2022,24,11243
+Samut Songkhram,2022,24,13130
+Khon Kaen,2022,24,49573
+Rayong,2022,24,39488
+Kanchanaburi,2022,24,24779
+Trat,2022,24,8166
+Phatthalung,2022,24,22589
+Nakhon Si Thammarat,2022,24,74324
+Sing Buri,2022,24,7257
+Krabi,2022,24,12021
+Suphan Buri,2022,24,30788
+Sakon Nakhon,2022,24,18879
+Nakhon Pathom,2022,24,42016
+Phetchaburi,2022,24,18693
+Mukdahan,2022,24,6321
+Bangkok Metropolis,2022,24,367832
+Phichit,2022,24,5530
+Kamphaeng Phet,2022,24,15858
+Phitsanulok,2022,24,18776
+Lamphun,2022,24,1003
+Amnat Charoen,2022,24,7032
+Yala,2022,24,9402
+Satun,2022,24,10108
+Narathiwat,2022,24,7648
+Lampang,2022,24,8725
+Maha Sarakham,2022,24,25557
+Pattani,2022,24,10713
+Nong Bua Lam Phu,2022,24,10363
+Ratchaburi,2022,24,37724
+Trang,2022,24,9530
+Ubon Ratchathani,2022,24,36336
+Nong Khai,2022,24,20909
+Surat Thani,2022,24,19257
+Kalasin,2022,24,22078
+Samut Prakan,2022,24,95857
+Nakhon Sawan,2022,24,21531
+Phrae,2022,24,8570
+Phetchabun,2022,24,11670
+Phayao,2022,24,5683
+Samut Sakhon,2022,24,53719
+Surin,2022,24,29789
+Uttaradit,2022,24,7622
+Chai Nat,2022,24,3982
+None,2022,24,0
+Sa Kaeo,2022,24,17680
+Prachin Buri,2022,24,23114
+Chaiyaphum,2022,24,18875
+Si Sa Ket,2022,24,27615
+Phangnga,2022,24,9840
+Chiang Mai,2022,24,33022
+Ranong,2022,24,9824
+Nonthaburi,2022,24,67403
+Nan,2022,24,11153
+Lop Buri,2022,24,14654
+Yasothon,2022,24,12571
+Yasothon,2022,25,12624
+Nonthaburi,2022,25,67487
+Nan,2022,25,11179
+Ranong,2022,25,9843
+Chiang Mai,2022,25,33099
+Lop Buri,2022,25,14734
+Bangkok Metropolis,2022,25,377989
+Mukdahan,2022,25,6340
+Phetchaburi,2022,25,18740
+Nakhon Pathom,2022,25,42060
+Kamphaeng Phet,2022,25,15889
+Phichit,2022,25,5547
+Chanthaburi,2022,25,18440
+Nakhon Ratchasima,2022,25,44103
+Sukhothai,2022,25,14592
+Uthai Thani,2022,25,9239
+Trat,2022,25,8265
+Chachoengsao,2022,25,38081
+Phuket,2022,25,51729
+Ang Thong,2022,25,14247
+Prachuap Khiri Khan,2022,25,21743
+Bueng Kan,2022,25,9485
+Songkhla (Songkhla Lake),2022,25,32588
+Nakhon Phanom,2022,25,12608
+All,2022,25,2141278
+Udon Thani,2022,25,26542
+Chon Buri,2022,25,105215
+Buri Ram,2022,25,45650
+Tak,2022,25,11251
+Phatthalung,2022,25,22590
+Nakhon Si Thammarat,2022,25,74354
+Suphan Buri,2022,25,30845
+Krabi,2022,25,12029
+Sing Buri,2022,25,7381
+Roi Et,2022,25,37314
+Saraburi,2022,25,18383
+Chumphon,2022,25,12570
+Mae Hong Son,2022,25,2395
+Pathum Thani,2022,25,39556
+Phra Nakhon Si Ayutthaya,2022,25,34025
+Kanchanaburi,2022,25,24803
+Chiang Rai,2022,25,5122
+Khon Kaen,2022,25,49717
+Rayong,2022,25,39512
+Samut Songkhram,2022,25,13142
+Nakhon Nayok,2022,25,11269
+Chaiyaphum,2022,25,18902
+Sa Kaeo,2022,25,17916
+Phangnga,2022,25,9840
+Prachin Buri,2022,25,23152
+Si Sa Ket,2022,25,27805
+None,2022,25,0
+Trang,2022,25,9535
+Surat Thani,2022,25,19297
+Ubon Ratchathani,2022,25,36593
+Samut Sakhon,2022,25,53746
+Nong Khai,2022,25,20933
+Sakon Nakhon,2022,25,18932
+Kalasin,2022,25,22208
+Phitsanulok,2022,25,18780
+Satun,2022,25,10119
+Amnat Charoen,2022,25,7060
+Lamphun,2022,25,1011
+Yala,2022,25,9413
+Narathiwat,2022,25,7648
+Nong Bua Lam Phu,2022,25,10425
+Pattani,2022,25,10714
+Lampang,2022,25,8734
+Maha Sarakham,2022,25,25631
+Ratchaburi,2022,25,37767
+Surin,2022,25,29807
+Chai Nat,2022,25,3988
+Phetchabun,2022,25,11698
+Uttaradit,2022,25,7626
+Phayao,2022,25,5696
+Loei,2022,25,15344
+Phrae,2022,25,8598
+Nakhon Sawan,2022,25,21605
+Samut Prakan,2022,25,96439
+Nakhon Sawan,2022,26,21703
+Phrae,2022,26,8631
+Phra Nakhon Si Ayutthaya,2022,26,34056
+Pathum Thani,2022,26,39697
+Mae Hong Son,2022,26,2398
+Roi Et,2022,26,37455
+Chumphon,2022,26,12674
+Saraburi,2022,26,18405
+Prachin Buri,2022,26,23184
+Nakhon Ratchasima,2022,26,44116
+Chachoengsao,2022,26,38201
+Uthai Thani,2022,26,9343
+Sukhothai,2022,26,14647
+Chanthaburi,2022,26,18506
+Nonthaburi,2022,26,67629
+Nan,2022,26,11191
+Ranong,2022,26,9850
+Yasothon,2022,26,12702
+Lop Buri,2022,26,14779
+Chiang Mai,2022,26,33226
+Nakhon Pathom,2022,26,42113
+Kamphaeng Phet,2022,26,15962
+Mukdahan,2022,26,6343
+Phetchaburi,2022,26,18797
+Phichit,2022,26,5550
+Bangkok Metropolis,2022,26,388532
+Sing Buri,2022,26,7478
+Suphan Buri,2022,26,30917
+Krabi,2022,26,12036
+Trat,2022,26,8387
+Phatthalung,2022,26,22596
+Nakhon Si Thammarat,2022,26,74422
+Loei,2022,26,15371
+Bueng Kan,2022,26,9492
+Phuket,2022,26,51761
+Ang Thong,2022,26,14312
+Songkhla (Songkhla Lake),2022,26,32725
+Prachuap Khiri Khan,2022,26,21788
+Tak,2022,26,11257
+Nakhon Phanom,2022,26,12678
+All,2022,26,2157278
+Buri Ram,2022,26,45730
+Chon Buri,2022,26,105807
+Udon Thani,2022,26,26590
+Chai Nat,2022,26,3992
+Phetchabun,2022,26,11731
+Phayao,2022,26,5716
+Uttaradit,2022,26,7633
+Surin,2022,26,29873
+Kalasin,2022,26,22302
+Ubon Ratchathani,2022,26,36847
+Trang,2022,26,9539
+Sakon Nakhon,2022,26,19056
+Samut Sakhon,2022,26,53774
+Nong Khai,2022,26,20979
+Surat Thani,2022,26,19327
+Khon Kaen,2022,26,50057
+Samut Songkhram,2022,26,13145
+Kanchanaburi,2022,26,24825
+Nakhon Nayok,2022,26,11315
+Chiang Rai,2022,26,5138
+Rayong,2022,26,39547
+Si Sa Ket,2022,26,27910
+Sa Kaeo,2022,26,17996
+Chaiyaphum,2022,26,18920
+None,2022,26,0
+Phangnga,2022,26,9840
+Nong Bua Lam Phu,2022,26,10432
+Pattani,2022,26,10720
+Ratchaburi,2022,26,37825
+Maha Sarakham,2022,26,25730
+Samut Prakan,2022,26,97173
+Lampang,2022,26,8738
+Amnat Charoen,2022,26,7078
+Satun,2022,26,10135
+Narathiwat,2022,26,7648
+Phitsanulok,2022,26,18847
+Yala,2022,26,9420
+Lamphun,2022,26,1033
+Amnat Charoen,2022,27,7238
+Lamphun,2022,27,1048
+Phitsanulok,2022,27,19283
+Satun,2022,27,10259
+Narathiwat,2022,27,7701
+Yala,2022,27,9507
+Prachuap Khiri Khan,2022,27,22270
+Bueng Kan,2022,27,9682
+Phuket,2022,27,52139
+Ang Thong,2022,27,14639
+Loei,2022,27,15756
+Songkhla (Songkhla Lake),2022,27,33484
+Sukhothai,2022,27,14992
+Nakhon Ratchasima,2022,27,44683
+Trat,2022,27,8587
+Chachoengsao,2022,27,39009
+Chanthaburi,2022,27,18907
+Uthai Thani,2022,27,9621
+Phrae,2022,27,8763
+Nakhon Sawan,2022,27,22319
+Phra Nakhon Si Ayutthaya,2022,27,34486
+Mae Hong Son,2022,27,2450
+Chumphon,2022,27,12880
+Pathum Thani,2022,27,40415
+Roi Et,2022,27,38270
+Saraburi,2022,27,18600
+Krabi,2022,27,12191
+Phatthalung,2022,27,23003
+Nakhon Si Thammarat,2022,27,75572
+Suphan Buri,2022,27,31579
+Sing Buri,2022,27,7665
+Chiang Mai,2022,27,33894
+Yasothon,2022,27,13013
+Ranong,2022,27,10054
+Nan,2022,27,11503
+Lop Buri,2022,27,15081
+Nonthaburi,2022,27,68514
+Mukdahan,2022,27,6471
+Nakhon Pathom,2022,27,42790
+Phichit,2022,27,5629
+Kamphaeng Phet,2022,27,16321
+Bangkok Metropolis,2022,27,403855
+Phetchaburi,2022,27,19100
+Ratchaburi,2022,27,38609
+Pattani,2022,27,10788
+Nong Bua Lam Phu,2022,27,10714
+Samut Prakan,2022,27,99309
+Lampang,2022,27,8921
+Maha Sarakham,2022,27,26305
+Ubon Ratchathani,2022,27,37638
+Surat Thani,2022,27,19496
+Trang,2022,27,9626
+Samut Sakhon,2022,27,54710
+Kalasin,2022,27,22716
+Sakon Nakhon,2022,27,19534
+Nong Khai,2022,27,21499
+Udon Thani,2022,27,27180
+Nakhon Phanom,2022,27,12944
+Buri Ram,2022,27,46572
+Tak,2022,27,11408
+All,2022,27,2207071
+Chon Buri,2022,27,108530
+Phetchabun,2022,27,11888
+Chai Nat,2022,27,4052
+Phayao,2022,27,5790
+Uttaradit,2022,27,7759
+Surin,2022,27,30491
+None,2022,27,0
+Phangnga,2022,27,9951
+Si Sa Ket,2022,27,28835
+Sa Kaeo,2022,27,18435
+Prachin Buri,2022,27,23700
+Chaiyaphum,2022,27,19357
+Rayong,2022,27,40288
+Khon Kaen,2022,27,51468
+Nakhon Nayok,2022,27,11657
+Samut Songkhram,2022,27,13236
+Kanchanaburi,2022,27,25254
+Chiang Rai,2022,27,5188
+Nakhon Nayok,2022,28,11685
+Khon Kaen,2022,28,51707
+Rayong,2022,28,40349
+Chiang Rai,2022,28,5215
+Kanchanaburi,2022,28,25272
+Samut Songkhram,2022,28,13237
+Ranong,2022,28,10064
+Yasothon,2022,28,13037
+Nonthaburi,2022,28,68587
+Nan,2022,28,11510
+Lop Buri,2022,28,15100
+Chiang Mai,2022,28,34026
+Prachin Buri,2022,28,23724
+Chanthaburi,2022,28,18946
+Chachoengsao,2022,28,39094
+Sukhothai,2022,28,15003
+Nakhon Ratchasima,2022,28,44748
+Uthai Thani,2022,28,9665
+Satun,2022,28,10263
+Phitsanulok,2022,28,19345
+Narathiwat,2022,28,7704
+Amnat Charoen,2022,28,7239
+Lamphun,2022,28,1057
+Yala,2022,28,9514
+Bueng Kan,2022,28,9683
+Ang Thong,2022,28,14673
+Songkhla (Songkhla Lake),2022,28,33659
+Phuket,2022,28,52253
+Prachuap Khiri Khan,2022,28,22325
+Sing Buri,2022,28,7678
+Phatthalung,2022,28,23007
+Suphan Buri,2022,28,31592
+Krabi,2022,28,12200
+Nakhon Si Thammarat,2022,28,75640
+Trat,2022,28,8652
+Nakhon Sawan,2022,28,22401
+Samut Prakan,2022,28,100043
+Phrae,2022,28,8782
+Roi Et,2022,28,38309
+Phra Nakhon Si Ayutthaya,2022,28,34502
+Saraburi,2022,28,18641
+Mae Hong Son,2022,28,2451
+Chumphon,2022,28,12959
+Pathum Thani,2022,28,40542
+Chaiyaphum,2022,28,19410
+Phangnga,2022,28,9951
+Si Sa Ket,2022,28,28852
+Sa Kaeo,2022,28,18463
+None,2022,28,0
+Trang,2022,28,9634
+Sakon Nakhon,2022,28,19546
+Nong Khai,2022,28,21520
+Kalasin,2022,28,22750
+Surat Thani,2022,28,19550
+Ubon Ratchathani,2022,28,37723
+Nakhon Pathom,2022,28,42834
+Kamphaeng Phet,2022,28,16333
+Phichit,2022,28,5655
+Bangkok Metropolis,2022,28,413622
+Phetchaburi,2022,28,19128
+Mukdahan,2022,28,6479
+Nong Bua Lam Phu,2022,28,10716
+Pattani,2022,28,10794
+Ratchaburi,2022,28,38675
+Lampang,2022,28,8934
+Maha Sarakham,2022,28,26355
+Phayao,2022,28,5821
+Surin,2022,28,30498
+Uttaradit,2022,28,7803
+Loei,2022,28,15769
+Phetchabun,2022,28,11900
+Samut Sakhon,2022,28,54730
+Chai Nat,2022,28,4052
+Chon Buri,2022,28,109248
+Udon Thani,2022,28,27201
+All,2022,28,2221033
+Tak,2022,28,11420
+Nakhon Phanom,2022,28,12971
+Buri Ram,2022,28,46613
+Buri Ram,2022,29,46666
+Tak,2022,29,11437
+Chon Buri,2022,29,109822
+Nakhon Phanom,2022,29,13008
+Udon Thani,2022,29,27221
+Nakhon Sawan,2022,29,22456
+Phrae,2022,29,8792
+Prachin Buri,2022,29,23780
+Sukhothai,2022,29,15021
+Uthai Thani,2022,29,9739
+Chachoengsao,2022,29,39210
+Nakhon Ratchasima,2022,29,44943
+Chanthaburi,2022,29,18983
+Samut Songkhram,2022,29,13241
+Rayong,2022,29,40499
+Kanchanaburi,2022,29,25287
+Khon Kaen,2022,29,52020
+Chiang Rai,2022,29,5241
+Nakhon Nayok,2022,29,11747
+Ranong,2022,29,10090
+Nonthaburi,2022,29,68710
+Nan,2022,29,11518
+Lop Buri,2022,29,15133
+Chiang Mai,2022,29,34136
+Yasothon,2022,29,13062
+Krabi,2022,29,12201
+Nakhon Si Thammarat,2022,29,75790
+Suphan Buri,2022,29,31621
+Phatthalung,2022,29,23012
+Sing Buri,2022,29,7724
+Trat,2022,29,8709
+Lamphun,2022,29,1064
+Phitsanulok,2022,29,19415
+Narathiwat,2022,29,7707
+Satun,2022,29,10270
+Yala,2022,29,9526
+Phuket,2022,29,52357
+Songkhla (Songkhla Lake),2022,29,33821
+Prachuap Khiri Khan,2022,29,22382
+Loei,2022,29,15799
+Ang Thong,2022,29,14765
+Bueng Kan,2022,29,9692
+Samut Sakhon,2022,29,54801
+Chai Nat,2022,29,4113
+Phetchabun,2022,29,11918
+Phayao,2022,29,5852
+Surin,2022,29,30601
+Uttaradit,2022,29,8014
+Sakon Nakhon,2022,29,19625
+Ubon Ratchathani,2022,29,37841
+Kalasin,2022,29,22793
+Nong Khai,2022,29,21561
+Trang,2022,29,9651
+Surat Thani,2022,29,19604
+Chumphon,2022,29,13101
+Roi Et,2022,29,38365
+Saraburi,2022,29,18711
+Mae Hong Son,2022,29,2455
+Pathum Thani,2022,29,40660
+All,2022,29,2237495
+Phra Nakhon Si Ayutthaya,2022,29,34541
+Sa Kaeo,2022,29,18513
+Chaiyaphum,2022,29,19423
+Si Sa Ket,2022,29,28856
+Phangnga,2022,29,9951
+None,2022,29,0
+Ratchaburi,2022,29,38756
+Amnat Charoen,2022,29,7239
+Maha Sarakham,2022,29,26459
+Samut Prakan,2022,29,101051
+Pattani,2022,29,10799
+Nong Bua Lam Phu,2022,29,10720
+Lampang,2022,29,8941
+Mukdahan,2022,29,6510
+Nakhon Pathom,2022,29,42933
+Phichit,2022,29,5661
+Kamphaeng Phet,2022,29,16343
+Phetchaburi,2022,29,19162
+Bangkok Metropolis,2022,29,424354
+Bangkok Metropolis,2022,30,433721
+Nakhon Pathom,2022,30,42986
+Phichit,2022,30,5670
+Phetchaburi,2022,30,19196
+Kamphaeng Phet,2022,30,16343
+Mukdahan,2022,30,6516
+Amnat Charoen,2022,30,7242
+Satun,2022,30,10290
+Lamphun,2022,30,1086
+Yala,2022,30,9531
+Narathiwat,2022,30,7709
+Phitsanulok,2022,30,19500
+Chanthaburi,2022,30,19024
+Chachoengsao,2022,30,39271
+Sukhothai,2022,30,15022
+Uthai Thani,2022,30,9829
+Nakhon Ratchasima,2022,30,45147
+Chon Buri,2022,30,110428
+All,2022,30,2252544
+Tak,2022,30,11456
+Udon Thani,2022,30,27237
+Buri Ram,2022,30,46747
+Nakhon Phanom,2022,30,13026
+Nakhon Sawan,2022,30,22534
+Phrae,2022,30,8812
+Suphan Buri,2022,30,31636
+Phatthalung,2022,30,23014
+Sing Buri,2022,30,7765
+Nakhon Si Thammarat,2022,30,75937
+Trat,2022,30,8791
+Sakon Nakhon,2022,30,19678
+Krabi,2022,30,12216
+Kanchanaburi,2022,30,25298
+Rayong,2022,30,40600
+Khon Kaen,2022,30,52279
+Chiang Rai,2022,30,5281
+Nakhon Nayok,2022,30,11800
+Samut Songkhram,2022,30,13248
+Nan,2022,30,11525
+Nonthaburi,2022,30,68847
+Lop Buri,2022,30,15148
+Chiang Mai,2022,30,34267
+Ranong,2022,30,10112
+Yasothon,2022,30,13098
+Maha Sarakham,2022,30,26507
+Lampang,2022,30,8949
+Samut Prakan,2022,30,102173
+Ratchaburi,2022,30,38813
+Nong Bua Lam Phu,2022,30,10734
+Pattani,2022,30,10802
+Surat Thani,2022,30,19673
+Kalasin,2022,30,22870
+Nong Khai,2022,30,21616
+Ubon Ratchathani,2022,30,38044
+Trang,2022,30,9817
+Loei,2022,30,15812
+Bueng Kan,2022,30,9698
+Songkhla (Songkhla Lake),2022,30,33952
+Prachuap Khiri Khan,2022,30,22467
+Phuket,2022,30,52441
+Ang Thong,2022,30,14825
+Phetchabun,2022,30,11958
+Phayao,2022,30,5854
+Surin,2022,30,30674
+Samut Sakhon,2022,30,54906
+Chai Nat,2022,30,4113
+Uttaradit,2022,30,8080
+Chaiyaphum,2022,30,19441
+Si Sa Ket,2022,30,28862
+None,2022,30,0
+Prachin Buri,2022,30,23802
+Phangnga,2022,30,9951
+Sa Kaeo,2022,30,18570
+Chumphon,2022,30,13231
+Phra Nakhon Si Ayutthaya,2022,30,34558
+Mae Hong Son,2022,30,2468
+Roi Et,2022,30,38420
+Pathum Thani,2022,30,40839
+Saraburi,2022,30,18761
+Roi Et,2022,31,39190
+Saraburi,2022,31,18994
+Pathum Thani,2022,31,41470
+Chumphon,2022,31,13500
+Mae Hong Son,2022,31,2522
+Phra Nakhon Si Ayutthaya,2022,31,35092
+Samut Songkhram,2022,31,13364
+Khon Kaen,2022,31,53989
+Chiang Rai,2022,31,5327
+Kanchanaburi,2022,31,25885
+Rayong,2022,31,41250
+Nakhon Nayok,2022,31,11943
+Sukhothai,2022,31,15253
+Chanthaburi,2022,31,19443
+Uthai Thani,2022,31,10088
+Chachoengsao,2022,31,39965
+Trat,2022,31,9053
+Nakhon Ratchasima,2022,31,45856
+Phichit,2022,31,5795
+Mukdahan,2022,31,6645
+Phetchaburi,2022,31,19464
+Bangkok Metropolis,2022,31,448116
+Kamphaeng Phet,2022,31,16693
+Nakhon Pathom,2022,31,43849
+Narathiwat,2022,31,7770
+Lamphun,2022,31,1105
+Satun,2022,31,10417
+Phitsanulok,2022,31,20002
+Yala,2022,31,9608
+Krabi,2022,31,12350
+Sakon Nakhon,2022,31,20141
+Nakhon Si Thammarat,2022,31,77014
+Sing Buri,2022,31,7962
+Phatthalung,2022,31,23435
+Suphan Buri,2022,31,32114
+Chon Buri,2022,31,112571
+Buri Ram,2022,31,47664
+Nakhon Phanom,2022,31,13283
+Tak,2022,31,11584
+Udon Thani,2022,31,27858
+All,2022,31,2300612
+Nakhon Sawan,2022,31,23044
+Phrae,2022,31,8981
+None,2022,31,0
+Sa Kaeo,2022,31,18899
+Chaiyaphum,2022,31,19724
+Prachin Buri,2022,31,24208
+Si Sa Ket,2022,31,29400
+Phangnga,2022,31,10065
+Ubon Ratchathani,2022,31,38794
+Surat Thani,2022,31,19882
+Kalasin,2022,31,23330
+Nong Khai,2022,31,22146
+Samut Sakhon,2022,31,55937
+Trang,2022,31,9931
+Yasothon,2022,31,13417
+Nonthaburi,2022,31,70077
+Ranong,2022,31,10293
+Nan,2022,31,11699
+Chiang Mai,2022,31,34854
+Lop Buri,2022,31,15442
+Maha Sarakham,2022,31,26951
+Nong Bua Lam Phu,2022,31,11026
+Ratchaburi,2022,31,39569
+Lampang,2022,31,9151
+Amnat Charoen,2022,31,7406
+Pattani,2022,31,10911
+Samut Prakan,2022,31,104299
+Phayao,2022,31,5971
+Surin,2022,31,31220
+Phetchabun,2022,31,12191
+Uttaradit,2022,31,8223
+Chai Nat,2022,31,4127
+Songkhla (Songkhla Lake),2022,31,34587
+Ang Thong,2022,31,15252
+Phuket,2022,31,52810
+Prachuap Khiri Khan,2022,31,22906
+Bueng Kan,2022,31,10017
+Loei,2022,31,16248
+Prachuap Khiri Khan,2022,32,22978
+Phuket,2022,32,52896
+Songkhla (Songkhla Lake),2022,32,34714
+Bueng Kan,2022,32,10018
+Loei,2022,32,16292
+Ang Thong,2022,32,15289
+All,2022,32,2315905
+Tak,2022,32,11589
+Nakhon Phanom,2022,32,13301
+Chon Buri,2022,32,113116
+Udon Thani,2022,32,27877
+Buri Ram,2022,32,47852
+Trat,2022,32,9101
+Sukhothai,2022,32,15272
+Uthai Thani,2022,32,10169
+Nakhon Ratchasima,2022,32,46025
+Chanthaburi,2022,32,19525
+Chachoengsao,2022,32,40051
+Mae Hong Son,2022,32,2525
+Pathum Thani,2022,32,41720
+Saraburi,2022,32,19062
+Phra Nakhon Si Ayutthaya,2022,32,35123
+Roi Et,2022,32,39237
+Nakhon Nayok,2022,32,11978
+Rayong,2022,32,41318
+Khon Kaen,2022,32,54253
+Chumphon,2022,32,13772
+Chiang Rai,2022,32,5367
+Kanchanaburi,2022,32,25902
+Phatthalung,2022,32,23443
+Nakhon Si Thammarat,2022,32,77136
+Sing Buri,2022,32,7995
+Suphan Buri,2022,32,32123
+Krabi,2022,32,12367
+Bangkok Metropolis,2022,32,457419
+Phetchaburi,2022,32,19503
+Mukdahan,2022,32,6650
+Phichit,2022,32,5803
+Kamphaeng Phet,2022,32,16693
+Nakhon Pathom,2022,32,43961
+Amnat Charoen,2022,32,7411
+Lamphun,2022,32,1123
+Satun,2022,32,10433
+Samut Songkhram,2022,32,13377
+Phitsanulok,2022,32,20073
+Yala,2022,32,9637
+Narathiwat,2022,32,7775
+Uttaradit,2022,32,8308
+Phayao,2022,32,5974
+Chai Nat,2022,32,4127
+Surin,2022,32,31287
+Phetchabun,2022,32,12236
+Samut Sakhon,2022,32,56134
+Ubon Ratchathani,2022,32,38952
+Sakon Nakhon,2022,32,20221
+Trang,2022,32,9991
+Surat Thani,2022,32,19918
+Kalasin,2022,32,23388
+Nong Khai,2022,32,22164
+Samut Prakan,2022,32,105149
+Nakhon Sawan,2022,32,23106
+Phrae,2022,32,9002
+Sa Kaeo,2022,32,18966
+None,2022,32,0
+Prachin Buri,2022,32,24265
+Si Sa Ket,2022,32,29420
+Phangnga,2022,32,10075
+Chaiyaphum,2022,32,19775
+Ratchaburi,2022,32,39643
+Nong Bua Lam Phu,2022,32,11047
+Lampang,2022,32,9167
+Pattani,2022,32,10913
+Maha Sarakham,2022,32,27001
+Chiang Mai,2022,32,34962
+Lop Buri,2022,32,15499
+Nan,2022,32,11706
+Yasothon,2022,32,13421
+Nonthaburi,2022,32,70535
+Ranong,2022,32,10309
+Chiang Mai,2022,33,35032
+Nonthaburi,2022,33,70858
+Nan,2022,33,11711
+Yasothon,2022,33,13436
+Ranong,2022,33,10329
+Lop Buri,2022,33,15511
+Nakhon Pathom,2022,33,44065
+Phetchaburi,2022,33,19560
+Mukdahan,2022,33,6663
+Kamphaeng Phet,2022,33,16693
+Phichit,2022,33,5807
+Bangkok Metropolis,2022,33,465837
+Nakhon Ratchasima,2022,33,46198
+Prachin Buri,2022,33,24303
+Uthai Thani,2022,33,10213
+Sukhothai,2022,33,15274
+Chanthaburi,2022,33,19595
+Chachoengsao,2022,33,40112
+Songkhla (Songkhla Lake),2022,33,34856
+Phuket,2022,33,52960
+Bueng Kan,2022,33,10020
+Prachuap Khiri Khan,2022,33,23054
+Ang Thong,2022,33,15333
+Buri Ram,2022,33,48007
+Tak,2022,33,11594
+Udon Thani,2022,33,27933
+Nakhon Phanom,2022,33,13328
+All,2022,33,2329465
+Chon Buri,2022,33,113631
+Sing Buri,2022,33,8012
+Krabi,2022,33,12417
+Sakon Nakhon,2022,33,20254
+Phatthalung,2022,33,23444
+Suphan Buri,2022,33,32135
+Trat,2022,33,9129
+Nakhon Si Thammarat,2022,33,77252
+Mae Hong Son,2022,33,2535
+Phra Nakhon Si Ayutthaya,2022,33,35146
+Roi Et,2022,33,39307
+Saraburi,2022,33,19144
+Chumphon,2022,33,13932
+Pathum Thani,2022,33,41947
+Samut Songkhram,2022,33,13401
+Nakhon Nayok,2022,33,12028
+Kanchanaburi,2022,33,25928
+Khon Kaen,2022,33,54487
+Chiang Rai,2022,33,5420
+Rayong,2022,33,41392
+Lampang,2022,33,9200
+Ratchaburi,2022,33,39696
+Maha Sarakham,2022,33,27061
+Pattani,2022,33,10920
+Nong Bua Lam Phu,2022,33,11056
+Nong Khai,2022,33,22179
+Kalasin,2022,33,23473
+Ubon Ratchathani,2022,33,39118
+Surat Thani,2022,33,19957
+Trang,2022,33,10041
+Amnat Charoen,2022,33,7412
+Satun,2022,33,10453
+Phitsanulok,2022,33,20125
+Lamphun,2022,33,1134
+Narathiwat,2022,33,7780
+Yala,2022,33,9653
+Samut Sakhon,2022,33,56331
+Chai Nat,2022,33,4127
+Uttaradit,2022,33,8355
+Phetchabun,2022,33,12290
+Phayao,2022,33,5981
+Surin,2022,33,31370
+Loei,2022,33,16322
+Si Sa Ket,2022,33,29425
+Chaiyaphum,2022,33,19848
+Phangnga,2022,33,10076
+None,2022,33,0
+Sa Kaeo,2022,33,19013
+Nakhon Sawan,2022,33,23153
+Samut Prakan,2022,33,105682
+Phrae,2022,33,9011
+Nakhon Sawan,2022,34,23205
+Phrae,2022,34,9062
+Phra Nakhon Si Ayutthaya,2022,34,35173
+Chumphon,2022,34,14016
+Saraburi,2022,34,19221
+Roi Et,2022,34,39349
+Pathum Thani,2022,34,42165
+Mae Hong Son,2022,34,2547
+Sukhothai,2022,34,15286
+Nakhon Ratchasima,2022,34,46348
+Chanthaburi,2022,34,19665
+Chachoengsao,2022,34,40164
+Uthai Thani,2022,34,10262
+Chiang Mai,2022,34,35122
+Ranong,2022,34,10342
+Nonthaburi,2022,34,71177
+Yasothon,2022,34,13443
+Nan,2022,34,11717
+Lop Buri,2022,34,15538
+Kamphaeng Phet,2022,34,16693
+Nakhon Pathom,2022,34,44148
+Bangkok Metropolis,2022,34,473796
+Mukdahan,2022,34,6672
+Phichit,2022,34,5814
+Phetchaburi,2022,34,19594
+Phatthalung,2022,34,23445
+Sing Buri,2022,34,8034
+Nakhon Si Thammarat,2022,34,77307
+Trat,2022,34,9195
+Suphan Buri,2022,34,32157
+Krabi,2022,34,12469
+Loei,2022,34,16350
+Udon Thani,2022,34,27958
+Bueng Kan,2022,34,10021
+Ang Thong,2022,34,15367
+Songkhla (Songkhla Lake),2022,34,34960
+Phuket,2022,34,53007
+Prachuap Khiri Khan,2022,34,23130
+Chon Buri,2022,34,114033
+Buri Ram,2022,34,48137
+Tak,2022,34,11610
+Nakhon Phanom,2022,34,13358
+All,2022,34,2341896
+Si Sa Ket,2022,34,29430
+Prachin Buri,2022,34,24329
+None,2022,34,0
+Chaiyaphum,2022,34,19875
+Phangnga,2022,34,10076
+Sa Kaeo,2022,34,19051
+Samut Sakhon,2022,34,56439
+Ubon Ratchathani,2022,34,39230
+Trang,2022,34,10078
+Surat Thani,2022,34,19988
+Nong Khai,2022,34,22189
+Kalasin,2022,34,23531
+Sakon Nakhon,2022,34,20314
+Kanchanaburi,2022,34,25956
+Rayong,2022,34,41474
+Chiang Rai,2022,34,5456
+Khon Kaen,2022,34,54667
+Nakhon Nayok,2022,34,12083
+Lampang,2022,34,9225
+Amnat Charoen,2022,34,7412
+Pattani,2022,34,10921
+Maha Sarakham,2022,34,27110
+Nong Bua Lam Phu,2022,34,11069
+Ratchaburi,2022,34,39764
+Samut Prakan,2022,34,106158
+Surin,2022,34,31470
+Chai Nat,2022,34,4127
+Uttaradit,2022,34,8409
+Phayao,2022,34,5993
+Phetchabun,2022,34,12351
+Yala,2022,34,9672
+Narathiwat,2022,34,7784
+Samut Songkhram,2022,34,13416
+Phitsanulok,2022,34,20183
+Satun,2022,34,10461
+Lamphun,2022,34,1148
+Yala,2022,35,9677
+Lamphun,2022,35,1237
+Satun,2022,35,10465
+Phitsanulok,2022,35,20211
+Samut Songkhram,2022,35,13427
+Narathiwat,2022,35,7787
+Ang Thong,2022,35,15390
+Prachuap Khiri Khan,2022,35,23168
+Phuket,2022,35,53048
+Songkhla (Songkhla Lake),2022,35,35088
+Loei,2022,35,16373
+Bueng Kan,2022,35,10021
+Chanthaburi,2022,35,19764
+Uthai Thani,2022,35,10308
+Chachoengsao,2022,35,40215
+Sukhothai,2022,35,15303
+Nakhon Ratchasima,2022,35,46515
+Trat,2022,35,9259
+Phrae,2022,35,9079
+Samut Prakan,2022,35,106580
+Nakhon Sawan,2022,35,23241
+Saraburi,2022,35,19278
+Pathum Thani,2022,35,42326
+Roi Et,2022,35,39388
+Phra Nakhon Si Ayutthaya,2022,35,35199
+Mae Hong Son,2022,35,2552
+Chumphon,2022,35,14118
+Sakon Nakhon,2022,35,20334
+Krabi,2022,35,12482
+Phatthalung,2022,35,23449
+Suphan Buri,2022,35,32182
+Sing Buri,2022,35,8051
+Nakhon Si Thammarat,2022,35,77421
+Yasothon,2022,35,13461
+Ranong,2022,35,10362
+Lop Buri,2022,35,15599
+Nan,2022,35,11720
+Nonthaburi,2022,35,71427
+Chiang Mai,2022,35,35175
+Mukdahan,2022,35,6681
+Phetchaburi,2022,35,19632
+Kamphaeng Phet,2022,35,16693
+Phichit,2022,35,5814
+Bangkok Metropolis,2022,35,481439
+Nakhon Pathom,2022,35,44227
+Surin,2022,35,31643
+Phayao,2022,35,6001
+Phetchabun,2022,35,12475
+Uttaradit,2022,35,8448
+Chai Nat,2022,35,4127
+Surat Thani,2022,35,20058
+Kalasin,2022,35,23602
+Samut Sakhon,2022,35,56565
+Trang,2022,35,10118
+Nong Khai,2022,35,22201
+Ubon Ratchathani,2022,35,39398
+Udon Thani,2022,35,27985
+Chon Buri,2022,35,114407
+Buri Ram,2022,35,48277
+Tak,2022,35,11640
+Nakhon Phanom,2022,35,13381
+All,2022,35,2354164
+Phangnga,2022,35,10076
+Si Sa Ket,2022,35,29434
+Prachin Buri,2022,35,24411
+Sa Kaeo,2022,35,19079
+Chaiyaphum,2022,35,19899
+None,2022,35,0
+Ratchaburi,2022,35,39891
+Amnat Charoen,2022,35,7413
+Nong Bua Lam Phu,2022,35,11074
+Maha Sarakham,2022,35,27150
+Lampang,2022,35,9251
+Pattani,2022,35,10921
+Chiang Rai,2022,35,5561
+Nakhon Nayok,2022,35,12107
+Khon Kaen,2022,35,54844
+Kanchanaburi,2022,35,26030
+Rayong,2022,35,41531
+Rayong,2022,36,42134
+Chiang Rai,2022,36,5682
+Kanchanaburi,2022,36,26599
+Nakhon Nayok,2022,36,12449
+Khon Kaen,2022,36,55827
+Samut Songkhram,2022,36,13594
+Yasothon,2022,36,13738
+Ranong,2022,36,10514
+Nan,2022,36,12046
+Lop Buri,2022,36,15812
+Nonthaburi,2022,36,72512
+Chiang Mai,2022,36,35696
+Chanthaburi,2022,36,20223
+Nakhon Ratchasima,2022,36,47239
+Uthai Thani,2022,36,10541
+Sukhothai,2022,36,15614
+Chachoengsao,2022,36,40978
+Lamphun,2022,36,1321
+Satun,2022,36,10567
+Yala,2022,36,9734
+Narathiwat,2022,36,7854
+Phitsanulok,2022,36,20551
+Loei,2022,36,16811
+Phuket,2022,36,53376
+Ang Thong,2022,36,15651
+Songkhla (Songkhla Lake),2022,36,35735
+Prachuap Khiri Khan,2022,36,23587
+Bueng Kan,2022,36,10259
+Sakon Nakhon,2022,36,20747
+Krabi,2022,36,12694
+Sing Buri,2022,36,8181
+Suphan Buri,2022,36,32948
+Phatthalung,2022,36,23686
+Trat,2022,36,9438
+Nakhon Si Thammarat,2022,36,78145
+Phrae,2022,36,9212
+Samut Prakan,2022,36,107859
+Nakhon Sawan,2022,36,23770
+Roi Et,2022,36,40048
+Mae Hong Son,2022,36,2591
+Saraburi,2022,36,19429
+Chumphon,2022,36,14309
+Phra Nakhon Si Ayutthaya,2022,36,35645
+Pathum Thani,2022,36,43068
+Pattani,2022,36,11003
+Amnat Charoen,2022,36,7540
+Maha Sarakham,2022,36,27695
+Lampang,2022,36,9488
+Ratchaburi,2022,36,40445
+Nong Bua Lam Phu,2022,36,11214
+Nong Khai,2022,36,22655
+Ubon Ratchathani,2022,36,40138
+Trang,2022,36,10232
+Kalasin,2022,36,24100
+Surat Thani,2022,36,20235
+Phetchaburi,2022,36,19875
+Kamphaeng Phet,2022,36,16950
+Nakhon Pathom,2022,36,45070
+Bangkok Metropolis,2022,36,492423
+Mukdahan,2022,36,6767
+Phichit,2022,36,5877
+Samut Sakhon,2022,36,57607
+Phetchabun,2022,36,12642
+Chai Nat,2022,36,4192
+Uttaradit,2022,36,8624
+Surin,2022,36,32238
+Phayao,2022,36,6107
+Chaiyaphum,2022,36,20205
+Si Sa Ket,2022,36,29969
+Prachin Buri,2022,36,24887
+None,2022,36,0
+Sa Kaeo,2022,36,19459
+Phangnga,2022,36,10184
+All,2022,36,2395492
+Nakhon Phanom,2022,36,13652
+Chon Buri,2022,36,116041
+Tak,2022,36,11768
+Udon Thani,2022,36,28610
+Buri Ram,2022,36,49186
+Tak,2022,37,11814
+Chon Buri,2022,37,116323
+Buri Ram,2022,37,49272
+Nakhon Phanom,2022,37,13674
+Udon Thani,2022,37,28671
+Nakhon Sawan,2022,37,23822
+Phrae,2022,37,9226
+Prachin Buri,2022,37,24927
+Sukhothai,2022,37,15614
+Chachoengsao,2022,37,41059
+Uthai Thani,2022,37,10574
+Nakhon Ratchasima,2022,37,47360
+Chanthaburi,2022,37,20309
+Trat,2022,37,9455
+Khon Kaen,2022,37,55967
+Nakhon Nayok,2022,37,12483
+Chiang Rai,2022,37,5722
+Samut Songkhram,2022,37,13604
+Rayong,2022,37,42193
+Kanchanaburi,2022,37,26672
+Nan,2022,37,12048
+Lop Buri,2022,37,15829
+Yasothon,2022,37,13759
+Ranong,2022,37,10527
+Chiang Mai,2022,37,35738
+Nonthaburi,2022,37,72680
+Suphan Buri,2022,37,33137
+Phatthalung,2022,37,23686
+Sing Buri,2022,37,8197
+Krabi,2022,37,12712
+Nakhon Si Thammarat,2022,37,78168
+Lamphun,2022,37,1392
+Satun,2022,37,10572
+Yala,2022,37,9742
+Phitsanulok,2022,37,20579
+Narathiwat,2022,37,7858
+Bueng Kan,2022,37,10259
+Phuket,2022,37,53399
+Ang Thong,2022,37,15666
+Loei,2022,37,16836
+Prachuap Khiri Khan,2022,37,23625
+Songkhla (Songkhla Lake),2022,37,35797
+Phangnga,2022,37,10185
+Sa Kaeo,2022,37,19494
+Chaiyaphum,2022,37,20226
+Si Sa Ket,2022,37,29984
+None,2022,37,0
+Sakon Nakhon,2022,37,20770
+Trang,2022,37,10264
+Kalasin,2022,37,24136
+Surat Thani,2022,37,20261
+Ubon Ratchathani,2022,37,40419
+Nong Khai,2022,37,22664
+Roi Et,2022,37,40088
+Chumphon,2022,37,14364
+Mae Hong Son,2022,37,2596
+All,2022,37,2401949
+Saraburi,2022,37,19475
+Pathum Thani,2022,37,43173
+Phra Nakhon Si Ayutthaya,2022,37,35657
+Samut Prakan,2022,37,108086
+Ratchaburi,2022,37,40486
+Nong Bua Lam Phu,2022,37,11221
+Lampang,2022,37,9516
+Maha Sarakham,2022,37,27736
+Amnat Charoen,2022,37,7547
+Pattani,2022,37,11007
+Phetchabun,2022,37,12675
+Samut Sakhon,2022,37,57724
+Uttaradit,2022,37,8662
+Chai Nat,2022,37,4192
+Phayao,2022,37,6112
+Surin,2022,37,32349
+Mukdahan,2022,37,6790
+Bangkok Metropolis,2022,37,495293
+Phichit,2022,37,5882
+Kamphaeng Phet,2022,37,16950
+Phetchaburi,2022,37,19880
+Nakhon Pathom,2022,37,45138
+Mukdahan,2022,38,6803
+Bangkok Metropolis,2022,38,497118
+Phetchaburi,2022,38,19909
+Nakhon Pathom,2022,38,45182
+Kamphaeng Phet,2022,38,16954
+Samut Songkhram,2022,38,13610
+Yala,2022,38,9750
+Narathiwat,2022,38,7863
+Lamphun,2022,38,1464
+Satun,2022,38,10582
+Phitsanulok,2022,38,20605
+Uthai Thani,2022,38,10612
+Chachoengsao,2022,38,41136
+Chanthaburi,2022,38,20366
+Sukhothai,2022,38,15677
+Nakhon Ratchasima,2022,38,47430
+All,2022,38,2406736
+Buri Ram,2022,38,49358
+Chon Buri,2022,38,116555
+Nakhon Phanom,2022,38,13714
+Udon Thani,2022,38,28678
+Tak,2022,38,11847
+Phrae,2022,38,9234
+Nakhon Sawan,2022,38,23856
+Sing Buri,2022,38,8206
+Phatthalung,2022,38,23689
+Krabi,2022,38,12739
+Nakhon Si Thammarat,2022,38,78209
+Suphan Buri,2022,38,33419
+Trat,2022,38,9472
+Rayong,2022,38,42295
+Nakhon Nayok,2022,38,12496
+Khon Kaen,2022,38,56091
+Chiang Rai,2022,38,5747
+Kanchanaburi,2022,38,26696
+Chumphon,2022,38,14410
+Nonthaburi,2022,38,72791
+Lop Buri,2022,38,15840
+Ranong,2022,38,10537
+Chiang Mai,2022,38,35759
+Nan,2022,38,12049
+Yasothon,2022,38,13776
+Phetchabun,2022,38,12685
+Uttaradit,2022,38,8696
+Chai Nat,2022,38,4198
+Phayao,2022,38,6112
+Samut Sakhon,2022,38,57814
+Surin,2022,38,32411
+Nong Khai,2022,38,22667
+Kalasin,2022,38,24158
+Trang,2022,38,10274
+Surat Thani,2022,38,20282
+Sakon Nakhon,2022,38,20793
+Ubon Ratchathani,2022,38,40536
+Prachuap Khiri Khan,2022,38,23653
+Ang Thong,2022,38,15678
+Bueng Kan,2022,38,10261
+Phuket,2022,38,53413
+Songkhla (Songkhla Lake),2022,38,35851
+Loei,2022,38,16850
+Prachin Buri,2022,38,24945
+Phichit,2022,38,5886
+Chaiyaphum,2022,38,20238
+Phangnga,2022,38,10185
+Si Sa Ket,2022,38,30002
+Sa Kaeo,2022,38,19546
+None,2022,38,0
+Amnat Charoen,2022,38,7550
+Pattani,2022,38,11015
+Maha Sarakham,2022,38,27776
+Nong Bua Lam Phu,2022,38,11232
+Samut Prakan,2022,38,108313
+Lampang,2022,38,9525
+Ratchaburi,2022,38,40518
+Mae Hong Son,2022,38,2598
+Phra Nakhon Si Ayutthaya,2022,38,35664
+Saraburi,2022,38,19498
+Roi Et,2022,38,40120
+Pathum Thani,2022,38,43269
+Mae Hong Son,2022,39,2601
+Chumphon,2022,39,14437
+Roi Et,2022,39,40152
+Pathum Thani,2022,39,43332
+Saraburi,2022,39,19547
+Phra Nakhon Si Ayutthaya,2022,39,35674
+Samut Songkhram,2022,39,13614
+Rayong,2022,39,42316
+Chiang Rai,2022,39,5767
+Kanchanaburi,2022,39,26721
+Khon Kaen,2022,39,56184
+Nakhon Nayok,2022,39,12516
+Chanthaburi,2022,39,20426
+Trat,2022,39,9494
+Uthai Thani,2022,39,10648
+Chachoengsao,2022,39,41212
+Nakhon Ratchasima,2022,39,47479
+Sukhothai,2022,39,15677
+Kamphaeng Phet,2022,39,16954
+Bangkok Metropolis,2022,39,499273
+Mukdahan,2022,39,6815
+Phetchaburi,2022,39,19923
+Nakhon Pathom,2022,39,45226
+Yala,2022,39,9753
+Satun,2022,39,10591
+Phitsanulok,2022,39,20640
+Lamphun,2022,39,1512
+Narathiwat,2022,39,7866
+Suphan Buri,2022,39,33431
+Krabi,2022,39,12766
+Nakhon Si Thammarat,2022,39,78234
+Phatthalung,2022,39,23691
+Sing Buri,2022,39,8214
+Udon Thani,2022,39,28705
+Nakhon Phanom,2022,39,13732
+Tak,2022,39,11892
+Buri Ram,2022,39,49451
+Chon Buri,2022,39,116764
+All,2022,39,2411171
+Nakhon Sawan,2022,39,23889
+Phrae,2022,39,9256
+Nong Bua Lam Phu,2022,39,11237
+Lampang,2022,39,9540
+Samut Prakan,2022,39,108419
+Maha Sarakham,2022,39,27799
+Amnat Charoen,2022,39,7550
+Ratchaburi,2022,39,40545
+Pattani,2022,39,11017
+Sakon Nakhon,2022,39,20803
+Kalasin,2022,39,24173
+Ubon Ratchathani,2022,39,40612
+Nong Khai,2022,39,22705
+Surat Thani,2022,39,20305
+Trang,2022,39,10279
+Ranong,2022,39,10541
+Nan,2022,39,12049
+Chiang Mai,2022,39,35795
+Lop Buri,2022,39,15875
+Nonthaburi,2022,39,72899
+Yasothon,2022,39,13792
+Chai Nat,2022,39,4208
+Phetchabun,2022,39,12717
+Phayao,2022,39,6114
+Samut Sakhon,2022,39,57893
+Uttaradit,2022,39,8730
+Surin,2022,39,32467
+Si Sa Ket,2022,39,30013
+Prachin Buri,2022,39,24966
+None,2022,39,0
+Chaiyaphum,2022,39,20258
+Sa Kaeo,2022,39,19552
+Phichit,2022,39,5892
+Phangnga,2022,39,10185
+Phuket,2022,39,53449
+Ang Thong,2022,39,15685
+Prachuap Khiri Khan,2022,39,23682
+Songkhla (Songkhla Lake),2022,39,35912
+Loei,2022,39,16875
+Bueng Kan,2022,39,10263
+Prachuap Khiri Khan,2022,40,24042
+Ang Thong,2022,40,15906
+Songkhla (Songkhla Lake),2022,40,36518
+Loei,2022,40,17227
+Bueng Kan,2022,40,10412
+Phuket,2022,40,53726
+Udon Thani,2022,40,29055
+Buri Ram,2022,40,50035
+Chon Buri,2022,40,118256
+All,2022,40,2439225
+Tak,2022,40,12029
+Nakhon Phanom,2022,40,13923
+Prachin Buri,2022,40,25302
+Trat,2022,40,9606
+Chanthaburi,2022,40,20675
+Chachoengsao,2022,40,41742
+Uthai Thani,2022,40,10821
+Nakhon Ratchasima,2022,40,48011
+Sukhothai,2022,40,15892
+Chumphon,2022,40,14576
+Pathum Thani,2022,40,43754
+Phra Nakhon Si Ayutthaya,2022,40,35969
+Mae Hong Son,2022,40,2640
+Roi Et,2022,40,40848
+Saraburi,2022,40,19722
+Nakhon Nayok,2022,40,12783
+Rayong,2022,40,42892
+Samut Songkhram,2022,40,13669
+Chiang Rai,2022,40,5844
+Kanchanaburi,2022,40,27204
+Khon Kaen,2022,40,57128
+Nakhon Si Thammarat,2022,40,79096
+Phatthalung,2022,40,24062
+Krabi,2022,40,12882
+Suphan Buri,2022,40,34020
+Sing Buri,2022,40,8344
+Bangkok Metropolis,2022,40,503198
+Mukdahan,2022,40,6901
+Kamphaeng Phet,2022,40,17268
+Phetchaburi,2022,40,20093
+Nakhon Pathom,2022,40,45880
+Phichit,2022,40,5940
+Phitsanulok,2022,40,20942
+Yala,2022,40,9808
+Narathiwat,2022,40,7894
+Lamphun,2022,40,1589
+Satun,2022,40,10686
+None,2022,40,0
+Sa Kaeo,2022,40,19714
+Si Sa Ket,2022,40,30499
+Chaiyaphum,2022,40,20507
+Phangnga,2022,40,10276
+Trang,2022,40,10385
+Nong Khai,2022,40,23124
+Kalasin,2022,40,24441
+Surat Thani,2022,40,20449
+Ubon Ratchathani,2022,40,41076
+Sakon Nakhon,2022,40,21158
+Nakhon Sawan,2022,40,24365
+Phrae,2022,40,9411
+Amnat Charoen,2022,40,7635
+Samut Prakan,2022,40,109313
+Pattani,2022,40,11081
+Ratchaburi,2022,40,41226
+Maha Sarakham,2022,40,28206
+Lampang,2022,40,9979
+Nong Bua Lam Phu,2022,40,11321
+Chai Nat,2022,40,4261
+Phetchabun,2022,40,12825
+Samut Sakhon,2022,40,58611
+Surin,2022,40,32874
+Uttaradit,2022,40,8797
+Phayao,2022,40,6168
+Chiang Mai,2022,40,36201
+Ranong,2022,40,10670
+Lop Buri,2022,40,16045
+Yasothon,2022,40,13893
+Nan,2022,40,12267
+Nonthaburi,2022,40,73637
+Lop Buri,2022,41,16061
+Yasothon,2022,41,13901
+Ranong,2022,41,10673
+Nan,2022,41,12272
+Chiang Mai,2022,41,36226
+Nonthaburi,2022,41,73721
+Kamphaeng Phet,2022,41,17278
+Phichit,2022,41,5941
+Phetchaburi,2022,41,20097
+Nakhon Pathom,2022,41,45905
+Mukdahan,2022,41,6905
+Bangkok Metropolis,2022,41,503689
+Uthai Thani,2022,41,10844
+Prachin Buri,2022,41,25308
+Sukhothai,2022,41,15900
+Chanthaburi,2022,41,20723
+Trat,2022,41,9621
+Chachoengsao,2022,41,41748
+Nakhon Ratchasima,2022,41,48072
+Ang Thong,2022,41,15909
+Phuket,2022,41,53781
+Songkhla (Songkhla Lake),2022,41,36578
+Bueng Kan,2022,41,10424
+Prachuap Khiri Khan,2022,41,24065
+Loei,2022,41,17233
+Buri Ram,2022,41,50087
+Tak,2022,41,12084
+Chon Buri,2022,41,118410
+Nakhon Phanom,2022,41,13932
+All,2022,41,2441459
+Udon Thani,2022,41,29065
+Sakon Nakhon,2022,41,21166
+Nakhon Si Thammarat,2022,41,79116
+Phatthalung,2022,41,24086
+Suphan Buri,2022,41,34081
+Sing Buri,2022,41,8347
+Krabi,2022,41,12911
+Mae Hong Son,2022,41,2658
+Pathum Thani,2022,41,43843
+Roi Et,2022,41,40871
+Phra Nakhon Si Ayutthaya,2022,41,35974
+Saraburi,2022,41,19740
+Chiang Rai,2022,41,5854
+Khon Kaen,2022,41,57166
+Kanchanaburi,2022,41,27206
+Chumphon,2022,41,14606
+Rayong,2022,41,42908
+Nakhon Nayok,2022,41,12791
+Chai Nat,2022,41,4261
+Uttaradit,2022,41,8815
+Phetchabun,2022,41,12840
+Surin,2022,41,32917
+Samut Sakhon,2022,41,58698
+Phayao,2022,41,6170
+Kalasin,2022,41,24461
+Surat Thani,2022,41,20465
+Nong Khai,2022,41,23135
+Ubon Ratchathani,2022,41,41125
+Trang,2022,41,10396
+Samut Songkhram,2022,41,13673
+Narathiwat,2022,41,7915
+Yala,2022,41,9814
+Satun,2022,41,10687
+Phitsanulok,2022,41,20954
+Lamphun,2022,41,1627
+Amnat Charoen,2022,41,7636
+Chaiyaphum,2022,41,20513
+Sa Kaeo,2022,41,19746
+Phangnga,2022,41,10276
+Si Sa Ket,2022,41,30505
+None,2022,41,0
+Nong Bua Lam Phu,2022,41,11329
+Lampang,2022,41,10008
+Maha Sarakham,2022,41,28212
+Pattani,2022,41,11087
+Ratchaburi,2022,41,41234
+Samut Prakan,2022,41,109376
+Nakhon Sawan,2022,41,24387
+Phrae,2022,41,9420
+Nakhon Sawan,2022,42,24416
+Phrae,2022,42,9434
+Mae Hong Son,2022,42,2661
+Phra Nakhon Si Ayutthaya,2022,42,35979
+Roi Et,2022,42,40885
+Pathum Thani,2022,42,43917
+Saraburi,2022,42,19759
+Sukhothai,2022,42,15923
+Nakhon Ratchasima,2022,42,48138
+Uthai Thani,2022,42,10869
+Chachoengsao,2022,42,41757
+Prachin Buri,2022,42,25312
+Chanthaburi,2022,42,20742
+Ranong,2022,42,10673
+Lop Buri,2022,42,16070
+Nan,2022,42,12275
+Yasothon,2022,42,13906
+Chiang Mai,2022,42,36251
+Nonthaburi,2022,42,73821
+Phichit,2022,42,5946
+Phetchaburi,2022,42,20106
+Nakhon Pathom,2022,42,45935
+Mukdahan,2022,42,6907
+Bangkok Metropolis,2022,42,504548
+Kamphaeng Phet,2022,42,17278
+Trat,2022,42,9625
+Nakhon Si Thammarat,2022,42,79141
+Sakon Nakhon,2022,42,21196
+Krabi,2022,42,12939
+Suphan Buri,2022,42,34099
+Phatthalung,2022,42,24089
+Sing Buri,2022,42,8353
+Phuket,2022,42,53838
+Prachuap Khiri Khan,2022,42,24088
+Songkhla (Songkhla Lake),2022,42,36671
+Bueng Kan,2022,42,10424
+Ang Thong,2022,42,15916
+Loei,2022,42,17243
+Udon Thani,2022,42,29075
+All,2022,42,2444075
+Nakhon Phanom,2022,42,13941
+Chon Buri,2022,42,118536
+Tak,2022,42,12152
+Buri Ram,2022,42,50155
+Lampang,2022,42,10034
+Samut Prakan,2022,42,109427
+Nong Bua Lam Phu,2022,42,11335
+Maha Sarakham,2022,42,28229
+Pattani,2022,42,11088
+Ratchaburi,2022,42,41249
+Ubon Ratchathani,2022,42,41154
+Kalasin,2022,42,24495
+Trang,2022,42,10419
+Nong Khai,2022,42,23137
+Surat Thani,2022,42,20492
+Rayong,2022,42,42919
+Nakhon Nayok,2022,42,12802
+Kanchanaburi,2022,42,27209
+Chumphon,2022,42,14673
+Khon Kaen,2022,42,57216
+Chiang Rai,2022,42,5862
+Phetchabun,2022,42,12855
+Chai Nat,2022,42,4261
+Samut Sakhon,2022,42,58778
+Phayao,2022,42,6177
+Surin,2022,42,32969
+Uttaradit,2022,42,8821
+None,2022,42,0
+Si Sa Ket,2022,42,30514
+Sa Kaeo,2022,42,19760
+Chaiyaphum,2022,42,20521
+Phangnga,2022,42,10276
+Narathiwat,2022,42,7935
+Lamphun,2022,42,1682
+Phitsanulok,2022,42,20971
+Satun,2022,42,10688
+Yala,2022,42,9821
+Samut Songkhram,2022,42,13681
+Amnat Charoen,2022,42,7636
+Narathiwat,2022,43,7935
+Phitsanulok,2022,43,20993
+Yala,2022,43,9827
+Amnat Charoen,2022,43,7636
+Lamphun,2022,43,1714
+Satun,2022,43,10689
+Ang Thong,2022,43,15920
+Bueng Kan,2022,43,10425
+Phuket,2022,43,53891
+Songkhla (Songkhla Lake),2022,43,36782
+Udon Thani,2022,43,29094
+Prachuap Khiri Khan,2022,43,24114
+Chanthaburi,2022,43,20765
+Nakhon Ratchasima,2022,43,48216
+Sukhothai,2022,43,15940
+Uthai Thani,2022,43,10883
+Chachoengsao,2022,43,41767
+Phrae,2022,43,9451
+Nakhon Sawan,2022,43,24441
+Phra Nakhon Si Ayutthaya,2022,43,35986
+Mae Hong Son,2022,43,2663
+Roi Et,2022,43,40899
+Pathum Thani,2022,43,43982
+Saraburi,2022,43,19792
+Krabi,2022,43,12988
+Trat,2022,43,9638
+Nakhon Si Thammarat,2022,43,79176
+Phatthalung,2022,43,24091
+Sing Buri,2022,43,8354
+Suphan Buri,2022,43,34168
+Nan,2022,43,12286
+Nonthaburi,2022,43,73888
+Yasothon,2022,43,13909
+Lop Buri,2022,43,16082
+Ranong,2022,43,10676
+Chiang Mai,2022,43,36278
+Phichit,2022,43,5946
+Bangkok Metropolis,2022,43,505263
+Kamphaeng Phet,2022,43,17282
+Phetchaburi,2022,43,20114
+Nakhon Pathom,2022,43,45961
+Mukdahan,2022,43,6912
+Phangnga,2022,43,10276
+Prachin Buri,2022,43,25318
+Sa Kaeo,2022,43,19786
+None,2022,43,0
+Si Sa Ket,2022,43,30516
+Chaiyaphum,2022,43,20555
+Nong Khai,2022,43,23144
+Kalasin,2022,43,24527
+Trang,2022,43,10422
+Sakon Nakhon,2022,43,21200
+Surat Thani,2022,43,20512
+Ubon Ratchathani,2022,43,41178
+All,2022,43,2446626
+Buri Ram,2022,43,50212
+Nakhon Phanom,2022,43,13946
+Chon Buri,2022,43,118665
+Tak,2022,43,12214
+Ratchaburi,2022,43,41271
+Maha Sarakham,2022,43,28233
+Nong Bua Lam Phu,2022,43,11336
+Lampang,2022,43,10052
+Pattani,2022,43,11091
+Samut Prakan,2022,43,109508
+Loei,2022,43,17267
+Phayao,2022,43,6179
+Phetchabun,2022,43,12877
+Samut Sakhon,2022,43,58865
+Chai Nat,2022,43,4262
+Uttaradit,2022,43,8832
+Surin,2022,43,33008
+Kanchanaburi,2022,43,27213
+Khon Kaen,2022,43,57278
+Chumphon,2022,43,14740
+Nakhon Nayok,2022,43,12827
+Samut Songkhram,2022,43,13690
+Chiang Rai,2022,43,5876
+Rayong,2022,43,42933
+Rayong,2022,44,43341
+Khon Kaen,2022,44,57957
+Samut Songkhram,2022,44,13777
+Kanchanaburi,2022,44,27640
+Nakhon Nayok,2022,44,12874
+Chiang Rai,2022,44,5916
+Chiang Mai,2022,44,36716
+Nan,2022,44,12442
+Lop Buri,2022,44,16212
+Yasothon,2022,44,14057
+Nonthaburi,2022,44,74751
+Ranong,2022,44,10778
+Chachoengsao,2022,44,42193
+Nakhon Ratchasima,2022,44,48736
+Trat,2022,44,9766
+Chanthaburi,2022,44,21029
+Sukhothai,2022,44,16082
+Prachin Buri,2022,44,25646
+Uthai Thani,2022,44,11006
+Yala,2022,44,9874
+Narathiwat,2022,44,7964
+Lamphun,2022,44,1728
+Phitsanulok,2022,44,21267
+Satun,2022,44,10781
+Amnat Charoen,2022,44,7730
+Songkhla (Songkhla Lake),2022,44,37317
+Phuket,2022,44,54213
+Bueng Kan,2022,44,10553
+Loei,2022,44,17596
+Prachuap Khiri Khan,2022,44,24440
+Ang Thong,2022,44,16185
+Sing Buri,2022,44,8467
+Nakhon Si Thammarat,2022,44,80035
+Krabi,2022,44,13135
+Phatthalung,2022,44,24374
+Suphan Buri,2022,44,34554
+Nakhon Sawan,2022,44,24773
+Phrae,2022,44,9571
+Roi Et,2022,44,41474
+Phra Nakhon Si Ayutthaya,2022,44,36237
+Saraburi,2022,44,19983
+Mae Hong Son,2022,44,2687
+Chumphon,2022,44,14854
+Pathum Thani,2022,44,44425
+Samut Sakhon,2022,44,59516
+Surin,2022,44,33408
+Chai Nat,2022,44,4283
+Phetchabun,2022,44,12973
+Phayao,2022,44,6232
+Uttaradit,2022,44,8850
+Sakon Nakhon,2022,44,21432
+Nong Khai,2022,44,23528
+Trang,2022,44,10496
+Kalasin,2022,44,24781
+Ubon Ratchathani,2022,44,41566
+Surat Thani,2022,44,20676
+Mukdahan,2022,44,6961
+Kamphaeng Phet,2022,44,17564
+Bangkok Metropolis,2022,44,509332
+Phetchaburi,2022,44,20296
+Nakhon Pathom,2022,44,46575
+Chaiyaphum,2022,44,20724
+Sa Kaeo,2022,44,20061
+None,2022,44,20
+Phangnga,2022,44,10358
+Phichit,2022,44,6022
+Si Sa Ket,2022,44,30888
+Lampang,2022,44,10298
+Maha Sarakham,2022,44,28517
+Ratchaburi,2022,44,41687
+Nong Bua Lam Phu,2022,44,11434
+Pattani,2022,44,11142
+Samut Prakan,2022,44,110354
+Chon Buri,2022,44,119879
+All,2022,44,2471772
+Tak,2022,44,12420
+Buri Ram,2022,44,50762
+Udon Thani,2022,44,29461
+Nakhon Phanom,2022,44,14140
+Tak,2022,45,12547
+Nakhon Phanom,2022,45,14143
+Buri Ram,2022,45,50803
+Udon Thani,2022,45,29471
+All,2022,45,2474938
+Chon Buri,2022,45,120089
+Nakhon Sawan,2022,45,24818
+Phrae,2022,45,9588
+Uthai Thani,2022,45,11027
+Chachoengsao,2022,45,42225
+Chanthaburi,2022,45,21047
+Nakhon Ratchasima,2022,45,48799
+Sukhothai,2022,45,16112
+Nakhon Nayok,2022,45,12879
+Samut Songkhram,2022,45,13785
+Chiang Rai,2022,45,5942
+Kanchanaburi,2022,45,27646
+Rayong,2022,45,43355
+Khon Kaen,2022,45,58021
+Ranong,2022,45,10779
+Yasothon,2022,45,14061
+Nonthaburi,2022,45,74841
+Lop Buri,2022,45,16233
+Chiang Mai,2022,45,36723
+Sing Buri,2022,45,8470
+Trat,2022,45,9779
+Krabi,2022,45,13209
+Nakhon Si Thammarat,2022,45,80130
+Suphan Buri,2022,45,34575
+Phatthalung,2022,45,24377
+Narathiwat,2022,45,7969
+Amnat Charoen,2022,45,7747
+Yala,2022,45,9886
+Satun,2022,45,10786
+Lamphun,2022,45,1853
+Phitsanulok,2022,45,21296
+Loei,2022,45,17632
+Ang Thong,2022,45,16187
+Bueng Kan,2022,45,10553
+Prachuap Khiri Khan,2022,45,24458
+Phuket,2022,45,54297
+Songkhla (Songkhla Lake),2022,45,37464
+Lampang,2022,45,10340
+Nong Bua Lam Phu,2022,45,11438
+Maha Sarakham,2022,45,28538
+Pattani,2022,45,11153
+Ratchaburi,2022,45,41716
+Samut Prakan,2022,45,110441
+Nong Khai,2022,45,23534
+Ubon Ratchathani,2022,45,41581
+Surat Thani,2022,45,20723
+Kalasin,2022,45,24797
+Trang,2022,45,10533
+Sakon Nakhon,2022,45,21437
+Roi Et,2022,45,41495
+Saraburi,2022,45,19998
+Phra Nakhon Si Ayutthaya,2022,45,36254
+Chumphon,2022,45,14890
+Pathum Thani,2022,45,44507
+Mae Hong Son,2022,45,2690
+Phetchabun,2022,45,13001
+Samut Sakhon,2022,45,59603
+Phayao,2022,45,6234
+Chai Nat,2022,45,4284
+Uttaradit,2022,45,8870
+Surin,2022,45,33450
+Chaiyaphum,2022,45,20727
+None,2022,45,23
+Prachin Buri,2022,45,25649
+Sa Kaeo,2022,45,20114
+Phangnga,2022,45,10358
+Si Sa Ket,2022,45,30892
+Kamphaeng Phet,2022,45,17570
+Phetchaburi,2022,45,20302
+Bangkok Metropolis,2022,45,510137
+Phichit,2022,45,6027
+Nakhon Pathom,2022,45,46617
+Mukdahan,2022,45,6964
+Nan,2022,45,12449
+Nakhon Pathom,2022,46,46667
+Bangkok Metropolis,2022,46,511122
+Phichit,2022,46,6034
+Mukdahan,2022,46,6964
+Phetchaburi,2022,46,20316
+Kamphaeng Phet,2022,46,17571
+Phitsanulok,2022,46,21364
+Yala,2022,46,9918
+Lamphun,2022,46,1965
+Narathiwat,2022,46,7985
+Satun,2022,46,10803
+Chachoengsao,2022,46,42249
+Uthai Thani,2022,46,11051
+Sukhothai,2022,46,16131
+Nakhon Ratchasima,2022,46,48878
+Chanthaburi,2022,46,21118
+All,2022,46,2478895
+Udon Thani,2022,46,29483
+Nakhon Phanom,2022,46,14144
+Tak,2022,46,12678
+Buri Ram,2022,46,50860
+Chon Buri,2022,46,120329
+Nakhon Sawan,2022,46,24888
+Phrae,2022,46,9648
+Samut Prakan,2022,46,110559
+Sing Buri,2022,46,8479
+Nakhon Si Thammarat,2022,46,80202
+Krabi,2022,46,13276
+Phatthalung,2022,46,24385
+Suphan Buri,2022,46,34582
+Trat,2022,46,9786
+Rayong,2022,46,43377
+Khon Kaen,2022,46,58114
+Chiang Rai,2022,46,5966
+Nakhon Nayok,2022,46,12889
+Kanchanaburi,2022,46,27654
+Samut Songkhram,2022,46,13796
+Yasothon,2022,46,14067
+Lop Buri,2022,46,16254
+Chiang Mai,2022,46,36730
+Nonthaburi,2022,46,74937
+Nan,2022,46,12455
+Ranong,2022,46,10785
+Prachin Buri,2022,46,25660
+Sa Kaeo,2022,46,20162
+Si Sa Ket,2022,46,30893
+Phangnga,2022,46,10358
+None,2022,46,39
+Chaiyaphum,2022,46,20730
+Nong Khai,2022,46,23541
+Sakon Nakhon,2022,46,21445
+Kalasin,2022,46,24819
+Surat Thani,2022,46,20779
+Ubon Ratchathani,2022,46,41614
+Trang,2022,46,10579
+Phuket,2022,46,54383
+Songkhla (Songkhla Lake),2022,46,37577
+Ang Thong,2022,46,16194
+Loei,2022,46,17722
+Prachuap Khiri Khan,2022,46,24478
+Bueng Kan,2022,46,10554
+Lampang,2022,46,10382
+Ratchaburi,2022,46,41751
+Maha Sarakham,2022,46,28562
+Pattani,2022,46,11163
+Amnat Charoen,2022,46,7747
+Nong Bua Lam Phu,2022,46,11449
+Samut Sakhon,2022,46,59740
+Uttaradit,2022,46,8903
+Phetchabun,2022,46,13023
+Surin,2022,46,33498
+Phayao,2022,46,6249
+Chai Nat,2022,46,4290
+Mae Hong Son,2022,46,2694
+Roi Et,2022,46,41519
+Saraburi,2022,46,20072
+Phra Nakhon Si Ayutthaya,2022,46,36268
+Pathum Thani,2022,46,44613
+Chumphon,2022,46,14985
+Chumphon,2022,47,15160
+Phra Nakhon Si Ayutthaya,2022,47,36286
+Pathum Thani,2022,47,44784
+Mae Hong Son,2022,47,2697
+Roi Et,2022,47,41550
+Saraburi,2022,47,20115
+Khon Kaen,2022,47,58233
+Kanchanaburi,2022,47,27662
+Chiang Rai,2022,47,6013
+Samut Songkhram,2022,47,13801
+Nakhon Nayok,2022,47,12902
+Rayong,2022,47,43387
+Sukhothai,2022,47,16150
+Nakhon Ratchasima,2022,47,48995
+Uthai Thani,2022,47,11096
+Chachoengsao,2022,47,42307
+Chanthaburi,2022,47,21159
+Bangkok Metropolis,2022,47,512180
+Phichit,2022,47,6041
+Nakhon Pathom,2022,47,46719
+Mukdahan,2022,47,6964
+Phetchaburi,2022,47,20328
+Kamphaeng Phet,2022,47,17576
+Phitsanulok,2022,47,21444
+Narathiwat,2022,47,7991
+Satun,2022,47,10819
+Lamphun,2022,47,2095
+Yala,2022,47,9932
+Sakon Nakhon,2022,47,21467
+Trat,2022,47,9807
+Sing Buri,2022,47,8490
+Krabi,2022,47,13449
+Suphan Buri,2022,47,34595
+Phatthalung,2022,47,24393
+Nakhon Si Thammarat,2022,47,80322
+Nakhon Phanom,2022,47,14153
+Buri Ram,2022,47,50953
+All,2022,47,2483809
+Udon Thani,2022,47,29498
+Chon Buri,2022,47,120611
+Tak,2022,47,12822
+Nakhon Sawan,2022,47,24955
+Phrae,2022,47,9675
+Chai Nat,2022,47,4301
+Samut Sakhon,2022,47,59858
+Surin,2022,47,33555
+Uttaradit,2022,47,8946
+Phetchabun,2022,47,13037
+Phayao,2022,47,6276
+Nong Khai,2022,47,23566
+Ubon Ratchathani,2022,47,41677
+Trang,2022,47,10741
+Kalasin,2022,47,24844
+Surat Thani,2022,47,20843
+Nan,2022,47,12462
+Yasothon,2022,47,14076
+Ranong,2022,47,10792
+Chiang Mai,2022,47,36748
+Lop Buri,2022,47,16273
+Nonthaburi,2022,47,75106
+None,2022,47,57
+Sa Kaeo,2022,47,20226
+Si Sa Ket,2022,47,30896
+Phangnga,2022,47,10358
+Chaiyaphum,2022,47,20733
+Prachin Buri,2022,47,25679
+Samut Prakan,2022,47,110720
+Pattani,2022,47,11174
+Amnat Charoen,2022,47,7747
+Ratchaburi,2022,47,41786
+Lampang,2022,47,10439
+Nong Bua Lam Phu,2022,47,11457
+Maha Sarakham,2022,47,28600
+Prachuap Khiri Khan,2022,47,24505
+Ang Thong,2022,47,16207
+Songkhla (Songkhla Lake),2022,47,37754
+Bueng Kan,2022,47,10554
+Phuket,2022,47,54451
+Loei,2022,47,17786
+Ang Thong,2022,48,16215
+Prachuap Khiri Khan,2022,48,24533
+Bueng Kan,2022,48,10554
+Loei,2022,48,17839
+Phuket,2022,48,54491
+Songkhla (Songkhla Lake),2022,48,37883
+All,2022,48,2488093
+Buri Ram,2022,48,51054
+Tak,2022,48,12928
+Nakhon Phanom,2022,48,14162
+Udon Thani,2022,48,29523
+Chon Buri,2022,48,120892
+Chachoengsao,2022,48,42362
+Sukhothai,2022,48,16177
+Uthai Thani,2022,48,11122
+Nakhon Ratchasima,2022,48,49088
+Chanthaburi,2022,48,21204
+Chumphon,2022,48,15281
+Saraburi,2022,48,20156
+Mae Hong Son,2022,48,2703
+Pathum Thani,2022,48,44926
+Roi Et,2022,48,41590
+Phra Nakhon Si Ayutthaya,2022,48,36303
+Kanchanaburi,2022,48,27674
+Khon Kaen,2022,48,58378
+Nakhon Nayok,2022,48,12920
+Rayong,2022,48,43408
+Chiang Rai,2022,48,6041
+Sing Buri,2022,48,8494
+Suphan Buri,2022,48,34650
+Phatthalung,2022,48,24397
+Nakhon Si Thammarat,2022,48,80433
+Trat,2022,48,9841
+Krabi,2022,48,13516
+Bangkok Metropolis,2022,48,513034
+Nakhon Pathom,2022,48,46760
+Mukdahan,2022,48,6969
+Phetchaburi,2022,48,20340
+Phichit,2022,48,6045
+Kamphaeng Phet,2022,48,17578
+Yala,2022,48,9948
+Lamphun,2022,48,2216
+Phitsanulok,2022,48,21503
+Satun,2022,48,10827
+Narathiwat,2022,48,8002
+Samut Songkhram,2022,48,13814
+Lampang,2022,48,10460
+Amnat Charoen,2022,48,7747
+Maha Sarakham,2022,48,28627
+Ratchaburi,2022,48,41826
+Nong Bua Lam Phu,2022,48,11470
+Pattani,2022,48,11179
+Trang,2022,48,10835
+Surat Thani,2022,48,20917
+Nong Khai,2022,48,23572
+Ubon Ratchathani,2022,48,41730
+Kalasin,2022,48,24859
+Sakon Nakhon,2022,48,21479
+Phrae,2022,48,9714
+Nakhon Sawan,2022,48,25016
+Samut Prakan,2022,48,110838
+Samut Sakhon,2022,48,59974
+Phetchabun,2022,48,13072
+Surin,2022,48,33638
+Phayao,2022,48,6344
+Uttaradit,2022,48,8967
+Chai Nat,2022,48,4319
+Si Sa Ket,2022,48,30905
+Phangnga,2022,48,10358
+Sa Kaeo,2022,48,20290
+None,2022,48,73
+Chaiyaphum,2022,48,20734
+Prachin Buri,2022,48,25698
+Nan,2022,48,12471
+Ranong,2022,48,10797
+Nonthaburi,2022,48,75258
+Yasothon,2022,48,14080
+Lop Buri,2022,48,16306
+Chiang Mai,2022,48,36763
+Ranong,2022,49,10803
+Yasothon,2022,49,14090
+Nan,2022,49,12514
+Chiang Mai,2022,49,36767
+Nonthaburi,2022,49,75379
+Lop Buri,2022,49,16334
+Bangkok Metropolis,2022,49,513840
+Kamphaeng Phet,2022,49,17587
+Phichit,2022,49,6092
+Nakhon Pathom,2022,49,46806
+Mukdahan,2022,49,6973
+Phetchaburi,2022,49,20358
+Uthai Thani,2022,49,11177
+Chachoengsao,2022,49,42419
+Trat,2022,49,9884
+Sukhothai,2022,49,16225
+Nakhon Ratchasima,2022,49,49189
+Chanthaburi,2022,49,21250
+Loei,2022,49,17893
+Prachuap Khiri Khan,2022,49,24578
+Songkhla (Songkhla Lake),2022,49,37984
+Bueng Kan,2022,49,10555
+Ang Thong,2022,49,16232
+Phuket,2022,49,54492
+Udon Thani,2022,49,29557
+Tak,2022,49,12988
+Nakhon Phanom,2022,49,14190
+All,2022,49,2492054
+Buri Ram,2022,49,51195
+Chon Buri,2022,49,121117
+Krabi,2022,49,13544
+Nakhon Si Thammarat,2022,49,80508
+Sakon Nakhon,2022,49,21490
+Suphan Buri,2022,49,34677
+Sing Buri,2022,49,8510
+Phatthalung,2022,49,24399
+Chumphon,2022,49,15329
+Saraburi,2022,49,20205
+Mae Hong Son,2022,49,2706
+Pathum Thani,2022,49,44980
+Roi Et,2022,49,41631
+Phra Nakhon Si Ayutthaya,2022,49,36336
+Khon Kaen,2022,49,58468
+Samut Songkhram,2022,49,13822
+Nakhon Nayok,2022,49,12953
+Chiang Rai,2022,49,6059
+Rayong,2022,49,43477
+Kanchanaburi,2022,49,27683
+None,2022,49,73
+Si Sa Ket,2022,49,30911
+Phangnga,2022,49,10358
+Prachin Buri,2022,49,25703
+Sa Kaeo,2022,49,20368
+Chaiyaphum,2022,49,20744
+Trang,2022,49,10887
+Nong Khai,2022,49,23582
+Samut Sakhon,2022,49,60080
+Ubon Ratchathani,2022,49,41811
+Surat Thani,2022,49,20994
+Kalasin,2022,49,24886
+Satun,2022,49,10842
+Amnat Charoen,2022,49,7749
+Phitsanulok,2022,49,21557
+Lamphun,2022,49,2277
+Narathiwat,2022,49,8004
+Yala,2022,49,9965
+Nong Bua Lam Phu,2022,49,11493
+Samut Prakan,2022,49,110987
+Pattani,2022,49,11182
+Lampang,2022,49,10501
+Ratchaburi,2022,49,41866
+Maha Sarakham,2022,49,28647
+Phetchabun,2022,49,13093
+Phayao,2022,49,6363
+Chai Nat,2022,49,4327
+Surin,2022,49,33747
+Uttaradit,2022,49,8984
+Phrae,2022,49,9752
+Nakhon Sawan,2022,49,25073
+Phrae,2022,50,9766
+Nakhon Sawan,2022,50,25120
+Roi Et,2022,50,41670
+Mae Hong Son,2022,50,2709
+Saraburi,2022,50,20233
+Phra Nakhon Si Ayutthaya,2022,50,36352
+Pathum Thani,2022,50,45037
+Chumphon,2022,50,15355
+Sukhothai,2022,50,16238
+Nakhon Ratchasima,2022,50,49336
+Prachin Buri,2022,50,25717
+Uthai Thani,2022,50,11221
+Chachoengsao,2022,50,42445
+Chanthaburi,2022,50,21313
+Trat,2022,50,9900
+Yasothon,2022,50,14097
+Nonthaburi,2022,50,75511
+Lop Buri,2022,50,16350
+Ranong,2022,50,10808
+Chiang Mai,2022,50,36790
+Phetchaburi,2022,50,20383
+Phichit,2022,50,6093
+Nakhon Pathom,2022,50,46834
+Mukdahan,2022,50,6975
+Nan,2022,50,12540
+Bangkok Metropolis,2022,50,514840
+Kamphaeng Phet,2022,50,17589
+Phatthalung,2022,50,24401
+Suphan Buri,2022,50,34704
+Sing Buri,2022,50,8515
+Krabi,2022,50,13569
+Sakon Nakhon,2022,50,21500
+Nakhon Si Thammarat,2022,50,80586
+Prachuap Khiri Khan,2022,50,24629
+Phuket,2022,50,54495
+Ang Thong,2022,50,16241
+Songkhla (Songkhla Lake),2022,50,38043
+Bueng Kan,2022,50,10555
+Loei,2022,50,17935
+Tak,2022,50,13039
+Nakhon Phanom,2022,50,14209
+Chon Buri,2022,50,121285
+Udon Thani,2022,50,29573
+All,2022,50,2495473
+Buri Ram,2022,50,51289
+Phayao,2022,50,6399
+Phetchabun,2022,50,13131
+Uttaradit,2022,50,9002
+Surin,2022,50,33840
+Chai Nat,2022,50,4340
+Surat Thani,2022,50,21048
+Samut Sakhon,2022,50,60164
+Nong Khai,2022,50,23594
+Ubon Ratchathani,2022,50,41899
+Trang,2022,50,10895
+Kalasin,2022,50,24908
+Rayong,2022,50,43493
+Samut Songkhram,2022,50,13826
+Nakhon Nayok,2022,50,12965
+Kanchanaburi,2022,50,27690
+Khon Kaen,2022,50,58530
+Chiang Rai,2022,50,6075
+Sa Kaeo,2022,50,20422
+Si Sa Ket,2022,50,30924
+Phangnga,2022,50,10358
+None,2022,50,73
+Chaiyaphum,2022,50,20750
+Samut Prakan,2022,50,111087
+Pattani,2022,50,11192
+Maha Sarakham,2022,50,28671
+Lampang,2022,50,10529
+Ratchaburi,2022,50,41904
+Nong Bua Lam Phu,2022,50,11512
+Lamphun,2022,50,2298
+Phitsanulok,2022,50,21583
+Narathiwat,2022,50,8012
+Amnat Charoen,2022,50,7749
+Satun,2022,50,10847
+Yala,2022,50,9970
+Phitsanulok,2022,51,21625
+Lamphun,2022,51,2384
+Yala,2022,51,9972
+Satun,2022,51,10850
+Narathiwat,2022,51,8015
+Loei,2022,51,17962
+Prachuap Khiri Khan,2022,51,24653
+Bueng Kan,2022,51,10555
+Ang Thong,2022,51,16247
+Songkhla (Songkhla Lake),2022,51,38092
+Phuket,2022,51,54495
+Chachoengsao,2022,51,42474
+Uthai Thani,2022,51,11254
+Sukhothai,2022,51,16276
+Chanthaburi,2022,51,21350
+Trat,2022,51,9912
+Nakhon Ratchasima,2022,51,49467
+Phrae,2022,51,9779
+Nakhon Sawan,2022,51,25152
+Pathum Thani,2022,51,45119
+Mae Hong Son,2022,51,2715
+Roi Et,2022,51,41703
+Phra Nakhon Si Ayutthaya,2022,51,36368
+Chumphon,2022,51,15378
+Saraburi,2022,51,20250
+Krabi,2022,51,13577
+Phatthalung,2022,51,24402
+Sing Buri,2022,51,8517
+Suphan Buri,2022,51,34763
+Nakhon Si Thammarat,2022,51,80606
+Ranong,2022,51,10813
+Yasothon,2022,51,14108
+Nonthaburi,2022,51,75598
+Lop Buri,2022,51,16389
+Chiang Mai,2022,51,36802
+Mukdahan,2022,51,6979
+Kamphaeng Phet,2022,51,17615
+Nan,2022,51,12580
+Phetchaburi,2022,51,20403
+Bangkok Metropolis,2022,51,515554
+Nakhon Pathom,2022,51,46869
+Pattani,2022,51,11198
+Amnat Charoen,2022,51,7752
+Ratchaburi,2022,51,41930
+Lampang,2022,51,10552
+Nong Bua Lam Phu,2022,51,11516
+Maha Sarakham,2022,51,28680
+Samut Prakan,2022,51,111153
+Surat Thani,2022,51,21086
+Sakon Nakhon,2022,51,21510
+Ubon Ratchathani,2022,51,41985
+Trang,2022,51,10915
+Kalasin,2022,51,24927
+Nong Khai,2022,51,23598
+Buri Ram,2022,51,51383
+Nakhon Phanom,2022,51,14213
+All,2022,51,2498373
+Chon Buri,2022,51,121428
+Udon Thani,2022,51,29584
+Tak,2022,51,13078
+Chai Nat,2022,51,4357
+Samut Sakhon,2022,51,60227
+Phetchabun,2022,51,13159
+Phayao,2022,51,6412
+Surin,2022,51,33930
+Uttaradit,2022,51,9016
+Chaiyaphum,2022,51,20773
+None,2022,51,73
+Phichit,2022,51,6096
+Prachin Buri,2022,51,25721
+Sa Kaeo,2022,51,20472
+Si Sa Ket,2022,51,30934
+Phangnga,2022,51,10358
+Kanchanaburi,2022,51,27708
+Chiang Rai,2022,51,6088
+Rayong,2022,51,43530
+Nakhon Nayok,2022,51,12975
+Samut Songkhram,2022,51,13826
+Khon Kaen,2022,51,58605
+Kanchanaburi,2022,52,27712
+Chiang Rai,2022,52,6098
+Rayong,2022,52,43544
+Nakhon Nayok,2022,52,12993
+Khon Kaen,2022,52,58671
+Buri Ram,2022,52,51448
+Tak,2022,52,13096
+All,2022,52,2500484
+Nakhon Phanom,2022,52,14218
+Chon Buri,2022,52,121516
+Udon Thani,2022,52,29608
+Maha Sarakham,2022,52,28689
+Pattani,2022,52,11198
+Ratchaburi,2022,52,41946
+Nong Bua Lam Phu,2022,52,11540
+Lampang,2022,52,10572
+Nakhon Pathom,2022,52,46899
+Phichit,2022,52,6098
+Phetchaburi,2022,52,20414
+Kamphaeng Phet,2022,52,17619
+Bangkok Metropolis,2022,52,515986
+Mukdahan,2022,52,6981
+Roi Et,2022,52,41736
+Chumphon,2022,52,15471
+Phra Nakhon Si Ayutthaya,2022,52,36374
+Saraburi,2022,52,20268
+Mae Hong Son,2022,52,2720
+Pathum Thani,2022,52,45152
+Phrae,2022,52,9794
+Nakhon Sawan,2022,52,25177
+Samut Prakan,2022,52,111204
+Prachuap Khiri Khan,2022,52,24670
+Phuket,2022,52,54498
+Loei,2022,52,17979
+Bueng Kan,2022,52,10560
+Songkhla (Songkhla Lake),2022,52,38119
+Ang Thong,2022,52,16252
+Satun,2022,52,10851
+Amnat Charoen,2022,52,7754
+Samut Songkhram,2022,52,13836
+Lamphun,2022,52,2400
+Yala,2022,52,9975
+Phitsanulok,2022,52,21635
+Narathiwat,2022,52,8015
+Surin,2022,52,33998
+Phayao,2022,52,6430
+Uttaradit,2022,52,9028
+Phetchabun,2022,52,13175
+Chai Nat,2022,52,4365
+Samut Sakhon,2022,52,60308
+Surat Thani,2022,52,21123
+Trang,2022,52,10936
+Nong Khai,2022,52,23620
+Kalasin,2022,52,24949
+Sakon Nakhon,2022,52,21520
+Ubon Ratchathani,2022,52,42045
+Phatthalung,2022,52,24402
+Krabi,2022,52,13585
+Suphan Buri,2022,52,34774
+Sing Buri,2022,52,8528
+Nakhon Si Thammarat,2022,52,80654
+Nakhon Ratchasima,2022,52,49553
+Chachoengsao,2022,52,42497
+Chanthaburi,2022,52,21365
+Trat,2022,52,9924
+Prachin Buri,2022,52,25752
+Uthai Thani,2022,52,11270
+Sukhothai,2022,52,16285
+Sa Kaeo,2022,52,20510
+None,2022,52,73
+Phangnga,2022,52,10358
+Si Sa Ket,2022,52,30944
+Chaiyaphum,2022,52,20793
+Nan,2022,52,12613
+Chiang Mai,2022,52,36805
+Lop Buri,2022,52,16403
+Yasothon,2022,52,14114
+Nonthaburi,2022,52,75682
+Ranong,2022,52,10814
