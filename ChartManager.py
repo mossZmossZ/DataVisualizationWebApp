@@ -50,7 +50,7 @@ class ChartManager():
         return df
     
     def ThailandTopoChart(self,Width,Height):
-        chart = alt.Chart(self.ThailandProvincesTopo).mark_geoshape().encode(
+        self.Chart = alt.Chart(self.ThailandProvincesTopo).mark_geoshape().encode(
             color = self.ColorSchema(self.SumDuplicateValue(),'total_case',['white','#E34234','#640000']),
             tooltip = self.Tooltip(['properties.NAME_1','total_case','total_death'])
         ).transform_lookup(
@@ -60,5 +60,17 @@ class ChartManager():
             width=Width,
             height=Height
         )
-        chart.save('ChartJSON/ThailandTopoChart.json')
-        return chart
+        self.Chart.save('ChartJSON/ThailandTopoChart.json')
+        return self.Chart
+    
+    def BarChart(self):
+        self.Chart = alt.Chart(self.df).mark_bar(clip=True).encode(
+            x = alt.X("province",type = "nominal"),
+            y = alt.Y("total_case", 
+                    type= "quantitative",
+                    scale= alt.Scale(domain=[0,self.df["total_case"].max()])),
+            tooltip = ["province","total_case","total_death"]
+        ).facet( column = "region"
+        ).resolve_scale(x = 'independent',y = 'independent')
+        self.Chart.save('ChartJSON/BarChart.json')
+        return self.Chart
