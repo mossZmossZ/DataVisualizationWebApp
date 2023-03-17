@@ -49,13 +49,46 @@ class ChartManager():
         df = df.drop_duplicates(subset=['province'])
         return df
     
+    def dropAllandNone(self,df):
+        dff = df
+        dff.drop(index=dff[dff["province"].isin(["All","None"])].index, inplace=True)
+        return dff
+
+    def SetDatetime(self):
+        
+        self.df['date'] = pd.to_datetime(
+                            self.df['year'].astype(str) + '-W' + self.df['weeknum'].astype(str) + '-0',
+                            format='%G-W%V-%w')
+        self.df = self.df.sort_values(by=['date']).loc[self.df["province"]=="All"].reset_index(drop=True)
+        
+    def SumTotalCD(self):
+        self.df['allcase'] = 0
+        self.df['alldeath'] = 0
+        for index, row in self.df.iterrows():
+            if index == 0:
+                self.df.loc[index,'allcase'] = row['total_case']
+                casenextvalue = self.df.loc[index,'allcase']
+                self.df.loc[index,'alldeath'] = row['total_death']
+                deathnextvalue = self.df.loc[index,'alldeath']
+            elif index == self.df.shape[0] -1:
+                self.df.loc[index,'allcase'] = casenextvalue + row['new_case']
+                self.df.loc[index,'alldeath'] = deathnextvalue + row['new_death']
+            else:
+                self.df.loc[index,'allcase'] = casenextvalue + row['new_case']
+                casenextvalue = self.df.loc[index,'allcase']
+                self.df.loc[index,'alldeath'] = deathnextvalue + row['new_death']
+                deathnextvalue = self.df.loc[index,'alldeath']
+
+    
     def ThailandTopoChart(self,Width,Height):
+        df = self.SumDuplicateValue()
+        df = self.dropAllandNone(df)
         self.Chart = alt.Chart(self.ThailandProvincesTopo).mark_geoshape().encode(
-            color = self.ColorSchema(self.SumDuplicateValue(),'total_case',['white','#E34234','#640000']),
+            color = self.ColorSchema(df,'total_case',['white','#E34234','#640000']),
             tooltip = self.Tooltip(['properties.NAME_1','total_case','total_death'])
         ).transform_lookup(
             lookup='properties.NAME_1',
-            from_ = alt.LookupData(self.SumDuplicateValue(),'province',['total_case','total_death'])
+            from_ = alt.LookupData(df,'province',['total_case','total_death'])
         ).properties(
             width=Width,
             height=Height
@@ -64,13 +97,29 @@ class ChartManager():
         return self.Chart
     
     def BarChart(self):
-        self.Chart = alt.Chart(self.df).mark_bar(clip=True).encode(
+        df = self.df
+        df = self.dropAllandNone(df)
+        self.Chart = alt.Chart(df).mark_bar(clip=True).encode(
             x = alt.X("province",type = "nominal"),
             y = alt.Y("total_case", 
                     type= "quantitative",
-                    scale= alt.Scale(domain=[0,self.df["total_case"].max()])),
+                    scale= alt.Scale(domain=[0,df["total_case"].max()])),
             tooltip = ["province","total_case","total_death"]
         ).facet( column = "region"
         ).resolve_scale(x = 'independent',y = 'independent')
         self.Chart.save('ChartJSON/BarChart.json')
+        return self.Chart
+
+    def LineChart(self):
+        self.SetDatetime()
+        self.SumTotalCD()
+        self.Chart = alt.Chart(self.df).mark_line(point=alt.OverlayMarkDef(filled=False, fill="white")
+                                ).encode(
+            x=alt.X("date",type="temporal"),
+            y=alt.Y(
+                alt.repeat("layer"), aggregate="mean"),
+            tooltip = ['date:T','allcase:Q','alldeath:Q'],
+            color=alt.datum(alt.repeat("layer")),
+        ).repeat(layer=["allcase", "alldeath"])
+        self.Chart.save('ChartJSON/LineChart.json')
         return self.Chart
