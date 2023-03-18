@@ -100,10 +100,11 @@ class ChartManager():
         df = self.df
         df = self.dropAllandNone(df)
         self.Chart = alt.Chart(df).mark_bar(clip=True).encode(
-            x = alt.X("province",type = "nominal"),
+            x = alt.X("province",type = "nominal", title= "จังหวัด"),
             y = alt.Y("total_case", 
                     type= "quantitative",
-                    scale= alt.Scale(domain=[0,df["total_case"].max()])),
+                    scale= alt.Scale(domain=[0,df["total_case"].max()]),
+                    title= "ผู้ป่วยสะสม"),
             tooltip = ["province","total_case","total_death"]
         ).facet( column = "region"
         ).resolve_scale(x = 'independent',y = 'independent')
@@ -115,9 +116,9 @@ class ChartManager():
         self.SumTotalCD()
         self.Chart = alt.Chart(self.df).mark_line(point=alt.OverlayMarkDef(filled=False, fill="white")
                                 ).encode(
-            x=alt.X("date",type="temporal"),
+            x=alt.X("date",type="temporal", title= "วัน"),
             y=alt.Y(
-                alt.repeat("layer"), aggregate="mean"),
+                alt.repeat("layer"), aggregate="mean",title="ผู้ติดเชื้อสะสมทั้งประเทศ"),
             tooltip = ['date:T','allcase:Q','alldeath:Q'],
             color=alt.datum(alt.repeat("layer")),
         ).repeat(layer=["allcase", "alldeath"])
