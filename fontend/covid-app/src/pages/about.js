@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState} from 'react';
 import person1 from '../images/person1.jpg';
 import person2 from '../images/person2.jpg';
 import person3 from '../images/person3.jpg';
@@ -11,33 +12,63 @@ import person9 from '../images/person9.jpg';
 
 const About = () => {
   const people = [
-    { name: 'เนติพัฒน์ สุกใส', email:'@kmutnb.ac.th' , image: person1 },
-    { name: 'จิตฤดี ดวงดี', email:'s6301012620022@kmutnb.ac.th' ,image: person2 },
-    { name: 'ฐานวัฒน์ ทองเปี้ย',  email:'@kmutnb.ac.th' , image: person3 },
-    { name: 'ฐิตานันท์ มหาพรชัย', email:'@kmutnb.ac.th' ,image: person4 },
-    { name: 'วรวิช เซ็นธุลี', email:'s6301012630168@kmutnb.ac.th' ,image: person5 },
-    { name: 'ณัฐวีร์ นริศชาติ', email:'@kmutnb.ac.th' ,image: person6 },
-    { name: 'สุรชัย สันติภาพ', email:'@kmutnb.ac.th' ,image: person7 },
-    { name: 'แสง รงยง', email:'@kmutnb.ac.th' ,image: person8 },
-    { name: 'นรินทร์ ศิริณภัค', email:'@kmutnb.ac.th' ,image: person9 },
+    { name: 'เนติพัฒน์ สุกใส' , engname:'Netipat Suksai' , email:'s6301012610019@kmutnb.ac.th' , image: person1},
+    { name: 'จิตฤดี ดวงดี' , engname:'Jitrudee Dongdee' , email:'s6301012620022@kmutnb.ac.th' ,image: person2 },
+    { name: 'ฐานวัฒน์ ทองเปี้ย' , engname:'Thanawat Thongpia' ,  email:'s6301012620111@kmutnb.ac.th' , image: person3 },
+    { name: 'ฐิตานันท์ มหาพรชัย' , engname:'' , email:'s6301012630036@kmutnb.ac.th' ,image: person4 },
+    { name: 'วรวิช เซ็นธุลี' , engname:'Vorawit Chenthulee' , email:'s6301012630168@kmutnb.ac.th' , image: person5 },
+    { name: 'ณัฐวีร์ นริศชาติ' , engname:'' , email:'s6401012620021@kmutnb.ac.th' ,image: person6 },
+    { name: 'สุรชัย สันติภาพ' , engname:'' , email:'s6401012620145@kmutnb.ac.th' ,image: person7 },
+    { name: 'แสง รงยง' , engname:'' , email:'s6401012620242@kmutnb.ac.th' ,image: person8 },
+    { name: 'นรินทร์ ศิริณภัค' , engname:'' , email:'s6401012630086@kmutnb.ac.th' ,image: person9 },
   ];
+
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const handleSearch = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  const filteredPeople = people.filter((person) => {
+    const fullName = person.name.toLowerCase();
+    const email = person.email.toLowerCase();
+    const englishname = person.engname.toLowerCase();
+    const searchQuery = searchTerm.toLowerCase();
+  
+    return fullName.includes(searchQuery) || email.includes(searchQuery) || englishname.includes(searchQuery);
+  });
 
   return (
     <section className="section">
       <div className="container">
         <h1 className="title has-text-centered">About Us</h1>
+        <div className="columns is-centered">
+          <div className="column is-half">
+            <div className="field has-addons">
+              <div className="control is-expanded">
+                <input
+                  className="input is-medium"
+                  type="text"
+                  placeholder="Member"
+                  value={searchTerm}
+                  onChange={handleSearch}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="columns is-multiline">
-          {people.map((person, index) => (
+          {filteredPeople.map((person, index) => (
             <div key={index} className="column is-one-third">
               <div className="card">
                 <div className="card-image">
                   <figure className="image is-3by4">
-                    <img src={person.image} alt={person.name,person.email} />
+                    <img src={person.image} alt={person.name} />
                   </figure>
                 </div>
                 <div className="card-content has-text-centered">
                   <p className="title is-5">{person.name}</p>
-                  <a className="subtitle is-5">{person.email}</a>
+                  <a className="subtitle is-6">{person.email}</a>
                 </div>
               </div>
             </div>

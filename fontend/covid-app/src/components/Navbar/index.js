@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { NavLink as Link } from 'react-router-dom';
+import logo from '../../images/logo.png';
 
 export default function Navbar() {
   const [isActive, setisActive] = useState(false)
@@ -8,9 +9,10 @@ export default function Navbar() {
   return (
     <nav className='navbar' role='navigation' aria-label='main navigation'>
       <div className='navbar-brand'>
-        <a href='/' className='navbar-item' style={{ fontWeight: 'bold' }}>
-          Data Visualization
+        <a href='/' className='navbar-item'>
+          <img src={logo}  alt='Logo'></img>
         </a>
+        
 
         <a
           onClick={() => {
