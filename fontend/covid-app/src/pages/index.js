@@ -6,7 +6,7 @@ import virushome from '../images/virushome.png';
 const Home = () => {
   return (
     <div>
-        <section className="hero is-large custom-bg-color">
+        <section className="hero is-medium custom-bg-color">
             
             <div className="hero-body">
                 <div className="">
