@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState} from 'react';
+import './about.css';
 import person1 from '../images/person1.jpg';
 import person2 from '../images/person2.jpg';
 import person3 from '../images/person3.jpg';
@@ -15,12 +16,12 @@ const About = () => {
     { name: 'เนติพัฒน์ สุกใส' , engname:'Netipat Suksai' , email:'s6301012610019@kmutnb.ac.th' , image: person1},
     { name: 'จิตฤดี ดวงดี' , engname:'Jitrudee Dongdee' , email:'s6301012620022@kmutnb.ac.th' ,image: person2 },
     { name: 'ฐานวัฒน์ ทองเปี้ย' , engname:'Thanawat Thongpia' ,  email:'s6301012620111@kmutnb.ac.th' , image: person3 },
-    { name: 'ฐิตานันท์ มหาพรชัย' , engname:'' , email:'s6301012630036@kmutnb.ac.th' ,image: person4 },
+    { name: 'ฐิตานันท์ มหาพรชัย' , engname:'Thitanun Mahapornchai' , email:'s6301012630036@kmutnb.ac.th' ,image: person4 },
     { name: 'วรวิช เซ็นธุลี' , engname:'Vorawit Chenthulee' , email:'s6301012630168@kmutnb.ac.th' , image: person5 },
-    { name: 'ณัฐวีร์ นริศชาติ' , engname:'' , email:'s6401012620021@kmutnb.ac.th' ,image: person6 },
-    { name: 'สุรชัย สันติภาพ' , engname:'' , email:'s6401012620145@kmutnb.ac.th' ,image: person7 },
-    { name: 'แสง รงยง' , engname:'' , email:'s6401012620242@kmutnb.ac.th' ,image: person8 },
-    { name: 'นรินทร์ ศิริณภัค' , engname:'' , email:'s6401012630086@kmutnb.ac.th' ,image: person9 },
+    { name: 'ณัฐวีร์ นริศชาติ' , engname:'Nattavee Narischat' , email:'s6401012620021@kmutnb.ac.th' ,image: person6 },
+    { name: 'สุรชัย สันติภาพ' , engname:'Surachai Santiphap' , email:'s6401012620145@kmutnb.ac.th' ,image: person7 },
+    { name: 'แสง รงยง' , engname:'Sang Rongyong' , email:'s6401012620242@kmutnb.ac.th' ,image: person8 },
+    { name: 'นรินทร์ ศิริณภัค' , engname:'Narin Sirinapuk' , email:'s6401012630086@kmutnb.ac.th' ,image: person9 },
   ];
 
   const [searchTerm, setSearchTerm] = useState("");
@@ -39,15 +40,15 @@ const About = () => {
   });
 
   return (
-    <section className="section">
+    <section className="section is-background">
       <div className="container">
-        <h1 className="title has-text-centered">About Us</h1>
+        <h1 className="title has-text-centered is-libre-baskerville is-green-color" style={{fontSize:120}}>About Us</h1>
         <div className="columns is-centered">
           <div className="column is-half">
-            <div className="field has-addons">
-              <div className="control is-expanded">
+            <div className="field has-addons has-addons-centered">
+              <div className="control">
                 <input
-                  className="input is-medium"
+                  className="input is-large is-rounded is-green-color"
                   type="text"
                   placeholder="Member"
                   value={searchTerm}

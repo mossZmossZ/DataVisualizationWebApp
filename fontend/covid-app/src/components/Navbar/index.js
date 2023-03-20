@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { NavLink as Link } from 'react-router-dom';
 import logo from '../../images/logo.png';
+import './index.css'
 
 export default function Navbar() {
   const [isActive, setisActive] = useState(false)
@@ -32,13 +33,13 @@ export default function Navbar() {
       <div id='navbarBasicExample' className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
         <div className='navbar-end'>
           <div className='navbar-item'>
-            <Link to='/' className='navbar-item'>
+            <Link to='/' className='navbar-item is-text-color'>
               Home
             </Link>
-            <Link to='/covid' className='navbar-item'>
+            <Link to='/covid' className='navbar-item is-text-color'>
               Covid-19
             </Link>
-            <Link to='/about' className='navbar-item'>
+            <Link to='/about' className='navbar-item is-text-color'>
               About-Us
             </Link>
           </div>
