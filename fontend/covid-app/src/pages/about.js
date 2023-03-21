@@ -12,7 +12,7 @@ import person8 from '../images/person8.jpg';
 import person9 from '../images/person9.jpg';
 
 const About = () => {
-  const people = [
+  const people = [ // สร้าง array ของ object ที่มี key ชื่อ name, engname, email, image
     { name: 'เนติพัฒน์ สุกใส' , engname:'Netipat Suksai' , email:'s6301012610019@kmutnb.ac.th' , image: person1},
     { name: 'จิตฤดี ดวงดี' , engname:'Jitrudee Dongdee' , email:'s6301012620022@kmutnb.ac.th' ,image: person2 },
     { name: 'ฐานวัฒน์ ทองเปี้ย' , engname:'Thanawat Thongpia' ,  email:'s6301012620111@kmutnb.ac.th' , image: person3 },
