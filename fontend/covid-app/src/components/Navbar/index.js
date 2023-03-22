@@ -8,11 +8,11 @@ export default function Navbar() {
   const [isActive, setisActive] = useState(false)
 
   return (
-    <nav className='navbar' role='navigation' aria-label='main navigation'>
+    <nav className='navbar' role='navigation' aria-label='main navigation'  color="transparent" fixed="top">
       <div className='navbar-brand'>
-        <a href='/' className='navbar-item'>
+        <Link to='/' className='navbar-item'>
           <img src={logo}  alt='Logo'></img>
-        </a>
+        </Link>
         
 
         <a

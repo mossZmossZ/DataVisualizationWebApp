@@ -134,10 +134,10 @@ import embed from 'vega-embed';
 
     return (
         <div className="section">
-            <h1 className="title is-1">กราฟแสดงข้อมูล</h1>
+            <h1 className="title is-1"><i class="fa-solid fa-chart-column"></i> กราฟแสดงข้อมูล</h1>
             <div class="panel container">
-                <p class="panel-heading">
-                    Year :
+                <p class="panel-heading has-background-grey-lighter">
+                <i class="fa-solid fa-calendar-days"></i> Year :
                 </p>
                 <div class="panel-block">
                     <div className="field is-grouped is-grouped-multiline">
@@ -188,8 +188,8 @@ import embed from 'vega-embed';
                 </div>
             </div>
             <div class="panel container">
-                <p class="panel-heading">
-                Area :
+                <p class="panel-heading has-background-grey-lighter">
+                <i class="fa-solid fa-mountain-sun"></i> Area :
                 </p>
                 <div class="panel-block">
                 <div className="field is-grouped is-grouped-multiline">

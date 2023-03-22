@@ -3,12 +3,13 @@ import {Link, Route, Routes} from 'react-router-dom';
 import './index.css';
 import datahome from '../images/datahome.png';
 import virushome from '../images/virushome.png';
+
+import hero_bg from '../images/coverbg.jpg';
 const Home = () => {
   return (
     <div>
-        <section className="hero is-medium custom-bg-color">
-            
-            <div className="hero-body">
+        <section className="hero is-medium" style={{ backgroundImage: `url(${hero_bg})`, backgroundSize: 'cover', backgroundPosition: 'center center'}}>
+            <div className="hero-body" style={{ backgroundColor: 'rgba(53,68,93,0.5)' }}>
                 <div className="">
                     <p className="title" style={{ fontSize: 72 , color: "White"}}>
                         Data
@@ -21,6 +22,7 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
+            
         </section>
         <div className="container">
         <section className="section">
