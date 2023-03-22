@@ -140,7 +140,7 @@ import embed from 'vega-embed';
                     Year :
                 </p>
                 <div class="panel-block">
-                    <div className="field is-grouped is-grouped-multiline">
+                    <div className="field is-grouped is-grouped-multiline is-box">
                         <div className="control">
                             <label className="checkbox">
                                 <input

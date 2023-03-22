@@ -48,8 +48,9 @@ const InfoDetails = () => {
     return (
         <div className="section is-fluid has-background-grey-dark">
         <div class="columns">
-                <div class="column">
-                    <p className="is-size-1 has-text-white has-text-weight-bold"><i className="fa-solid fa-syringe has-text-header"></i> ตัวเลขผู้ติดเชื้อ COVID-19</p>
+                <div class="column py-6">
+                    <p className="is-size-1 has-text-white has-text-centered pt-5"><i className="fa-solid has-text-header"></i> ตัวเลขผู้ติดเชื้อ</p>
+                    <p className="is-size-1 has-text-white has-text-weight-bold has-text-centered"><i className="fa-solid has-text-header"></i> COVID-19</p>
                 </div>
                 <div class="column">
                     <div className="tile is-ancestor is-gapless">
