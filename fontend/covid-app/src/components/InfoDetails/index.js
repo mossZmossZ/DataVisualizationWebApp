@@ -48,12 +48,12 @@ const InfoDetails = () => {
     };
 
     return (
-        <div className="section is-fluid has-background-grey-dark">
+        <div className="section is-fluid has-background-grey-dark" style={{ marginTop: `0px` }}>
         <div class="columns">
+        <div className="section is-fluid has-background-grey-dark" style={{ marginTop: `0px` ,backgroundImage: `url(${vaccine})`, backgroundSize: '80%', backgroundPosition: 'center' , backgroundRepeat: 'no-repeat'}}>    
                 <div class="column py-5">
-        <div className="section is-fluid has-background-grey-dark" style={{ backgroundImage: `url(${vaccine})`, backgroundSize: '80%', backgroundPosition: 'center' , backgroundRepeat: 'no-repeat'}}>
-                    <p className="is-size-1 has-text-white has-text-centered pt-5"><i className="fa-solid has-text-header"></i> ตัวเลขผู้ติดเชื้อ</p>
-                    <p className="is-size-1 has-text-white has-text-weight-bold has-text-centered"><i className="fa-solid has-text-header"></i> COVID-19</p>
+                    <p className=" has-text-white has-text-centered pt-5" style={{fontSize:35}}><i className="fa-solid has-text-header" ></i> ตัวเลขผู้ติดเชื้อ</p>
+                    <p className=" has-text-weight-bold has-text-centered" style={{color:"#9fcab7" , fontSize: 60}}><i className="fa-solid has-text-header"></i> COVID-19</p>
         </div>
             </div>
                 <div class="column">
