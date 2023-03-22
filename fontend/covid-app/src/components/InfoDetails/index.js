@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import vaccine from '../../images/vaccine.png';
+
 const InfoDetails = () => {
     /*
     const [data, setData] = useState([]);
@@ -46,11 +48,14 @@ const InfoDetails = () => {
     };
 
     return (
-        <div className="section is-fluid has-background-grey-dark">
+        <div className="section is-fluid has-background-grey-dark" style={{ marginTop: `0px` }}>
         <div class="columns">
-                <div class="column">
-                    <p className="is-size-1 has-text-white has-text-weight-bold"><i className="fa-solid fa-syringe has-text-header"></i> ตัวเลขผู้ติดเชื้อ COVID-19</p>
-                </div>
+        <div className="section is-fluid has-background-grey-dark" style={{ marginTop: `0px` ,backgroundImage: `url(${vaccine})`, backgroundSize: '80%', backgroundPosition: 'center' , backgroundRepeat: 'no-repeat'}}>    
+                <div class="column py-5">
+                    <p className=" has-text-white has-text-centered pt-5" style={{fontSize:35}}><i className="fa-solid has-text-header" ></i> ตัวเลขผู้ติดเชื้อ</p>
+                    <p className=" has-text-weight-bold has-text-centered" style={{color:"#9fcab7" , fontSize: 60}}><i className="fa-solid has-text-header"></i> COVID-19</p>
+        </div>
+            </div>
                 <div class="column">
                     <div className="tile is-ancestor is-gapless">
                         <div className="tile is-vertical">
