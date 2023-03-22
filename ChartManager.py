@@ -3,8 +3,8 @@ import altair_viewer
 import pandas as pd
 
 alt.data_transformers.disable_max_rows()
-altair_viewer._global_viewer._use_bundled_js = False
-alt.data_transformers.enable('data_server')
+# altair_viewer._global_viewer._use_bundled_js = False
+# alt.data_transformers.enable('data_server')
 
 class ChartManager():
 
