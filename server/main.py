@@ -13,6 +13,7 @@ import altair_viewer
 ###pip install uvicorn
 ###ตอนรัน server ให้ cd มายัง Server แล้วใช้คำสั่ง 
 # uvicorn main:app --reload (macOS)
+# python -m uvicorn main:app --reload (windows)
 
 app = FastAPI()
 
