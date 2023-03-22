@@ -7,7 +7,7 @@ from pydantic import BaseModel
 import pandas as pd
 import pandas as pd
 import altair as alt
-import altair_viewer
+#import altair_viewer
 
 ###วิธีการใช้งาน
 ###pip install uvicorn
@@ -150,9 +150,9 @@ def plot_bar(year,country):
     df = pd.read_sql(query , conn)
 
     alt.data_transformers.disable_max_rows()
-    altair_viewer._global_viewer._use_bundled_js = False
-    alt.data_transformers.enable('data_server')
-    alt.data_transformers.enable('json')
+    #altair_viewer._global_viewer._use_bundled_js = False
+    #alt.data_transformers.enable('data_server')
+    #alt.data_transformers.enable('json')
     D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันตก',5:'ภาคตะวันตก',6:'ภาคตะวันตกเฉียงเหนือ'}
     a = len(country)
 
@@ -180,9 +180,9 @@ def plot_line(year,country):
     df = pd.read_sql(query , conn)
 
     alt.data_transformers.disable_max_rows()
-    altair_viewer._global_viewer._use_bundled_js = False
-    alt.data_transformers.enable('data_server')
-    alt.data_transformers.enable('json')
+    #altair_viewer._global_viewer._use_bundled_js = False
+    #alt.data_transformers.enable('data_server')
+    #alt.data_transformers.enable('json')
     D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันตก',5:'ภาคตะวันตก',6:'ภาคตะวันตกเฉียงเหนือ'}
     a = len(country)
 
@@ -210,7 +210,7 @@ def plot_TH(year,country):
     df = pd.read_sql(query , conn)
 
     alt.data_transformers.disable_max_rows()
-    altair_viewer._global_viewer._use_bundled_js = False
+    #altair_viewer._global_viewer._use_bundled_js = False
     alt.data_transformers.enable('data_server')
     alt.data_transformers.enable('json')
     D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันตก',5:'ภาคตะวันตก',6:'ภาคตะวันตกเฉียงเหนือ'}
@@ -240,9 +240,9 @@ def plot_country(year,country):
     df = pd.read_sql(query , conn)
 
     alt.data_transformers.disable_max_rows()
-    altair_viewer._global_viewer._use_bundled_js = False
-    alt.data_transformers.enable('data_server')
-    alt.data_transformers.enable('json')
+    #altair_viewer._global_viewer._use_bundled_js = False
+    #alt.data_transformers.enable('data_server')
+    #alt.data_transformers.enable('json')
     D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันตก',5:'ภาคตะวันตก',6:'ภาคตะวันตกเฉียงเหนือ'}
     a = len(country)
 
