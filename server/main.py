@@ -15,6 +15,8 @@ import altair as alt
 ###ตอนรัน server ให้ cd มายัง Server แล้วใช้คำสั่ง 
 # uvicorn main:app --reload (macOS)
 # python -m uvicorn main:app --reload (windows)
+#http://127.0.0.1:8000/docs สามารถดู API ทั้งหมดได้
+
 
 app = FastAPI()
 
@@ -139,6 +141,7 @@ class ChartManager():
         ).repeat(layer=["allcase", "alldeath"])
         self.Chart.save('../ChartJSON/LineChart.json')
         return self.Chart
+
 
 
 def plot_bar(year,country):
@@ -270,7 +273,7 @@ class input(BaseModel):
     area:list
 
 @app.post('/country_graphresult')
-async def read_user(request: input):
+async def read_Country_graph(request: input):
     try:
         data = {
             'year': request.year,
@@ -287,7 +290,7 @@ async def read_user(request: input):
         raise HTTPException(status_code=500, detail=str(error))
     
 @app.post('/bar_graphresult')
-async def read_user(request: input):
+async def plot_barChart(request: input):
     try:
         data = {
             'year': request.year,
@@ -304,7 +307,7 @@ async def read_user(request: input):
         raise HTTPException(status_code=500, detail=str(error))
     
 @app.post('/line_graphresult')
-async def read_user(request: input):
+async def plot_lineChart(request: input):
     try:
         data = {
             'year': request.year,
@@ -325,7 +328,7 @@ def read_root():
     return {"Welcome": "Datavisualization Webapp"}
 
 @app.get("/overall")
-def get_data():
+def get_overall_data():
     try:
         conn = sqlite3.connect('../Scrapping/Covid.db')
         c = conn.cursor()
