@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import axios from 'axios';
 const InfoDetails = () => {
     /*
     const [data, setData] = useState([]);
@@ -22,37 +22,95 @@ const InfoDetails = () => {
       //const result = embed('#view', data);
     }, []);
     */
+
+    const [data, setData] = useState({
+        "totalcase":0,
+        "deaths":0,
+        "recovered":0
+    });
+
+    const url = 'overall.json';
+    useEffect(() => {
+        axios.get(url)
+          .then(response => {
+            console.log(response);
+            setData(response.data);
+          })
+          .catch(error => {
+            console.log(error);
+          });
+    }, []);
+
+    const numberWithCommas = (x) => {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    };
+
     return (
-        <div className="container box">
-        <h1 className="title is-1">รายละเอียด</h1>
-            <div className="tile is-ancestor">
-                <div className="tile is-vertical">
-                    <div className="tile">
-                        <div className="tile is-parent is-vertical">
-                            <article className="tile is-child notification is-primary box">
-                            <p className="title">คนติดเชื้อ</p>
-                            <p className="subtitle">Top tile</p>
-                            </article>
-                            <article className="tile is-child notification is-warning box">
-                            <p className="title">...tiless</p>
-                            <p className="subtitle">Bottom tile</p>
-                            </article>
-                        </div>
-                        <div className="tile is-parent">
-                            <article className="tile is-child notification is-info box">
-                            <p className="title">Middle tile</p>
-                            <p className="subtitle">With an image</p>
-                            </article>
-                        </div>
-                    </div>
-                    <div className="tile is-parent">
-                        <article className="tile is-child notification is-danger box">
-                            <p className="title">Wide tile</p>
-                            <p className="subtitle">Aligned with the right tile</p>
-                            <div className="content">
-                            
+        <div className="section is-fluid has-background-grey-dark">
+        <div class="columns">
+                <div class="column">
+                    <p className="is-size-1 has-text-white has-text-weight-bold"><i className="fa-solid fa-syringe has-text-header"></i> ตัวเลขผู้ติดเชื้อ COVID-19</p>
+                </div>
+                <div class="column">
+                    <div className="tile is-ancestor is-gapless">
+                        <div className="tile is-vertical">
+                            <div className="tile is-parent">
+                                <article className="tile is-child notification has-background-grey-lighter is-radiusless">
+                                        <div className="level-right">
+                                            <p className="is-size-3 has-text-weight-bold">ผู้ติดเชื้อสะสม</p>
+                                        </div>
+                                        <div className="level">
+                                            <div class="level-item has-text-centered">
+                                                <div>
+                                                    <p class="is-size-1 has-text-weight-bold">
+                                                        {
+                                                            numberWithCommas(data.totalcase)
+                                                        }
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </article>
                             </div>
-                        </article>
+                            <div className="tile">
+                                <div className="tile is-parent">
+                                    <article className="tile is-child notification is-primary is-radiusless">
+                                        <div className="level-right">
+                                            <p className="is-size-4 has-text-weight-bold">หายแล้ว</p>
+                                        </div>
+                                        <div className="level">
+                                            <div class="level-item has-text-centered">
+                                                <div>
+                                                    <p class="is-size-1 has-text-weight-bold">
+                                                        {
+                                                            numberWithCommas(data.recovered)
+                                                        }
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div className="tile is-parent">
+                                    <article className="tile is-child notification is-danger is-radiusless">
+                                        <div className="level-right">
+                                            <p className="is-size-4 has-text-weight-bold">เสียชีวิต</p>
+                                        </div>
+                                        <div className="level">
+                                            <div class="level-item has-text-centered">
+                                                <div>
+                                                    <p class="is-size-1 has-text-weight-bold">
+                                                        {
+                                                            numberWithCommas(data.deaths)
+                                                        }
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

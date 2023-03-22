@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+
+.tile.is-gapless {
+    .tile.is-parent {
+      padding: 0;
+    }
+    
+    .tile.is-vertical>.tile.is-child {
+      margin-bottom: 0 !important;
+    }
+    
+    .notification {
+      border-radius: 0;
+    }
+}
+
+.has-text-header {
+    color: #9fcab7 !important;
+}
+
+$grey-dark: #2b2b2b;
+$grey-lighter: #faf5e6;
+
+$primary: #658b6e;
+$danger: #b26265;
+
+@import "../node_modules/bulma/bulma.sass";
