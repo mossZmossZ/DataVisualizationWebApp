@@ -4,7 +4,6 @@ from fastapi import FastAPI, HTTPException
 import json
 from pydantic import BaseModel
 import pandas as pd
-import pandas as pd
 import altair as alt
 #import altair_viewer
 
@@ -54,11 +53,11 @@ class ChartManager():
             l.append(alt.Tooltip(col, type= t))
         return l
 
-    def SumDuplicateValue(self):
+    def SumDuplicateValue(self,df):
         l = []
-        for y in list(set(self.df['year'])):
-            maxweeknum = self.df.loc[self.df['year'] == y]['weeknum'].max()
-            l.append(self.df.loc[(self.df['weeknum'] == maxweeknum) & (self.df['year'] == y)])
+        for y in list(set(df['year'])):
+            maxweeknum = df.loc[df['year'] == y]['weeknum'].max()
+            l.append(df.loc[(df['weeknum'] == maxweeknum) & (df['year'] == y)])
         df = pd.concat(l, ignore_index=True)
         group = df.groupby('province').transform('sum')
         df['total_case'] = group['total_case']
@@ -67,37 +66,38 @@ class ChartManager():
         return df
     
     def dropAllandNone(self,df):
-        dff = df
-        dff.drop(index=dff[dff["province"].isin(["All","None"])].index, inplace=True)
-        return dff
+        df = df.drop(index=df[df["province"].isin(["All","None"])].index)
+        return df
 
-    def SetDatetime(self):
-        self.df['date'] = pd.to_datetime(
-                            self.df['year'].astype(str) + '-W' + self.df['weeknum'].astype(str) + '-0',
+    def SetDatetime(self,df):
+        df['date'] = pd.to_datetime(
+                            df['year'].astype(str) + '-W' + df['weeknum'].astype(str) + '-0',
                             format='%G-W%V-%w')
-        self.df = self.df.sort_values(by=['date']).loc[self.df["province"]=="All"].reset_index(drop=True)
+        df = df.sort_values(by=['date']).loc[df["province"]=="All"].reset_index(drop=True)
+        return df
         
-    def SumTotalCD(self):
-        self.df['allcase'] = 0
-        self.df['alldeath'] = 0
-        for index, row in self.df.iterrows():
+    def SumTotalCD(self,df):
+        df['allcase'] = 0
+        df['alldeath'] = 0
+        for index, row in df.iterrows():
             if index == 0:
-                self.df.loc[index,'allcase'] = row['total_case']
-                casenextvalue = self.df.loc[index,'allcase']
-                self.df.loc[index,'alldeath'] = row['total_death']
-                deathnextvalue = self.df.loc[index,'alldeath']
-            elif index == self.df.shape[0] -1:
-                self.df.loc[index,'allcase'] = casenextvalue + row['new_case']
-                self.df.loc[index,'alldeath'] = deathnextvalue + row['new_death']
+                df.loc[index,'allcase'] = row['total_case']
+                casenextvalue = df.loc[index,'allcase']
+                df.loc[index,'alldeath'] = row['total_death']
+                deathnextvalue = df.loc[index,'alldeath']
+            elif index == df.shape[0] -1:
+                df.loc[index,'allcase'] = casenextvalue + row['new_case']
+                df.loc[index,'alldeath'] = deathnextvalue + row['new_death']
             else:
-                self.df.loc[index,'allcase'] = casenextvalue + row['new_case']
-                casenextvalue = self.df.loc[index,'allcase']
-                self.df.loc[index,'alldeath'] = deathnextvalue + row['new_death']
-                deathnextvalue = self.df.loc[index,'alldeath']
+                df.loc[index,'allcase'] = casenextvalue + row['new_case']
+                casenextvalue = df.loc[index,'allcase']
+                df.loc[index,'alldeath'] = deathnextvalue + row['new_death']
+                deathnextvalue = df.loc[index,'alldeath']
+        return df
 
     
     def ThailandTopoChart(self,Width,Height):
-        df = self.SumDuplicateValue()
+        df = self.SumDuplicateValue(self.df)
         df = self.dropAllandNone(df)
         self.Chart = alt.Chart(self.ThailandProvincesTopo).mark_geoshape().encode(
             color = self.ColorSchema(df,'total_case',['white','#E34234','#640000']),
@@ -109,7 +109,7 @@ class ChartManager():
             width=Width,
             height=Height
         )
-        #self.Chart.save('../ChartJSON/ThailandTopoChart.json')
+        #self.Chart.save('ChartJSON/ThailandTopoChart.json')
         return self.Chart.to_json()
     
     def BarChart(self):
@@ -124,13 +124,13 @@ class ChartManager():
             tooltip = ["province","total_case","total_death"]
         ).facet( column = "region"
         ).resolve_scale(x = 'independent',y = 'independent')
-        #self.Chart.save('../ChartJSON/BarChart.json')
+        #self.Chart.save('ChartJSON/BarChart.json')
         return self.Chart.to_json()
 
     def LineChart(self):
-        self.SetDatetime()
-        self.SumTotalCD()
-        self.Chart = alt.Chart(self.df).mark_line(point=alt.OverlayMarkDef(filled=False, fill="white")
+        df = self.SetDatetime(self.df)
+        df = self.SumTotalCD(df)
+        self.Chart = alt.Chart(df).mark_line(point=alt.OverlayMarkDef(filled=False, fill="white")
                                 ).encode(
             x=alt.X("date",type="temporal", title= "วัน"),
             y=alt.Y(
@@ -138,7 +138,7 @@ class ChartManager():
             tooltip = ['date:T','allcase:Q','alldeath:Q'],
             color=alt.datum(alt.repeat("layer")),
         ).repeat(layer=["allcase", "alldeath"])
-        #self.Chart.save('../ChartJSON/LineChart.json')
+        #self.Chart.save('ChartJSON/LineChart.json')
         return self.Chart.to_json()
 
 
