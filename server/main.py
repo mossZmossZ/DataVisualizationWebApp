@@ -144,18 +144,21 @@ class ChartManager():
 
 
 def plot_bar(year,country):
-    conn = sqlite3.connect('./Covid.db')
+    conn = sqlite3.connect('../Server/Covid.db')
     if year == 'all':
-        query = "SELECT * FROM alldata_province_eng"
+        query = "SELECT *,SUM([total_case]) AS [total_cases] FROM alldata_province_eng WHERE ([year] = 2021 OR [year] = 2023) OR ([year] = 2022 AND [weeknum] = 52) GROUP BY [province]"
+        df = pd.read_sql(query , conn)
+        df = df.drop('total_case', axis=1)
+        df.rename(columns={"total_cases": "total_case"},inplace = True)
     else:
-        query = "SELECT * FROM alldata_province_eng WHERE [year] == %s " % year
-    df = pd.read_sql(query , conn)
-
+        if year == '2022':
+            query = "SELECT * FROM alldata_province_eng WHERE [year] == %s  AND [weeknum] = 52" % year
+            df = pd.read_sql(query , conn)
+        else:
+            query = "SELECT * FROM alldata_province_eng WHERE [year] == %s " % year
+            df = pd.read_sql(query , conn)
     alt.data_transformers.disable_max_rows()
-    #altair_viewer._global_viewer._use_bundled_js = False
-    #alt.data_transformers.enable('data_server')
-    #alt.data_transformers.enable('json')
-    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันออก',5:'ภาคตะวันตก',6:'ภาคตะวันออกเฉียงเหนือ'}
+    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันตก',5:'ภาคตะวันตก',6:'ภาคตะวันตกเฉียงเหนือ'}
     a = len(country)
 
     obj = ChartManager()
@@ -174,18 +177,22 @@ def plot_bar(year,country):
     return obj.BarChart()
 
 def plot_line(year,country):
-    conn = sqlite3.connect('./Covid.db')
+    conn = sqlite3.connect('../Server/Covid.db')
     if year == 'all':
-        query = "SELECT * FROM alldata_province_eng"
+        query = "SELECT *,SUM([total_case]) AS [total_cases] FROM alldata_province_eng WHERE ([year] = 2021 OR [year] = 2023) OR ([year] = 2022 AND [weeknum] = 52) GROUP BY [province]"
+        df = pd.read_sql(query , conn)
+        df = df.drop('total_case', axis=1)
+        df.rename(columns={"total_cases": "total_case"},inplace = True)
     else:
-        query = "SELECT * FROM alldata_province_eng WHERE [year] == %s " % year
-    df = pd.read_sql(query , conn)
+        if year == '2022':
+            query = "SELECT * FROM alldata_province_eng WHERE [year] == %s  AND [weeknum] = 52" % year
+            df = pd.read_sql(query , conn)
+        else:
+            query = "SELECT * FROM alldata_province_eng WHERE [year] == %s " % year
+            df = pd.read_sql(query , conn)
 
     alt.data_transformers.disable_max_rows()
-    #altair_viewer._global_viewer._use_bundled_js = False
-    #alt.data_transformers.enable('data_server')
-    #alt.data_transformers.enable('json')
-    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันออก',5:'ภาคตะวันตก',6:'ภาคตะวันออกเฉียงเหนือ'}
+    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันตก',5:'ภาคตะวันตก',6:'ภาคตะวันตกเฉียงเหนือ'}
     a = len(country)
 
     obj = ChartManager()
@@ -204,18 +211,22 @@ def plot_line(year,country):
     return obj.LineChart()
 
 def plot_TH(year,country):
-    conn = sqlite3.connect('./Covid.db')
+    conn = sqlite3.connect('../Server/Covid.db')
     if year == 'all':
-        query = "SELECT * FROM alldata_province_eng"
+        query = "SELECT *,SUM([total_case]) AS [total_cases] FROM alldata_province_eng WHERE ([year] = 2021 OR [year] = 2023) OR ([year] = 2022 AND [weeknum] = 52) GROUP BY [province]"
+        df = pd.read_sql(query , conn)
+        df = df.drop('total_case', axis=1)
+        df.rename(columns={"total_cases": "total_case"},inplace = True)
     else:
-        query = "SELECT * FROM alldata_province_eng WHERE [year] == %s " % year
-    df = pd.read_sql(query , conn)
+        if year == '2022':
+            query = "SELECT * FROM alldata_province_eng WHERE [year] == %s  AND [weeknum] = 52" % year
+            df = pd.read_sql(query , conn)
+        else:
+            query = "SELECT * FROM alldata_province_eng WHERE [year] == %s " % year
+            df = pd.read_sql(query , conn)
 
     alt.data_transformers.disable_max_rows()
-    #altair_viewer._global_viewer._use_bundled_js = False
-    alt.data_transformers.enable('data_server')
-    alt.data_transformers.enable('json')
-    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันออก',5:'ภาคตะวันตก',6:'ภาคตะวันออกเฉียงเหนือ'}
+    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันตก',5:'ภาคตะวันตก',6:'ภาคตะวันตกเฉียงเหนือ'}
     a = len(country)
 
     obj = ChartManager()
@@ -234,18 +245,22 @@ def plot_TH(year,country):
     return obj.ThailandTopoChart(500,600)
 
 def plot_country(year,country):
-    conn = sqlite3.connect('./Covid.db')
+    conn = sqlite3.connect('../Server/Covid.db')
     if year == 'all':
-        query = "SELECT * FROM alldata_province_eng"
+        query = "SELECT *,SUM([total_case]) AS [total_cases] FROM alldata_province_eng WHERE ([year] = 2021 OR [year] = 2023) OR ([year] = 2022 AND [weeknum] = 52) GROUP BY [province]"
+        df = pd.read_sql(query , conn)
+        df = df.drop('total_case', axis=1)
+        df.rename(columns={"total_cases": "total_case"},inplace = True)
     else:
-        query = "SELECT * FROM alldata_province_eng WHERE [year] == %s " % year
-    df = pd.read_sql(query , conn)
+        if year == '2022':
+            query = "SELECT * FROM alldata_province_eng WHERE [year] == %s  AND [weeknum] = 52" % year
+            df = pd.read_sql(query , conn)
+        else:
+            query = "SELECT * FROM alldata_province_eng WHERE [year] == %s " % year
+            df = pd.read_sql(query , conn)
 
     alt.data_transformers.disable_max_rows()
-    #altair_viewer._global_viewer._use_bundled_js = False
-    #alt.data_transformers.enable('data_server')
-    #alt.data_transformers.enable('json')
-    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันออก',5:'ภาคตะวันตก',6:'ภาคตะวันออกเฉียงเหนือ'}
+    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันตก',5:'ภาคตะวันตก',6:'ภาคตะวันตกเฉียงเหนือ'}
     a = len(country)
 
     obj = ChartManager()
