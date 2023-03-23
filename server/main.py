@@ -1,8 +1,7 @@
-from typing import Union
+
 import sqlite3
-from fastapi import FastAPI, HTTPException, Response
-from fastapi.responses import FileResponse
-import os
+from fastapi import FastAPI, HTTPException
+import json
 from pydantic import BaseModel
 import pandas as pd
 import pandas as pd
@@ -110,8 +109,8 @@ class ChartManager():
             width=Width,
             height=Height
         )
-        self.Chart.save('../ChartJSON/ThailandTopoChart.json')
-        return self.Chart
+        #self.Chart.save('../ChartJSON/ThailandTopoChart.json')
+        return self.Chart.to_json()
     
     def BarChart(self):
         df = self.df
@@ -125,8 +124,8 @@ class ChartManager():
             tooltip = ["province","total_case","total_death"]
         ).facet( column = "region"
         ).resolve_scale(x = 'independent',y = 'independent')
-        self.Chart.save('../ChartJSON/BarChart.json')
-        return self.Chart
+        #self.Chart.save('../ChartJSON/BarChart.json')
+        return self.Chart.to_json()
 
     def LineChart(self):
         self.SetDatetime()
@@ -139,13 +138,13 @@ class ChartManager():
             tooltip = ['date:T','allcase:Q','alldeath:Q'],
             color=alt.datum(alt.repeat("layer")),
         ).repeat(layer=["allcase", "alldeath"])
-        self.Chart.save('../ChartJSON/LineChart.json')
-        return self.Chart
+        #self.Chart.save('../ChartJSON/LineChart.json')
+        return self.Chart.to_json()
 
 
 
 def plot_bar(year,country):
-    conn = sqlite3.connect('../Scrapping/Covid.db')
+    conn = sqlite3.connect('./Covid.db')
     if year == 'all':
         query = "SELECT * FROM alldata_province_eng"
     else:
@@ -156,7 +155,7 @@ def plot_bar(year,country):
     #altair_viewer._global_viewer._use_bundled_js = False
     #alt.data_transformers.enable('data_server')
     #alt.data_transformers.enable('json')
-    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันตก',5:'ภาคตะวันตก',6:'ภาคตะวันตกเฉียงเหนือ'}
+    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันออก',5:'ภาคตะวันตก',6:'ภาคตะวันออกเฉียงเหนือ'}
     a = len(country)
 
     obj = ChartManager()
@@ -175,7 +174,7 @@ def plot_bar(year,country):
     return obj.BarChart()
 
 def plot_line(year,country):
-    conn = sqlite3.connect('../Scrapping/Covid.db')
+    conn = sqlite3.connect('./Covid.db')
     if year == 'all':
         query = "SELECT * FROM alldata_province_eng"
     else:
@@ -186,7 +185,7 @@ def plot_line(year,country):
     #altair_viewer._global_viewer._use_bundled_js = False
     #alt.data_transformers.enable('data_server')
     #alt.data_transformers.enable('json')
-    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันตก',5:'ภาคตะวันตก',6:'ภาคตะวันตกเฉียงเหนือ'}
+    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันออก',5:'ภาคตะวันตก',6:'ภาคตะวันออกเฉียงเหนือ'}
     a = len(country)
 
     obj = ChartManager()
@@ -205,7 +204,7 @@ def plot_line(year,country):
     return obj.LineChart()
 
 def plot_TH(year,country):
-    conn = sqlite3.connect('../Scrapping/Covid.db')
+    conn = sqlite3.connect('./Covid.db')
     if year == 'all':
         query = "SELECT * FROM alldata_province_eng"
     else:
@@ -216,7 +215,7 @@ def plot_TH(year,country):
     #altair_viewer._global_viewer._use_bundled_js = False
     alt.data_transformers.enable('data_server')
     alt.data_transformers.enable('json')
-    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันตก',5:'ภาคตะวันตก',6:'ภาคตะวันตกเฉียงเหนือ'}
+    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันออก',5:'ภาคตะวันตก',6:'ภาคตะวันออกเฉียงเหนือ'}
     a = len(country)
 
     obj = ChartManager()
@@ -235,7 +234,7 @@ def plot_TH(year,country):
     return obj.ThailandTopoChart(500,600)
 
 def plot_country(year,country):
-    conn = sqlite3.connect('../Scrapping/Covid.db')
+    conn = sqlite3.connect('./Covid.db')
     if year == 'all':
         query = "SELECT * FROM alldata_province_eng"
     else:
@@ -246,7 +245,7 @@ def plot_country(year,country):
     #altair_viewer._global_viewer._use_bundled_js = False
     #alt.data_transformers.enable('data_server')
     #alt.data_transformers.enable('json')
-    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันตก',5:'ภาคตะวันตก',6:'ภาคตะวันตกเฉียงเหนือ'}
+    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันออก',5:'ภาคตะวันตก',6:'ภาคตะวันออกเฉียงเหนือ'}
     a = len(country)
 
     obj = ChartManager()
@@ -280,12 +279,13 @@ async def read_Country_graph(request: input):
             'area': request.area
         }
         if data['year'] == [2022,2023]:
-                plot_country('all',data['area'])
+                Result_plot = plot_country('all',data['area'])
         else:
-            plot_country(data['year'][0],data['area'])
-
-        file_path_country = os.path.join(os.getcwd(), "../ChartJSON/ThailandTopoChart.json") # specify the file path
-        return FileResponse(file_path_country, media_type="application/json")  
+            Result_plot = plot_country(data['year'][0],data['area'])
+        Result_plot_json = json.loads(Result_plot)
+       
+        return Result_plot_json
+    
     except Exception as error:
         raise HTTPException(status_code=500, detail=str(error))
     
@@ -297,12 +297,13 @@ async def plot_barChart(request: input):
             'area': request.area
         }
         if data['year'] == [2022,2023]:
-                plot_bar('all',data['area'])
+                Result_plot_bar = plot_bar('all',data['area'])
         else:
-            plot_bar(data['year'][0],data['area'])
+            Result_plot_bar = plot_bar(data['year'][0],data['area'])
 
-        file_path_barChart = os.path.join(os.getcwd(), "../ChartJSON/BarChart.json") # specify the file path
-        return FileResponse(file_path_barChart, media_type="application/json")  
+        Result_plot_bar_json = json.loads(Result_plot_bar)
+
+        return Result_plot_bar_json
     except Exception as error:
         raise HTTPException(status_code=500, detail=str(error))
     
@@ -314,12 +315,13 @@ async def plot_lineChart(request: input):
             'area': request.area
         }
         if data['year'] == [2022,2023]:
-                plot_line('all',data['area'])
+                Result_plot_line = plot_line('all',data['area'])
         else:
-            plot_line(data['year'][0],data['area'])
+            Result_plot_line = plot_line(data['year'][0],data['area'])
 
-        file_path_lineChart = os.path.join(os.getcwd(), "../ChartJSON/LineChart.json") # specify the file path
-        return FileResponse(file_path_lineChart, media_type="application/json")  
+        Result_plot_line_json = json.loads(Result_plot_line)
+
+        return Result_plot_line_json
     except Exception as error:
         raise HTTPException(status_code=500, detail=str(error))
 
@@ -330,7 +332,7 @@ def read_root():
 @app.get("/overall")
 def get_overall_data():
     try:
-        conn = sqlite3.connect('../Scrapping/Covid.db')
+        conn = sqlite3.connect('./Covid.db')
         c = conn.cursor()
         c.execute('''select  total_case,total_death,total_recovered  from overall_data where year = 2022 and weeknum=52''')
         data = c.fetchone()
