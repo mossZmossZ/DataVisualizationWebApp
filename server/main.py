@@ -155,7 +155,7 @@ def plot_bar(year,country):
     #altair_viewer._global_viewer._use_bundled_js = False
     #alt.data_transformers.enable('data_server')
     #alt.data_transformers.enable('json')
-    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันตก',5:'ภาคตะวันตก',6:'ภาคตะวันตกเฉียงเหนือ'}
+    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันออก',5:'ภาคตะวันตก',6:'ภาคตะวันตกเฉียงเหนือ'}
     a = len(country)
 
     obj = ChartManager()
@@ -185,7 +185,7 @@ def plot_line(year,country):
     #altair_viewer._global_viewer._use_bundled_js = False
     #alt.data_transformers.enable('data_server')
     #alt.data_transformers.enable('json')
-    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันตก',5:'ภาคตะวันตก',6:'ภาคตะวันตกเฉียงเหนือ'}
+    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันออก',5:'ภาคตะวันตก',6:'ภาคตะวันตกเฉียงเหนือ'}
     a = len(country)
 
     obj = ChartManager()
@@ -215,7 +215,7 @@ def plot_TH(year,country):
     #altair_viewer._global_viewer._use_bundled_js = False
     alt.data_transformers.enable('data_server')
     alt.data_transformers.enable('json')
-    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันตก',5:'ภาคตะวันตก',6:'ภาคตะวันตกเฉียงเหนือ'}
+    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันออก',5:'ภาคตะวันตก',6:'ภาคตะวันตกเฉียงเหนือ'}
     a = len(country)
 
     obj = ChartManager()
@@ -245,7 +245,7 @@ def plot_country(year,country):
     #altair_viewer._global_viewer._use_bundled_js = False
     #alt.data_transformers.enable('data_server')
     #alt.data_transformers.enable('json')
-    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันตก',5:'ภาคตะวันตก',6:'ภาคตะวันตกเฉียงเหนือ'}
+    D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันออก',5:'ภาคตะวันตก',6:'ภาคตะวันตกเฉียงเหนือ'}
     a = len(country)
 
     obj = ChartManager()
