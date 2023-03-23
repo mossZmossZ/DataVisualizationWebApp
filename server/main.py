@@ -190,12 +190,14 @@ def plot_bar(year,country):
         df = df.drop('total_case', axis=1)
         df.rename(columns={"total_cases": "total_case"},inplace = True)
     else:
-        if year == '2022':
+        if year == 2022:
             query = "SELECT * FROM alldata_province_eng WHERE [year] == %s  AND [weeknum] = 52" % year
             df = pd.read_sql(query , conn)
+            
         else:
             query = "SELECT * FROM alldata_province_eng WHERE [year] == %s " % year
             df = pd.read_sql(query , conn)
+    
     alt.data_transformers.disable_max_rows()
     D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันออก',5:'ภาคตะวันตก',6:'ภาคตะวันออกเฉียงเหนือ'}
     a = len(country)
@@ -284,7 +286,7 @@ def plot_country(year,country):
         df = df.drop('total_case', axis=1)
         df.rename(columns={"total_cases": "total_case"},inplace = True)
     else:
-        if year == '2022':
+        if year == 2022:
             query = "SELECT * FROM alldata_province_eng WHERE [year] == %s  AND [weeknum] = 52" % year
             df = pd.read_sql(query , conn)
         else:
