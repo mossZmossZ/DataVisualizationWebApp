@@ -12,25 +12,35 @@ import MoonLoader from "react-spinners/MoonLoader";
         const [loadingInProgress, setLoading] = useState(false);
 
         const [years, setYears] = useState({
-            "2023": false,
-            "2022": false,
-            "2021": false,
+            "2023": true,
+            "2022": true,
+            "2021": true,
         });
         const [areas, setAreas] = useState({
-            "North": false,
-            "Central": false,
-            "South": false,
-            "East": false,
-            "West": false,
-            "East_west": false,
+            "North": true,
+            "Central": true,
+            "South": true,
+            "East": true,
+            "West": true,
+            "East_west": true,
         });
 
-        const toggleYear = (year) => {
-        setYears((prevState) => ({
-            ...prevState,
-            [year]: !prevState[year],
-        }));
-        };
+        function toggleYear(year) {
+            setYears((prevYears) => {
+              const newYears = { ...prevYears, [year]: !prevYears[year] };
+              if (year === "2023") {
+                newYears["2022"] = !newYears[year];
+                newYears["2021"] = !newYears[year];
+              } else if (year === "2022") {
+                newYears["2021"] = !newYears[year];
+                newYears["2023"] = !newYears[year];
+              } else if (year === "2021") {
+                newYears["2022"] = !newYears[year];
+                newYears["2023"] = !newYears[year];
+              }
+              return newYears;
+            });
+          }
 
         const selectAllYears = () => {
         setYears((prevState) => ({
