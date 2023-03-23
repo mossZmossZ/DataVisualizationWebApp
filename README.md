@@ -13,10 +13,18 @@ The pages of a Web Application consist of a total of three pages as follows:
   - This page will be the first one that appears when accessing the Web Application. In the Header section of the Home Page, there will be a "Try Now" button for accessing the Covid-19 Page immediately without the need to select it from the NavBar. Following the Header section, this page will consist of two parts describing the Web Application as follows:
     - What is Data Visualization
     - What information we visualize about
+    
+    ![hm](https://user-images.githubusercontent.com/88374397/227327864-76058699-db7b-4ae1-9e58-6f9016123f5e.png)
+    
 - Covid-19 Page
   - This page is designed to be a display page for information about the Covid-19 infection situation in Thailand that has been analyzed and processed. In the Header section, statistical figures related to Covid-19 infections will be displayed, including the total number of confirmed cases, the number of recovered cases, and the number of deaths. In the Chart section, there will be three types of charts displayed: Map Chart, Bar Chart, and Line Chart. Users of the Web Application can select the data they want to display by filtering the data by year. The data will show the Covid-19 situation in Thailand for the past 3 years, which are 2023, 2022, and 2021, respectively. Additionally, users can also filter the data by area, which is divided into 6 regions in Thailand.
+  
+  ![co](https://user-images.githubusercontent.com/88374397/227327987-4a28354c-183f-4d1b-a68a-f8c0a903011c.png)
+
 - About Us Page
   - This page is designed to display a list of developers of the Web Application, which includes our pictures, names, and contact channels such as email for each person. Users of the Web Application can search for specific developers by Thai name-surname, English name-surname, email contact, and student ID.
+  
+  ![au ](https://user-images.githubusercontent.com/88374397/227328099-174a1176-6cb1-4323-992b-160280d536d2.png)
 
 ## Chart
 This Chart uses Python's Altair library to generate various charts visualizing the total number of COVID-19 cases and deaths in each province in Thailand.
