@@ -1,5 +1,22 @@
 # COVID-19 Data Visualization in Thailand
-Database Systems Project 
+
+Due to the COVID-19 pandemic, there is currently a large amount of data related to the outbreak. Most of this data is collected in the form of statistics recorded in tables. However, interpreting this raw data can be time-consuming and challenging.
+
+Therefore, data visualization, which is the process of presenting data in a graphical or pictorial format, is essential in order to quickly understand and make use of the information. When presented in a visual format, data can be easily understood and utilized.
+
+As a result, there is an idea to gather data from reliable sources related to the COVID-19 outbreak, including infection rates and vaccination rates. This data can be used to create data visualizations, which can be presented on web applications.
+
+## Design
+The pages of a Web Application consist of a total of three pages as follows:
+
+- Home Page
+  - This page will be the first one that appears when accessing the Web Application. In the Header section of the Home Page, there will be a "Try Now" button for accessing the Covid-19 Page immediately without the need to select it from the NavBar. Following the Header section, this page will consist of two parts describing the Web Application as follows:
+    - What is Data Visualization
+    - What information we visualize about
+- Covid-19 Page
+  - This page is designed to be a display page for information about the Covid-19 infection situation in Thailand that has been analyzed and processed. In the Header section, statistical figures related to Covid-19 infections will be displayed, including the total number of confirmed cases, the number of recovered cases, and the number of deaths. In the Chart section, there will be three types of charts displayed: Map Chart, Bar Chart, and Line Chart. Users of the Web Application can select the data they want to display by filtering the data by year. The data will show the Covid-19 situation in Thailand for the past 3 years, which are 2023, 2022, and 2021, respectively. Additionally, users can also filter the data by area, which is divided into 6 regions in Thailand.
+- About Us Page
+  - This page is designed to display a list of developers of the Web Application, which includes our pictures, names, and contact channels such as email for each person. Users of the Web Application can search for specific developers by Thai name-surname, English name-surname, email contact, and student ID.
 
 ## Chart
 This Chart uses Python's Altair library to generate various charts visualizing the total number of COVID-19 cases and deaths in each province in Thailand.
