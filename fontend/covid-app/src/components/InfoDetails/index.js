@@ -31,9 +31,9 @@ const InfoDetails = () => {
         "recovered":0
     });
 
-    const url = 'overall.json';
+    const url = 'https://netipat.dev:8000/overall';
     useEffect(() => {
-        axios.get(url)
+        axios.get(url,{mode: 'no-cors'})
           .then(response => {
             console.log(response);
             setData(response.data);

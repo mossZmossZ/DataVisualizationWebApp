@@ -3,6 +3,7 @@ import {Link, Route, Routes} from 'react-router-dom';
 import './index.css';
 import datahome from '../images/datahome.png';
 import virushome from '../images/virushome.png';
+import axios from 'axios';
 
 import hero_bg from '../images/coverbg.jpg';
 const Home = () => {
