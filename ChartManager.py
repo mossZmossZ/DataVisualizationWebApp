@@ -1,5 +1,4 @@
 import altair as alt
-import altair_viewer
 import pandas as pd
 
 alt.data_transformers.disable_max_rows()
@@ -11,16 +10,19 @@ class ChartManager():
     def __init__(self):
         self.df = None
         self.Chart = None
+        #Thailand Map Chart
         self.ThailandProvincesTopo = alt.topo_feature('https://raw.githubusercontent.com/cvibhagool/thailand-map/master/thailand-provinces.topojson', 'province')
-        self.obj_columns = []
-        self.int_columns = []
+        self.obj_columns = []   #columns of object value for nomial type
+        self.int_columns = []   #columns of integer value for quantitative type
     
     def setDataframe(self,dataframe):
         self.df = dataframe
+        #select columns name each type
         self.obj_columns = self.df.select_dtypes(include=['object']).columns.to_list()
         self.int_columns = self.df.select_dtypes(include=['int']).columns.to_list()
     
     def ColorSchema(self,dataframe,Measurement,Color:list):
+        #set color shades from max value
         color = alt.Color(Measurement,
                           type= "quantitative",
                           scale = alt.Scale(
@@ -31,6 +33,7 @@ class ChartManager():
         return color
     
     def Tooltip(self,ColumnNames:list):
+        #select tooltip type each column names
         l = []
         for col in ColumnNames:
             t = "quantitative" if col in self.int_columns else "nominal"
@@ -40,20 +43,25 @@ class ChartManager():
     def SumDuplicateValue(self,df):
         l = []
         for y in list(set(df['year'])):
-            maxweeknum = df.loc[df['year'] == y]['weeknum'].max()
+            maxweeknum = df.loc[df['year'] == y]['weeknum'].max()                       #find last week in this year
+            #get dataframe with rows at last week using total_case each year
             l.append(df.loc[(df['weeknum'] == maxweeknum) & (df['year'] == y)])
         df = pd.concat(l, ignore_index=True)
+        #sum total_case and deatch each province
         group = df.groupby('province').transform('sum')
+        #move to dataframe
         df['total_case'] = group['total_case']
         df['total_death'] = group['total_death']
         df = df.drop_duplicates(subset=['province'])
         return df
     
     def dropAllandNone(self,df):
+        #drop All and None rows
         df = df.drop(index=df[df["province"].isin(["All","None"])].index)
         return df
 
     def SetDatetime(self,df):
+        #Change value in date column to datetime type 
         df['date'] = pd.to_datetime(
                             df['year'].astype(str) + '-W' + df['weeknum'].astype(str) + '-0',
                             format='%G-W%V-%w')
@@ -61,6 +69,7 @@ class ChartManager():
         return df
         
     def SumTotalCD(self,df):
+        #sum total_case and total_case of each year for all year to allcase and alldeath
         df['allcase'] = 0
         df['alldeath'] = 0
         for index, row in df.iterrows():
@@ -83,6 +92,7 @@ class ChartManager():
     def ThailandTopoChart(self,Width,Height):
         df = self.SumDuplicateValue(self.df)
         df = self.dropAllandNone(df)
+
         self.Chart = alt.Chart(self.ThailandProvincesTopo).mark_geoshape().encode(
             color = self.ColorSchema(df,'total_case',['white','#E34234','#640000']),
             tooltip = self.Tooltip(['properties.NAME_1','total_case','total_death'])
@@ -93,12 +103,14 @@ class ChartManager():
             width=Width,
             height=Height
         )
+
         self.Chart.save('ChartJSON/ThailandTopoChart.json')
         return self.Chart
     
     def BarChart(self):
         df = self.df
         df = self.dropAllandNone(df)
+
         self.Chart = alt.Chart(df).mark_bar(clip=True).encode(
             x = alt.X("province",type = "nominal", title= "จังหวัด"),
             y = alt.Y("total_case", 
@@ -108,19 +120,24 @@ class ChartManager():
             tooltip = ["province","total_case","total_death"]
         ).facet( column = "region"
         ).resolve_scale(x = 'independent',y = 'independent')
+
         self.Chart.save('ChartJSON/BarChart.json')
         return self.Chart
 
     def LineChart(self):
         df = self.SetDatetime(self.df)
         df = self.SumTotalCD(df)
-        self.Chart = alt.Chart(df).mark_line(point=alt.OverlayMarkDef(filled=False, fill="white")
-                                ).encode(
-            x=alt.X("date",type="temporal", title= "วัน"),
-            y=alt.Y(
-                alt.repeat("layer"), aggregate="mean",title="ผู้ติดเชื้อสะสมทั้งประเทศ"),
-            tooltip = ['date:T','allcase:Q','alldeath:Q'],
-            color=alt.datum(alt.repeat("layer")),
+        
+        self.Chart = alt.Chart(df).mark_line(
+            point=alt.OverlayMarkDef(
+                filled=False, fill="white")
+            ).encode(
+                x=alt.X("date",type="temporal", title= "วัน"),
+                y=alt.Y(
+                    alt.repeat("layer"), aggregate="mean",title="ผู้ติดเชื้อสะสมทั้งประเทศ"),
+                tooltip = ['date:T','allcase:Q','alldeath:Q'],
+                color=alt.datum(alt.repeat("layer")),
         ).repeat(layer=["allcase", "alldeath"])
+
         self.Chart.save('ChartJSON/LineChart.json')
         return self.Chart
