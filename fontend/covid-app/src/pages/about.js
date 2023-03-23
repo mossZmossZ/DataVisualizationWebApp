@@ -42,7 +42,7 @@ const About = () => {
   return (
     <section className="section is-background">
       <div className="container">
-        <h1 className="title has-text-centered is-libre-baskerville is-green-color" style={{fontSize:120}}>About Us</h1>
+        <h1 className="title has-text-centered is-libre-baskerville is-green-color is-size-1 is-size-3-mobile">About Us</h1>
         <div className="columns is-centered">
           <div className="column is-half">
             <div className="field has-addons has-addons-centered">

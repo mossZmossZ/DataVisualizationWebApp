@@ -49,11 +49,11 @@ const InfoDetails = () => {
 
     return (
         <div className="section is-fluid has-background-grey-dark" style={{ marginTop: `0px` }}>
-        <div class="columns">
+        <div class="columns ">
         <div className="section is-fluid has-background-grey-dark" style={{ marginTop: `0px` ,backgroundImage: `url(${vaccine})`, backgroundSize: '80%', backgroundPosition: 'center' , backgroundRepeat: 'no-repeat'}}>    
                 <div class="column py-5">
-                    <p className=" has-text-white has-text-centered pt-5" style={{fontSize:35}}><i className="fa-solid has-text-header" ></i> ตัวเลขผู้ติดเชื้อ</p>
-                    <p className=" has-text-weight-bold has-text-centered" style={{color:"#9fcab7" , fontSize: 60}}><i className="fa-solid has-text-header"></i> COVID-19</p>
+                    <p className=" has-text-white has-text-centered pt-5 is-size-4"><i className="fa-solid has-text-header" ></i> ตัวเลขผู้ติดเชื้อ</p>
+                    <p className=" has-text-weight-bold has-text-centered is-size-2 is-size-3-mobile is-size-3-tablet" style={{color:"#9fcab7"}}><i className="fa-solid has-text-header"></i> COVID-19</p>
         </div>
             </div>
                 <div class="column">
@@ -62,12 +62,12 @@ const InfoDetails = () => {
                             <div className="tile is-parent">
                                 <article className="tile is-child notification has-background-grey-lighter is-radiusless">
                                         <div className="level-right">
-                                            <p className="is-size-3 has-text-weight-bold">ผู้ติดเชื้อสะสม</p>
+                                            <p className="is-size-4 has-text-weight-bold">ผู้ติดเชื้อสะสม</p>
                                         </div>
                                         <div className="level">
                                             <div class="level-item has-text-centered">
                                                 <div>
-                                                    <p class="is-size-1 has-text-weight-bold">
+                                                    <p class="is-size-3 has-text-weight-bold">
                                                         {
                                                             numberWithCommas(data.totalcase)
                                                         }
@@ -86,7 +86,7 @@ const InfoDetails = () => {
                                         <div className="level">
                                             <div class="level-item has-text-centered">
                                                 <div>
-                                                    <p class="is-size-1 has-text-weight-bold">
+                                                    <p class="is-size-3 has-text-weight-bold">
                                                         {
                                                             numberWithCommas(data.recovered)
                                                         }
@@ -104,7 +104,7 @@ const InfoDetails = () => {
                                         <div className="level">
                                             <div class="level-item has-text-centered">
                                                 <div>
-                                                    <p class="is-size-1 has-text-weight-bold">
+                                                    <p class="is-size-3 has-text-weight-bold">
                                                         {
                                                             numberWithCommas(data.deaths)
                                                         }

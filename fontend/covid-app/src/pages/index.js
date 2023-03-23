@@ -12,10 +12,10 @@ const Home = () => {
         <section className="hero is-medium" style={{ backgroundImage: `url(${hero_bg})`, backgroundSize: 'cover', backgroundPosition: 'center center'}}>
             <div className="hero-body" style={{ backgroundColor: 'rgba(53,68,93,0.5)' }}>
                 <div className="">
-                    <p className="title" style={{ fontSize: 72 , color: "White"}}>
+                    <p className="title has-text-white is-2 is-size-3-mobile">
                         Data
                     </p>
-                    <p className="title" style={{ fontSize: 72 , color: "White"}}>
+                    <p className="title has-text-white is-2 is-size-3-mobile">
                         Visualization
                     </p>
                     <Link to="/covid">
@@ -34,8 +34,8 @@ const Home = () => {
                 <img src={datahome} style={{width: '40%', margin: '0 auto', display: 'block'}} />
                 </figure>
                 <div>
-                    <h1 className="title text-center">What is Data Visualization</h1>
-                    <h2 className="subtitle">
+                    <h1 className="title is-size-5-mobile text-center">What is Data Visualization</h1>
+                    <h2 className="subtitle is-size-6-mobile">
                     การนำ <strong>ข้อมูล หรือ Data</strong> ที่ได้มาจากแหล่งข้อมูลต่างๆ มาวิเคราะห์ประมวลผลแล้วนำเสนอออกมาในรูปแบบที่มองเห็นและทำความเข้าใจได้ด้วยตาเช่น แผนภูมิ รูปภาพ แผนที่ กราฟแสดงเกรนด์ ตาราง วิดีโอ อินโฟกราฟิก (Infographic) แดชบอร์ด (dashboard)
                     </h2>
                 </div>
@@ -51,8 +51,8 @@ const Home = () => {
                     <img src={virushome} style={{width: '40%', margin: '0 auto', display: 'block'}} />
                 </figure>
                 <div>
-                    <h1 className="title text-center">What Information we visualize about ?</h1>
-                    <h2 className="subtitle">
+                    <h1 className="title is-size-5-mobile text-center">What Information we visualize about ?</h1>
+                    <h2 className="subtitle is-size-6-mobile">
                     สถานการณ์ผู้ติดเชื้อ COVID-19 อัพเดทรายสัปดาห์ ข้อมูลจาก : https://covid19.ddc.moph.go.th
                     </h2>
                 </div>

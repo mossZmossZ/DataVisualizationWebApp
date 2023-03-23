@@ -231,7 +231,7 @@ import MoonLoader from "react-spinners/MoonLoader";
             //<button onClick={test3}>test3</button>
     return (
         <div className="section">
-            <h1 className="title is-1"><i class="fa-solid fa-chart-column"></i> กราฟแสดงข้อมูล</h1>
+            <h1 className="title is-4 is-size-4-mobile"><i class="fa-solid fa-chart-column"></i> กราฟแสดงข้อมูล</h1>
             <div class="panel container">
                 <p class="panel-heading has-background-grey-lighter">
                 <i class="fa-solid fa-calendar-days"></i> Year :
