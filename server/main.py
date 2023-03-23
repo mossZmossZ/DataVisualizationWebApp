@@ -151,63 +151,56 @@ def plot_bar(year,country):
         df = df.drop('total_case', axis=1)
         df.rename(columns={"total_cases": "total_case"},inplace = True)
     else:
-        if year == '2022':
-            query = "SELECT * FROM alldata_province_eng WHERE [year] == %s  AND [weeknum] = 52" % year
-            df = pd.read_sql(query , conn)
-        else:
-            query = "SELECT * FROM alldata_province_eng WHERE [year] == %s " % year
-            df = pd.read_sql(query , conn)
+        query = "SELECT * FROM alldata_province_eng WHERE [year] == %s " % year
+        df = pd.read_sql(query , conn)
     alt.data_transformers.disable_max_rows()
     D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันออก',5:'ภาคตะวันตก',6:'ภาคตะวันออกเฉียงเหนือ'}
     a = len(country)
 
     obj = ChartManager()
     if a == 6:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])|(df['region'] == D_country[(country[4])])|(df['region'] == D_country[(country[5])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])|(df['region'] == D_country[(country[4])])|(df['region'] == D_country[(country[5])])])
     elif a == 5:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])|(df['region'] == D_country[(country[4])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])|(df['region'] == D_country[(country[4])])])
     elif a == 4:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])])
     elif a == 3:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])])
     elif a == 2:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])])
     elif a == 1:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])])
     return obj.BarChart()
 
 def plot_line(year,country):
     conn = sqlite3.connect('../Server/Covid.db')
     if year == 'all':
-        query = "SELECT *,SUM([total_case]) AS [total_cases] FROM alldata_province_eng WHERE ([year] = 2021 OR [year] = 2023) OR ([year] = 2022 AND [weeknum] = 52) GROUP BY [province]"
+        query = "SELECT * FROM alldata_province_eng"
         df = pd.read_sql(query , conn)
-        df = df.drop('total_case', axis=1)
-        df.rename(columns={"total_cases": "total_case"},inplace = True)
+        # df = df.drop('total_case', axis=1)
+        # df.rename(columns={"total_cases": "total_case"},inplace = True)
     else:
-        if year == '2022':
-            query = "SELECT * FROM alldata_province_eng WHERE [year] == %s  AND [weeknum] = 52" % year
-            df = pd.read_sql(query , conn)
-        else:
-            query = "SELECT * FROM alldata_province_eng WHERE [year] == %s " % year
-            df = pd.read_sql(query , conn)
+        query = "SELECT * FROM alldata_province_eng WHERE [year] == %s " % year
+        df = pd.read_sql(query , conn)
 
+    
     alt.data_transformers.disable_max_rows()
     D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันออก',5:'ภาคตะวันตก',6:'ภาคตะวันออกเฉียงเหนือ'}
     a = len(country)
 
     obj = ChartManager()
     if a == 6:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])|(df['region'] == D_country[(country[4])])|(df['region'] == D_country[(country[5])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])|(df['region'] == D_country[(country[4])])|(df['region'] == D_country[(country[5])])])
     elif a == 5:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])|(df['region'] == D_country[(country[4])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])|(df['region'] == D_country[(country[4])])])
     elif a == 4:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])])
     elif a == 3:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])])
     elif a == 2:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])])
     elif a == 1:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])])
     return obj.LineChart()
 
 def plot_TH(year,country):
@@ -218,12 +211,8 @@ def plot_TH(year,country):
         df = df.drop('total_case', axis=1)
         df.rename(columns={"total_cases": "total_case"},inplace = True)
     else:
-        if year == '2022':
-            query = "SELECT * FROM alldata_province_eng WHERE [year] == %s  AND [weeknum] = 52" % year
-            df = pd.read_sql(query , conn)
-        else:
-            query = "SELECT * FROM alldata_province_eng WHERE [year] == %s " % year
-            df = pd.read_sql(query , conn)
+        query = "SELECT * FROM alldata_province_eng WHERE [year] == %s " % year
+        df = pd.read_sql(query , conn)
 
     alt.data_transformers.disable_max_rows()
     D_country = {1:'ภาคเหนือ',2:'ภาคกลาง',3:'ภาคใต้',4:'ภาคตะวันออก',5:'ภาคตะวันตก',6:'ภาคตะวันออกเฉียงเหนือ'}
@@ -231,17 +220,17 @@ def plot_TH(year,country):
 
     obj = ChartManager()
     if a == 6:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])|(df['region'] == D_country[(country[4])])|(df['region'] == D_country[(country[5])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])|(df['region'] == D_country[(country[4])])|(df['region'] == D_country[(country[5])])])
     elif a == 5:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])|(df['region'] == D_country[(country[4])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])|(df['region'] == D_country[(country[4])])])
     elif a == 4:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])])
     elif a == 3:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])])
     elif a == 2:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])])
     elif a == 1:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])])
     return obj.ThailandTopoChart(500,600)
 
 def plot_country(year,country):
@@ -266,17 +255,17 @@ def plot_country(year,country):
     obj = ChartManager()
     #if get only one region
     if a == 6:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])|(df['region'] == D_country[(country[4])])|(df['region'] == D_country[(country[5])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])|(df['region'] == D_country[(country[4])])|(df['region'] == D_country[(country[5])])])
     elif a == 5:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])|(df['region'] == D_country[(country[4])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])|(df['region'] == D_country[(country[4])])])
     elif a == 4:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])|(df['region'] == D_country[(country[3])])])
     elif a == 3:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])|(df['region'] == D_country[(country[2])])])
     elif a == 2:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])|(df['region'] == D_country[(country[1])])])
     elif a == 1:
-        obj.setDataframe(df.loc[(df['region'] == D_country[(country[0])])])
+        obj.setDataframe(df.loc[(df['region'] == 'ทั้งประเทศ')|(df['region'] == D_country[(country[0])])])
     #นี่เป็นตัวอย่างการ query ให้ดูว่า chart จะมีลักษณะเป็นอย่างไร
     #แต่ถ้าของจริงจะต้องใช้ไฟล์ที่ query มาจาก Back-end แล้วนำไฟล์นั้นไปใช้เลย
     return obj.ThailandTopoChart(300,400)
