@@ -30,7 +30,7 @@ const InfoDetails = () => {
         "deaths":0,
         "recovered":0
     });
-
+    
     const url = 'https://netipat.dev:8000/overall';
     useEffect(() => {
         axios.get(url,{mode: 'no-cors'})
