@@ -4,7 +4,7 @@ import axios from 'axios';
 import MoonLoader from "react-spinners/MoonLoader";
 
     const InfoDetails = () => {
-        
+
         const [data, setData] = useState([]);
         const [dataLine, setdataLine] = useState([]);
         const [dataCountry, setdataCountry] = useState([]);
@@ -27,18 +27,18 @@ import MoonLoader from "react-spinners/MoonLoader";
 
         function toggleYear(year) {
             setYears((prevYears) => {
-              const newYears = { ...prevYears, [year]: !prevYears[year] };
-              if (year === "2023") {
-                newYears["2022"] = !newYears[year];
-                newYears["2021"] = !newYears[year];
-              } else if (year === "2022") {
-                newYears["2021"] = !newYears[year];
-                newYears["2023"] = !newYears[year];
-              } else if (year === "2021") {
-                newYears["2022"] = !newYears[year];
-                newYears["2023"] = !newYears[year];
-              }
-              return newYears;
+                const newYears = { ...prevYears, [year]: !prevYears[year] };
+                for (let i = 0; i < Object.keys(newYears).length; i++) 
+                {
+                    if(year == Object.keys(newYears)[i])
+                    {
+                        newYears[Object.keys(newYears)[i]] = true;
+                        continue;
+                    }
+                    newYears[Object.keys(newYears)[i]] = false;
+                    console.log(Object.keys(newYears)[i],newYears[Object.keys(newYears)[i]]);
+                }
+                return newYears;
             });
           }
 
@@ -195,22 +195,22 @@ import MoonLoader from "react-spinners/MoonLoader";
           };
 
         useEffect(() => {
-            submitData();
-            //loadingInProgress(false);
-            fetchData_Bar(); //fetch data from chart.json
-            fetchData_Line(); //fetch data from chart.json
-            fetchData_Country(); //fetch data from chart.json
-
+            
             // Check if all years are selected
             const allYearsSelected = Object.values(years).every((year) => year === true);
             // Update the "Include All" checkbox
             document.getElementById("includeAllYears").checked = allYearsSelected;
-
+            
             // Check if all areas are selected
             const allAreasSelected = Object.values(areas).every((area) => area === true);
             // Update the "Include All" checkbox for areas
             document.getElementById("includeAllAreas").checked = allAreasSelected;
             // Update the "Include All" checkbox for areas
+            submitData();
+            //loadingInProgress(false);
+            fetchData_Bar(); //fetch data from chart.json
+            fetchData_Line(); //fetch data from chart.json
+            fetchData_Country(); //fetch data from chart.json
         }, [years,areas]);
 
         const test = () => {
