@@ -1,8 +1,6 @@
-from typing import Union
+
 import sqlite3
 from fastapi import FastAPI, HTTPException
-from fastapi.responses import FileResponse
-import os
 import json
 from pydantic import BaseModel
 import pandas as pd
