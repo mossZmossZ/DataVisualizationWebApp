@@ -144,7 +144,7 @@ class ChartManager():
 
 
 def plot_bar(year,country):
-    conn = sqlite3.connect('Covid.db')
+    conn = sqlite3.connect('./Covid.db')
     if year == 'all':
         query = "SELECT * FROM alldata_province_eng"
     else:
@@ -174,7 +174,7 @@ def plot_bar(year,country):
     return obj.BarChart()
 
 def plot_line(year,country):
-    conn = sqlite3.connect('Covid.db')
+    conn = sqlite3.connect('./Covid.db')
     if year == 'all':
         query = "SELECT * FROM alldata_province_eng"
     else:
@@ -204,7 +204,7 @@ def plot_line(year,country):
     return obj.LineChart()
 
 def plot_TH(year,country):
-    conn = sqlite3.connect('Covid.db')
+    conn = sqlite3.connect('./Covid.db')
     if year == 'all':
         query = "SELECT * FROM alldata_province_eng"
     else:
@@ -234,7 +234,7 @@ def plot_TH(year,country):
     return obj.ThailandTopoChart(500,600)
 
 def plot_country(year,country):
-    conn = sqlite3.connect('Covid.db')
+    conn = sqlite3.connect('./Covid.db')
     if year == 'all':
         query = "SELECT * FROM alldata_province_eng"
     else:
@@ -332,7 +332,7 @@ def read_root():
 @app.get("/overall")
 def get_overall_data():
     try:
-        conn = sqlite3.connect('Covid.db')
+        conn = sqlite3.connect('./Covid.db')
         c = conn.cursor()
         c.execute('''select  total_case,total_death,total_recovered  from overall_data where year = 2022 and weeknum=52''')
         data = c.fetchone()
