@@ -6,26 +6,6 @@ Therefore, data visualization, which is the process of presenting data in a grap
 
 As a result, there is an idea to gather data from reliable sources related to the COVID-19 outbreak, including infection rates and vaccination rates. This data can be used to create data visualizations, which can be presented on web applications.
 
-## Design
-The pages of a Web Application consist of a total of three pages as follows:
-
-- Home Page
-  - This page will be the first one that appears when accessing the Web Application. In the Header section of the Home Page, there will be a "Try Now" button for accessing the Covid-19 Page immediately without the need to select it from the NavBar. Following the Header section, this page will consist of two parts describing the Web Application as follows:
-    - What is Data Visualization
-    - What information we visualize about
-    
-    ![hm](https://user-images.githubusercontent.com/88374397/227327864-76058699-db7b-4ae1-9e58-6f9016123f5e.png)
-    
-- Covid-19 Page
-  - This page is designed to be a display page for information about the Covid-19 infection situation in Thailand that has been analyzed and processed. In the Header section, statistical figures related to Covid-19 infections will be displayed, including the total number of confirmed cases, the number of recovered cases, and the number of deaths. In the Chart section, there will be three types of charts displayed: Map Chart, Bar Chart, and Line Chart. Users of the Web Application can select the data they want to display by filtering the data by year. The data will show the Covid-19 situation in Thailand for the past 3 years, which are 2023, 2022, and 2021, respectively. Additionally, users can also filter the data by area, which is divided into 6 regions in Thailand.
-  
-  ![co](https://user-images.githubusercontent.com/88374397/227327987-4a28354c-183f-4d1b-a68a-f8c0a903011c.png)
-
-- About Us Page
-  - This page is designed to display a list of developers of the Web Application, which includes our pictures, names, and contact channels such as email for each person. Users of the Web Application can search for specific developers by Thai name-surname, English name-surname, email contact, and student ID.
-  
-  ![au ](https://user-images.githubusercontent.com/88374397/227328099-174a1176-6cb1-4323-992b-160280d536d2.png)
-
 ## Chart
 This Chart uses Python's Altair library to generate various charts visualizing the total number of COVID-19 cases and deaths in each province in Thailand.
 The data used for this visualization is sourced from COVID-19 patients and deaths in Thailand. The dataset includes information on the number of cases and deaths in each province.
@@ -56,6 +36,27 @@ The line chart shows the cumulative cases and deaths from COVID-19 in Thailand o
 All charts in this project include a tooltip that provides detailed information on each province's data. Hovering over the data on the chart will reveal the tooltip.
 
 ![image](https://user-images.githubusercontent.com/126886304/227301201-d75b4ce5-13f6-46f5-91b4-9551e8015bb7.png)
+
+
+## Design
+The pages of a Web Application consist of a total of three pages as follows:
+
+- Home Page
+  - This page will be the first one that appears when accessing the Web Application. In the Header section of the Home Page, there will be a "Try Now" button for accessing the Covid-19 Page immediately without the need to select it from the NavBar. Following the Header section, this page will consist of two parts describing the Web Application as follows:
+    - What is Data Visualization
+    - What information we visualize about
+    
+    ![hm](https://user-images.githubusercontent.com/88374397/227327864-76058699-db7b-4ae1-9e58-6f9016123f5e.png)
+    
+- Covid-19 Page
+  - This page is designed to be a display page for information about the Covid-19 infection situation in Thailand that has been analyzed and processed. In the Header section, statistical figures related to Covid-19 infections will be displayed, including the total number of confirmed cases, the number of recovered cases, and the number of deaths. In the Chart section, there will be three types of charts displayed: Map Chart, Bar Chart, and Line Chart. Users of the Web Application can select the data they want to display by filtering the data by year. The data will show the Covid-19 situation in Thailand for the past 3 years, which are 2023, 2022, and 2021, respectively. Additionally, users can also filter the data by area, which is divided into 6 regions in Thailand.
+  
+  ![co](https://user-images.githubusercontent.com/88374397/227327987-4a28354c-183f-4d1b-a68a-f8c0a903011c.png)
+
+- About Us Page
+  - This page is designed to display a list of developers of the Web Application, which includes our pictures, names, and contact channels such as email for each person. Users of the Web Application can search for specific developers by Thai name-surname, English name-surname, email contact, and student ID.
+  
+  ![au ](https://user-images.githubusercontent.com/88374397/227328099-174a1176-6cb1-4323-992b-160280d536d2.png)
 
 
 ## MEMBER
