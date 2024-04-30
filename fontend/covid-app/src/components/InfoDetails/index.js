@@ -31,7 +31,7 @@ const InfoDetails = () => {
         "recovered":0
     });
     
-    const url = 'https://netipat.dev:8000/overall';
+    const url = 'https://fastapi-datavisualizationwebapp.onrender.com/overall';
     useEffect(() => {
         axios.get(url,{mode: 'no-cors'})
           .then(response => {
