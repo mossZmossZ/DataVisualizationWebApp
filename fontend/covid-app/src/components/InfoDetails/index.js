@@ -31,7 +31,7 @@ const InfoDetails = () => {
         "recovered":0
     });
     
-    const url = 'https://fastapi-datavisualizationwebapp.onrender.com/overall';
+    const url = 'https://datavisualizationwebapp.nattavee.com/overall';
     useEffect(() => {
         axios.get(url,{mode: 'no-cors'})
           .then(response => {

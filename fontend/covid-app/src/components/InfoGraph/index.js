@@ -131,7 +131,7 @@ import MoonLoader from "react-spinners/MoonLoader";
         let bardata = {};
         const fetchData_Bar = async () => {
             try {
-              const response = await axios.post('https://fastapi-datavisualizationwebapp.onrender.com/bar_graphresult', {
+              const response = await axios.post('https://datavisualizationwebapp.nattavee.com/bar_graphresult', {
                 year: select_year, //[2023,2014]
                 area: select_area, //[1,2,3]
                 // Add other data you want to send as needed
@@ -145,7 +145,7 @@ import MoonLoader from "react-spinners/MoonLoader";
         };
         const fetchData_Line = async () => {
             try {
-              const response = await axios.post('https://fastapi-datavisualizationwebapp.onrender.com/line_graphresult', {
+              const response = await axios.post('https://datavisualizationwebapp.nattavee.com/line_graphresult', {
                 year: select_year, //[2023,2014]
                 area: select_area, //[1,2,3]
                 // Add other data you want to send as needed
@@ -158,7 +158,7 @@ import MoonLoader from "react-spinners/MoonLoader";
         };
         const fetchData_Country = async () => {
             try {
-              const response = await axios.post('https://fastapi-datavisualizationwebapp.onrender.com/country_graphresult', {
+              const response = await axios.post('https://datavisualizationwebapp.nattavee.com/country_graphresult', {
                 year: select_year,
                 area: select_area,
                 // Add other data you want to send as needed
